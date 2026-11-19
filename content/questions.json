@@ -1,0 +1,1250 @@
+[
+ {
+  "question": "Công thức lưu thông hàng hóa đặc trưng của hoạt động thương mại (thương gia mua để bán kiếm lời) là:",
+  "options": [
+   "H – T – H",
+   "T – T′ – H",
+   "T – H – T′",
+   "H – H′ – T"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "[BG] Thương gia mua bán để kiếm lời nên tiền ứng ra (T) thu về lớn hơn (T′). Chương 1, mục 1."
+ },
+ {
+  "question": "Theo bài giảng, mục đích của hoạt động thương mại là gì?",
+  "options": [
+   "Nhằm vào giá trị sử dụng của hàng hóa",
+   "Nhằm vào việc tự cung tự cấp cho cộng đồng",
+   "Nhằm vào việc dự trữ vàng bạc cho nhà nước",
+   "Nhằm vào giá trị, cụ thể là lợi nhuận"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Mục đích thương mại không phải giá trị sử dụng mà là giá trị (lợi nhuận). Chương 1, mục 1."
+ },
+ {
+  "question": "Thương mại ra đời khi nào?",
+  "options": [
+   "Khi con người còn săn bắt hái lượm, chưa có sản phẩm dư",
+   "Khi sản xuất có sản phẩm dư thừa và phân công lao động xã hội phát triển",
+   "Khi nhà nước đầu tiên ban hành luật thương mại",
+   "Khi tiền giấy bắt đầu được in và lưu hành rộng rãi"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "[BG] Thương mại là kết quả tất yếu của phát triển trao đổi và phân công lao động xã hội. Chương 1, mục 1."
+ },
+ {
+  "question": "Ai là tác giả của lý thuyết lợi thế tuyệt đối (1776)?",
+  "options": [
+   "Adam Smith",
+   "David Ricardo",
+   "Raymond Vernon",
+   "Michael Porter"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Adam Smith, tác phẩm về bản chất và nguyên nhân giàu có của các quốc gia (1776). Chương 1, mục 2.2."
+ },
+ {
+  "question": "Theo thuyết trọng thương, sự giàu có của quốc gia được thể hiện qua:",
+  "options": [
+   "Số lượng hàng hóa nhập khẩu được",
+   "Năng suất lao động bình quân cả nước",
+   "Mức độ tự do hóa thương mại",
+   "Lượng vàng, bạc tích lũy được"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Trọng thương đo sự giàu có bằng vàng bạc, chủ trương xuất siêu. Chương 1, mục 2.1."
+ },
+ {
+  "question": "Thương mại bán lẻ là hoạt động thương mại:",
+  "options": [
+   "Bán hàng hóa, dịch vụ cho người tiêu dùng cuối cùng",
+   "Giữa các nhà sản xuất với nhau",
+   "Giữa các thương gia với nhau",
+   "Giữa các quốc gia với nhau"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Bán buôn diễn ra giữa nhà sản xuất/thương gia; bán lẻ phục vụ người tiêu dùng cuối cùng. Chương 1, mục 5.2."
+ },
+ {
+  "question": "Lý thuyết 'kim cương' về lợi thế cạnh tranh quốc gia là của:",
+  "options": [
+   "Wassily Leontief",
+   "Staffan Linder",
+   "Michael Porter",
+   "Eli Heckscher"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "[BG] Michael Porter (Harvard). Chương 1, mục 2.9."
+ },
+ {
+  "question": "Hoạt động thương mại theo Luật Thương mại Việt Nam được hiểu là hoạt động nhằm:",
+  "options": [
+   "Mục đích phi lợi nhuận",
+   "Mục đích sinh lợi",
+   "Mục đích phúc lợi xã hội",
+   "Mục đích tích trữ tiền tệ"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "[BG] Gồm mua bán hàng hóa, cung ứng dịch vụ, đầu tư, xúc tiến thương mại và hoạt động sinh lợi khác. Chương 1, mục 4.1."
+ },
+ {
+  "question": "Nghịch lý Leontief phát hiện điều gì khi kiểm chứng mô hình H–O với nước Mỹ?",
+  "options": [
+   "Hàng xuất khẩu của Mỹ thâm dụng lao động hơn hàng nhập khẩu thay thế",
+   "Hàng xuất khẩu của Mỹ thâm dụng vốn hơn hàng nhập khẩu",
+   "Mỹ không xuất khẩu bất kỳ sản phẩm nào",
+   "Mỹ chỉ nhập khẩu hàng thâm dụng lao động"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Kết quả trái với dự đoán H–O (Mỹ dồi dào vốn nên xuất hàng thâm dụng vốn). Chương 1, mục 2.5."
+ },
+ {
+  "question": "Lợi thế so sánh của Ricardo dựa trên cơ sở nào?",
+  "options": [
+   "Năng suất tuyệt đối cao hơn",
+   "Chi phí cơ hội thấp hơn",
+   "Lượng vàng bạc tích lũy lớn hơn",
+   "Quy mô thị trường nội địa lớn hơn"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Ricardo: nước nên chuyên môn hóa sản phẩm có chi phí cơ hội thấp hơn. Chương 1, mục 2.3."
+ },
+ {
+  "question": "Lý thuyết của Linder về sự tương đồng giữa các quốc gia nhấn mạnh yếu tố nào?",
+  "options": [
+   "Phía cung: nguồn lực sản xuất dồi dào",
+   "Phía chính phủ: mức thuế quan thấp",
+   "Phía cầu: thu nhập và thị hiếu tương tự",
+   "Phía vận tải: khoảng cách địa lý gần"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Doanh nghiệp bán nội địa trước, sau đó xuất sang nước có thu nhập và thị hiếu giống mình. Chương 1, mục 2.6."
+ },
+ {
+  "question": "Theo lý thuyết chu kỳ sản phẩm quốc tế của Vernon, ở giai đoạn sản phẩm tiêu chuẩn hóa, sản xuất thường chuyển sang:",
+  "options": [
+   "Chỉ các nước phát minh ra sản phẩm",
+   "Các nước có lao động kỹ năng cao nhất",
+   "Các nước có thu nhập bình quân cao nhất",
+   "Các nước đang phát triển có lao động rẻ"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Sản phẩm tiêu chuẩn hóa không cần kỹ năng cao nên dịch chuyển tới nơi chi phí lao động thấp. Chương 1, mục 2.7."
+ },
+ {
+  "question": "Trường hợp nào KHÔNG phải là chức năng cụ thể của thương mại theo bài giảng?",
+  "options": [
+   "Chức năng chuyên môn kỹ thuật",
+   "Chức năng tài chính",
+   "Chức năng sản xuất trực tiếp ra hàng hóa",
+   "Chức năng quản trị"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Bốn chức năng: chuyên môn kỹ thuật, thương mại, tài chính, quản trị. Chương 1, mục 7."
+ },
+ {
+  "question": "Hạn chế chính của lý thuyết lợi thế tuyệt đối là:",
+  "options": [
+   "Không thừa nhận vai trò của chuyên môn hóa",
+   "Cho rằng thương mại là trò chơi tổng bằng không",
+   "Chỉ áp dụng được cho hàng công nghệ cao",
+   "Không giải thích được khi một nước kém hơn ở mọi sản phẩm"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Đây là điểm Ricardo khắc phục bằng lợi thế so sánh. Chương 1, mục 2.2."
+ },
+ {
+  "question": "Theo Heckscher–Ohlin, một nước dồi dào đất đai tương đối sẽ có xu hướng:",
+  "options": [
+   "Xuất khẩu sản phẩm dùng nhiều đất đai",
+   "Nhập khẩu sản phẩm dùng nhiều đất đai",
+   "Chỉ xuất khẩu sản phẩm thâm dụng vốn",
+   "Không tham gia thương mại quốc tế"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Nước xuất khẩu sản phẩm dùng nhiều yếu tố dồi dào và nhập sản phẩm dùng nhiều yếu tố khan hiếm. Chương 1, mục 2.4."
+ },
+ {
+  "question": "Yếu tố nào sau đây thuộc 4 nhóm điều kiện chính của kim cương Porter?",
+  "options": [
+   "Vai trò của chính phủ",
+   "Ngành hỗ trợ và ngành liên quan",
+   "Các sự kiện hoặc cơ hội bất ngờ",
+   "Tỷ giá hối đoái"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Vai trò chính phủ và cơ hội là hai yếu tố bổ sung, không thuộc 4 nhóm chính. Chương 1, mục 2.9."
+ },
+ {
+  "question": "Nguồn tạo lợi thế cạnh tranh lâu dài của công ty đa quốc gia theo lý thuyết lợi thế cạnh tranh toàn cầu KHÔNG gồm:",
+  "options": [
+   "Sở hữu trí tuệ",
+   "Đầu tư nghiên cứu và phát triển (R&D)",
+   "Tài nguyên thiên nhiên sẵn có của quốc gia",
+   "Kinh tế theo quy mô và phạm vi"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Lý thuyết nhấn mạnh doanh nghiệp tự tạo lợi thế qua chiến lược, không chỉ dựa tài nguyên sẵn có. Chương 1, mục 2.8."
+ },
+ {
+  "question": "Boeing sản xuất chiếc máy bay đầu tiên tốn 100 triệu USD, tỷ lệ kinh nghiệm 80%. Chi phí chiếc thứ 2 là bao nhiêu?",
+  "options": [
+   "20 triệu USD",
+   "50 triệu USD",
+   "90 triệu USD",
+   "80 triệu USD"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Sản lượng tích lũy tăng gấp đôi (1 → 2) thì chi phí đơn vị còn 80%: 100 × 0,8 = 80. Chương 1, mục 2.8."
+ },
+ {
+  "question": "Bảng năng suất: Mỹ – lúa mì 6 giạ/giờ, vải 4 m/giờ; Anh – lúa mì 1 giạ/giờ, vải 2 m/giờ. Kết luận nào đúng?",
+  "options": [
+   "Mỹ có lợi thế so sánh về cả hai mặt hàng",
+   "Mỹ có lợi thế tuyệt đối cả hai mặt hàng nhưng chỉ có lợi thế so sánh về lúa mì",
+   "Anh có lợi thế tuyệt đối về vải",
+   "Anh không thể thu lợi từ thương mại với Mỹ"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Mỹ: 6/1 > 4/2 nên so sánh ở lúa mì; Anh có lợi thế so sánh ở vải (2/4 > 1/6). Anh vẫn có lợi khi trao đổi. Chương 1, mục 2.3."
+ },
+ {
+  "question": "Với số liệu ở câu trên, chi phí cơ hội để sản xuất 1 giạ lúa mì ở Mỹ (tính bằng mét vải) là:",
+  "options": [
+   "2/3 mét vải",
+   "1,5 mét vải",
+   "2 mét vải",
+   "6 mét vải"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] Mỹ: 1 giờ làm được 6 giạ hoặc 4 m vải, nên 1 giạ lúa mì = 4/6 = 2/3 m vải (ở Anh là 2 m vải)."
+ },
+ {
+  "question": "Boeing có tỷ lệ kinh nghiệm 80%, chiếc đầu tiên tốn 100 triệu USD. Chi phí đơn vị khi sản lượng tích lũy đạt chiếc thứ 8 là:",
+  "options": [
+   "40 triệu USD",
+   "64 triệu USD",
+   "51,2 triệu USD",
+   "60 triệu USD"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BG] Gấp đôi 3 lần (1→2→4→8): 100 × 0,8³ = 51,2. Chương 1, mục 2.8."
+ },
+ {
+  "question": "Nước X sản xuất cả gạo và cà phê kém hiệu quả hơn nước Y, nhưng bất lợi ở cà phê nhỏ hơn bất lợi ở gạo. Theo Ricardo:",
+  "options": [
+   "X nên nhập khẩu cả hai mặt hàng từ Y",
+   "X vẫn có lợi thế so sánh về cà phê và nên chuyên môn hóa cà phê",
+   "X không thể thu lợi vì kém hơn ở mọi sản phẩm",
+   "X nên chuyên môn hóa gạo vì bất lợi lớn hơn"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Lợi thế so sánh phụ thuộc mức bất lợi tương đối chứ không cần giỏi hơn tuyệt đối. Chương 1, mục 2.3."
+ },
+ {
+  "question": "Cách giải thích nào sau đây KHÔNG phù hợp để giải thích nghịch lý Leontief?",
+  "options": [
+   "Lao động Mỹ có kỹ năng thấp hơn lao động các nước khác",
+   "Lao động Mỹ có kỹ năng và năng suất cao (vốn nhân lực)",
+   "Công nghệ giữa các nước không giống nhau",
+   "Thuế quan và cơ cấu nhu cầu làm sai lệch kết quả"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] Các cách giải thích đúng đều cho rằng lao động Mỹ có kỹ năng cao (vốn nhân lực lớn). Chương 1, mục 2.5."
+ },
+ {
+  "question": "Việc giày dép thể thao thiết kế ở Mỹ, Đức nhưng nay sản xuất chủ yếu ở Việt Nam, Indonesia, Bangladesh minh họa rõ nhất cho lý thuyết nào?",
+  "options": [
+   "Lợi thế tuyệt đối của Smith",
+   "Sự tương đồng giữa các quốc gia của Linder",
+   "Chủ nghĩa trọng thương",
+   "Chu kỳ sản phẩm quốc tế của Vernon"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Sản phẩm đã tiêu chuẩn hóa chuyển sang nước có lao động rẻ. Chương 1, mục 2.7."
+ },
+ {
+  "question": "Biện pháp nào sau đây mang tính trọng thương trong nông nghiệp?",
+  "options": [
+   "Xóa bỏ toàn bộ hạn ngạch và thuế nhập khẩu nông sản",
+   "Hạn chế xuất khẩu nguyên liệu thô, khuyến khích xuất khẩu sản phẩm chế biến",
+   "Chuyên môn hóa theo lợi thế so sánh và mở cửa hoàn toàn",
+   "Để giá nông sản do thị trường quốc tế quyết định hoàn toàn"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Trọng thương ủng hộ bảo hộ, trợ cấp, kiểm soát xuất khẩu và ưu tiên xuất khẩu hàng chế biến. Chương 1, mục 2.1."
+ },
+ {
+  "question": "Điểm khác biệt cơ bản giữa Linder và Heckscher–Ohlin là:",
+  "options": [
+   "Linder giải thích từ phía cung, H–O từ phía cầu",
+   "Linder chỉ áp dụng cho nước đang phát triển, H–O cho nước phát triển",
+   "Linder phủ nhận lợi thế so sánh, H–O ủng hộ lợi thế tuyệt đối",
+   "Linder giải thích từ phía cầu, H–O giải thích từ phía cung (nguồn lực)"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Linder bổ sung cho H–O và giải thích thương mại nội ngành giữa các nước tương đồng. Chương 1, mục 2.6."
+ },
+ {
+  "question": "Thị trường là:",
+  "options": [
+   "Tập hợp các thỏa thuận qua đó người mua và người bán tiếp xúc để trao đổi hàng hóa, dịch vụ",
+   "Địa điểm cố định duy nhất nơi diễn ra mua bán",
+   "Nơi nhà nước quy định giá cho mọi hàng hóa",
+   "Hệ thống kho bãi dự trữ hàng hóa"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Thông qua thị trường, giá cả được xác lập. Chương 2, mục 1."
+ },
+ {
+  "question": "Tại mức giá cao hơn giá cân bằng PE, thị trường xuất hiện tình trạng:",
+  "options": [
+   "Thiếu hàng (cầu lớn hơn cung)",
+   "Cân bằng bền vững",
+   "Thừa hàng (cung lớn hơn cầu)",
+   "Cầu tăng mạnh"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "[BG] Giá cao hơn PE: lượng cung > lượng cầu nên dư thừa. Chương 2, mục 1."
+ },
+ {
+  "question": "Giá cổng trại là mức giá:",
+  "options": [
+   "Nông dân bán cho tổ chức thu mua",
+   "Giữa các khâu trung gian",
+   "Người tiêu dùng cuối cùng trả",
+   "Do nhà nhập khẩu trả tại cảng"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Phân biệt giá cổng trại, bán buôn, bán lẻ. Chương 2, mục 2.5."
+ },
+ {
+  "question": "Đặc điểm nào sau đây là đặc điểm của sản phẩm nông nghiệp?",
+  "options": [
+   "Kích cỡ hoàn toàn đồng nhất",
+   "Không phụ thuộc điều kiện tự nhiên",
+   "Chỉ phục vụ nhu cầu xa xỉ",
+   "Mang tính thời vụ và dễ hỏng"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Sản phẩm nông nghiệp thời vụ, địa phương, dễ hỏng, kích cỡ không đồng nhất. Chương 2, mục 2.4."
+ },
+ {
+  "question": "Theo mô hình hành vi người tiêu dùng của Kotler, nhóm nhân tố ảnh hưởng gồm:",
+  "options": [
+   "Chỉ giá cả và thu nhập",
+   "Văn hóa, xã hội, cá nhân và tâm lý",
+   "Chỉ khuyến mại và quảng cáo",
+   "Chỉ nguồn cung và đối thủ"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 2, mục 2.2."
+ },
+ {
+  "question": "Tiêu chí nào sau đây thuộc tiêu chí phân khúc thị trường?",
+  "options": [
+   "Chỉ quy mô vốn của doanh nghiệp",
+   "Chỉ giá thành sản xuất",
+   "Địa lý, nhân khẩu học, tâm lý, hành vi",
+   "Chỉ số lượng đối thủ"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 2, mục 2.3."
+ },
+ {
+  "question": "Cầu thị trường khác 'nhu cầu' ở điểm nào?",
+  "options": [
+   "Cầu là đòi hỏi cơ bản của con người, không gắn với giá",
+   "Cầu là lượng hàng muốn mua tại mỗi mức giá, trong thời gian và địa điểm xác định",
+   "Cầu là dạng cụ thể của mong muốn, không gắn với thu nhập",
+   "Cầu chỉ phụ thuộc vào ý thích cá nhân, không gắn thị trường"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Nhu cầu là đòi hỏi cơ bản; mong muốn là dạng cụ thể; cầu gắn với khả năng thanh toán và mức giá. Chương 2, mục 1."
+ },
+ {
+  "question": "Khi giá cà phê (hàng bổ sung với đường) tăng mạnh, cầu về đường thường:",
+  "options": [
+   "Giảm",
+   "Tăng",
+   "Không đổi",
+   "Tăng gấp đôi"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Hàng bổ sung: giá hàng này tăng làm cầu hàng kia giảm. Chương 2, mục 1."
+ },
+ {
+  "question": "Yếu tố nào sau đây làm CUNG nông sản tăng?",
+  "options": [
+   "Giá đầu vào (phân bón) tăng",
+   "Thu nhập người tiêu dùng tăng",
+   "Tiến bộ công nghệ làm giảm chi phí sản xuất",
+   "Thị hiếu người tiêu dùng thay đổi"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Tiến bộ công nghệ, giảm giá đầu vào, trợ cấp làm cung tăng; thu nhập và thị hiếu là yếu tố của cầu. Chương 2, mục 1."
+ },
+ {
+  "question": "Sự thỏa mãn của khách hàng được định nghĩa là:",
+  "options": [
+   "Tổng chi phí khách hàng bỏ ra",
+   "Mức giá thấp nhất trên thị trường",
+   "Số lượng sản phẩm đã mua",
+   "Cảm nhận so sánh giữa kết quả tiêu dùng và kỳ vọng trước khi mua"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 2, mục 2.2."
+ },
+ {
+  "question": "Định vị sản phẩm là:",
+  "options": [
+   "Xác định giá bán thấp nhất cho sản phẩm",
+   "Tạo vị thế của sản phẩm trong tâm trí khách hàng mục tiêu so với đối thủ cạnh tranh",
+   "Chọn địa điểm đặt nhà máy sản xuất",
+   "Chia thị trường thành các khu vực hành chính"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 2, mục 2.3."
+ },
+ {
+  "question": "Yếu tố nào thuộc môi trường kinh doanh VI MÔ?",
+  "options": [
+   "Môi trường nhân khẩu",
+   "Môi trường công nghệ",
+   "Môi trường văn hóa – xã hội",
+   "Nhà cung ứng và trung gian marketing"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Vĩ mô: nhân khẩu, kinh tế, công nghệ, tự nhiên, chính trị–pháp luật, văn hóa–xã hội. Vi mô: nhà cung ứng, trung gian, khách hàng, đối thủ, công chúng. Chương 2, mục 2.3."
+ },
+ {
+  "question": "Theo Hill và Ingersent, chuỗi tiêu biểu của thị trường nông sản theo thứ tự là:",
+  "options": [
+   "Người sản xuất → thu gom → bán buôn → bán lẻ → người tiêu dùng",
+   "Người sản xuất → bán lẻ → thu gom → bán buôn → người tiêu dùng",
+   "Người thu gom → sản xuất → bán lẻ → bán buôn → người tiêu dùng",
+   "Người sản xuất → bán buôn → thu gom → người tiêu dùng → bán lẻ"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Mỗi lần chuyển quyền sở hữu là một lần định giá, hình thành hệ thống giá. Chương 2, mục 2.5."
+ },
+ {
+  "question": "Căn cứ nào KHÔNG phải căn cứ chọn thị trường mục tiêu?",
+  "options": [
+   "Phù hợp mục tiêu và quan niệm kinh doanh",
+   "Phù hợp nguồn lực của doanh nghiệp",
+   "Thị trường có nhiều đối thủ nhất để dễ so sánh",
+   "Đủ quy mô doanh số để có lời"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 2, mục 2.3."
+ },
+ {
+  "question": "Thị trường gạo có hàm cầu Qd = 100 − 2P và hàm cung Qs = 20 + 2P. Giá và lượng cân bằng là:",
+  "options": [
+   "P = 15; Q = 70",
+   "P = 25; Q = 50",
+   "P = 30; Q = 40",
+   "P = 20; Q = 60"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Qd = Qs ⇒ 100 − 2P = 20 + 2P ⇒ P = 20, Q = 60. Chương 2, mục 1."
+ },
+ {
+  "question": "Với thị trường ở câu trước, nếu giá bị ấn định ở P = 25 thì tình trạng thị trường là:",
+  "options": [
+   "Thừa 20 đơn vị",
+   "Thiếu 20 đơn vị",
+   "Thừa 40 đơn vị",
+   "Thiếu 40 đơn vị"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] Tại P = 25: Qd = 50, Qs = 70 nên cung vượt cầu 20 đơn vị."
+ },
+ {
+  "question": "Thu nhập người dân tăng khiến cầu về mì gói giảm, cầu về thịt tăng. Mì gói thuộc loại hàng:",
+  "options": [
+   "Hàng bình thường",
+   "Hàng thứ cấp",
+   "Hàng bổ sung",
+   "Hàng thay thế"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Hàng thứ cấp: thu nhập tăng thì cầu giảm. Chương 2, mục 1."
+ },
+ {
+  "question": "Một doanh nghiệp chia khách hàng thành nhóm 'ưa chuộng nông sản hữu cơ', 'tìm hàng giá rẻ', 'quan tâm thương hiệu'. Đây là phân khúc theo tiêu chí:",
+  "options": [
+   "Địa lý",
+   "Nhân khẩu học",
+   "Tâm lý và hành vi",
+   "Quy mô doanh nghiệp"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BG] Dựa vào thái độ, ưa chuộng và hành vi mua. Chương 2, mục 2.3."
+ },
+ {
+  "question": "Phân tích khách hàng nhằm trả lời câu hỏi nào sau đây?",
+  "options": [
+   "Giá cân bằng là bao nhiêu, thuế bao nhiêu, ai sản xuất",
+   "Đối thủ là ai, thuế quan bao nhiêu, quota bao nhiêu",
+   "Vốn đầu tư bao nhiêu, bao lâu hoàn vốn, lãi suất nào",
+   "Khách hàng là ai, cần và mong muốn gì, doanh nghiệp cần làm gì để thỏa mãn"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 2, mục 2.2."
+ },
+ {
+  "question": "Vì sao thị trường nông sản được cho là tạo ra khả năng sử dụng sản phẩm?",
+  "options": [
+   "Vì loại bỏ hoàn toàn tính thời vụ của nông sản",
+   "Vì tạo hữu dụng về thời gian, không gian địa lý và hình thức",
+   "Vì giúp giá cả luôn cố định quanh năm",
+   "Vì thay thế vai trò của người sản xuất"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 2, mục 2.5."
+ },
+ {
+  "question": "Chính sách thương mại quốc tế là:",
+  "options": [
+   "Hệ thống nguyên tắc, biện pháp kinh tế, hành chính, pháp luật nhằm thực hiện mục tiêu đối ngoại của một nước",
+   "Hệ thống giá bán nông sản do doanh nghiệp quyết định",
+   "Tập hợp các hợp đồng mua bán giữa hai doanh nghiệp",
+   "Quy định thuế thu nhập của người dân"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 3, khái niệm."
+ },
+ {
+  "question": "Chính sách mậu dịch tự do có đặc điểm:",
+  "options": [
+   "Nhà nước cấm hoàn toàn nhập khẩu",
+   "Nhà nước độc quyền ngoại thương",
+   "Nhà nước không can thiệp trực tiếp, mở cửa thị trường",
+   "Nhà nước đánh thuế cao mọi hàng nhập"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 3, mục phân loại."
+ },
+ {
+  "question": "Chính sách bảo hộ mậu dịch nhằm:",
+  "options": [
+   "Bảo vệ thị trường nội địa trước hàng ngoại nhập",
+   "Xóa bỏ mọi rào cản thương mại",
+   "Khuyến khích nhập khẩu tối đa",
+   "Giảm vai trò của nhà nước trong kinh tế"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 3, mục phân loại."
+ },
+ {
+  "question": "Nhóm 'bốn con hổ châu Á' gồm:",
+  "options": [
+   "Nhật Bản, Hàn Quốc, Thái Lan, Malaysia",
+   "Việt Nam, Thái Lan, Indonesia, Philippines",
+   "Trung Quốc, Ấn Độ, Brazil, Nga",
+   "Hồng Kông, Đài Loan, Hàn Quốc, Singapore"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 3, mục 3.1."
+ },
+ {
+  "question": "Chính sách hướng nội có đặc điểm nào sau đây?",
+  "options": [
+   "Lấy xuất khẩu làm động lực phát triển",
+   "Tự lực phát triển, công nghiệp hóa thay thế nhập khẩu",
+   "Tham gia sâu vào phân công lao động quốc tế",
+   "Mở cửa hoàn toàn nền kinh tế"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Hướng ngoại mới lấy xuất khẩu làm động lực. Chương 3, mục phân loại."
+ },
+ {
+  "question": "Hạn chế của chính sách hướng ngoại là:",
+  "options": [
+   "Hàng hóa thiếu sức cạnh tranh quốc tế do được bảo hộ lâu dài",
+   "Kinh tế khép kín, người tiêu dùng chịu thiệt",
+   "Nền kinh tế chịu tác động lớn của thị trường thế giới",
+   "Tăng trưởng ổn định nhưng chậm"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Hướng ngoại: ưu điểm năng động, thu hút vốn; hạn chế: phụ thuộc thị trường thế giới, sai lầm vĩ mô gây thiệt hại lớn. Chương 3."
+ },
+ {
+  "question": "Hạn chế của mậu dịch tự do theo bài giảng là:",
+  "options": [
+   "Thiếu hàng hóa, môi trường kém cạnh tranh",
+   "Cô lập kinh tế, trì trệ",
+   "Nợ nước ngoài tăng do hạn chế nhập khẩu",
+   "Nền kinh tế dễ khủng hoảng, doanh nghiệp yếu dễ phá sản"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 3, mục phân loại."
+ },
+ {
+  "question": "Công nghiệp hóa thay thế nhập khẩu dẫn tới tình trạng 'kinh tế nhị nguyên', nghĩa là:",
+  "options": [
+   "Hai khu vực công nghiệp cùng phát triển như nhau",
+   "Xuất khẩu vượt nhập khẩu ở cả hai khu vực",
+   "Công nghiệp phát triển bên cạnh khu vực nông nghiệp lạc hậu",
+   "Nông nghiệp phát triển nhanh hơn công nghiệp"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Dấu hiệu: năng suất và lương công nghiệp cao hơn nhiều so với nông nghiệp, thất nghiệp thành thị. Chương 3, mục 3.1."
+ },
+ {
+  "question": "Công nghiệp hóa hướng về xuất khẩu của 'sự diệu kỳ Đông Á' bắt đầu từ:",
+  "options": [
+   "Sau Thế chiến I",
+   "Cuối những năm 1960",
+   "Những năm 1990",
+   "Đầu thế kỷ 21"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Các nước HPAEs đạt tăng trưởng cao, Nhật Bản đi đầu. Chương 3, mục 3.1."
+ },
+ {
+  "question": "Công nghiệp hóa thay thế nhập khẩu được thực hiện chủ yếu trong giai đoạn:",
+  "options": [
+   "Sau Thế chiến II đến những năm 1970",
+   "Thế kỷ 15 đến thế kỷ 18",
+   "Những năm 1990 đến nay",
+   "Trước Thế chiến I"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 3, mục 3.1."
+ },
+ {
+  "question": "Tranh luận về 'sự diệu kỳ Đông Á', bài giảng kết luận như thế nào?",
+  "options": [
+   "Thành công hoàn toàn nhờ mậu dịch tự do, không cần nhà nước",
+   "Thành công hoàn toàn nhờ bảo hộ cao và nhà nước độc quyền",
+   "Thành công chỉ nhờ tài nguyên thiên nhiên dồi dào",
+   "Thành công liên quan cả thương mại tự do lẫn vai trò chính sách của nhà nước"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Các nước này có bảo hộ thấp hơn nhưng vai trò can thiệp của chính phủ vẫn lớn. Chương 3, mục 3.1."
+ },
+ {
+  "question": "Quốc gia X bảo hộ mạnh, hàng nội địa thiếu sức cạnh tranh, cán cân thương mại mất cân đối, nợ nước ngoài lớn. Đây là hệ quả điển hình của:",
+  "options": [
+   "Chính sách hướng ngoại dựa vào xuất khẩu",
+   "Mậu dịch tự do hoàn toàn",
+   "Chính sách hướng nội thay thế nhập khẩu",
+   "Liên minh thuế quan"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 3, mục phân loại và 3.1."
+ },
+ {
+  "question": "Nhận định nào đúng khi so sánh hướng nội và hướng ngoại?",
+  "options": [
+   "Hướng nội thu hút vốn nước ngoài nhiều hơn hướng ngoại",
+   "Hướng ngoại thu hút vốn và cạnh tranh thúc đẩy cải tiến, nhưng dễ bị tác động từ thị trường thế giới",
+   "Hướng ngoại ít chịu tác động của thị trường thế giới hơn hướng nội",
+   "Hướng nội lấy xuất khẩu làm động lực chính"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 3, mục phân loại."
+ },
+ {
+  "question": "Dấu hiệu nào KHÔNG phải của nền kinh tế nhị nguyên sau công nghiệp hóa thay thế nhập khẩu?",
+  "options": [
+   "Lương nông nghiệp cao hơn lương công nghiệp",
+   "Năng suất công nghiệp cao hơn nhiều so với nông nghiệp",
+   "Thất nghiệp thành thị",
+   "Bảo hộ làm chênh lệch lương tăng"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] Thực tế lương công nghiệp cao hơn nông nghiệp. Chương 3, mục 3.1."
+ },
+ {
+  "question": "Thuế quan là khoản tiền:",
+  "options": [
+   "Doanh nghiệp nộp cho ngân hàng khi vay vốn",
+   "Chủ hàng xuất khẩu, nhập khẩu hoặc quá cảnh phải nộp cho hải quan",
+   "Người tiêu dùng nộp khi mua hàng trong nước",
+   "Nhà nước trả cho nhà xuất khẩu"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "[BG] Thuế quan làm tăng chi phí đưa hàng vào nước. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Thuế nhập khẩu theo giá trị (ad valorem) được tính theo:",
+  "options": [
+   "Tỷ lệ phần trăm trên giá trị hàng hóa",
+   "Số tiền cố định trên mỗi đơn vị hàng",
+   "Trọng lượng hàng hóa",
+   "Số container nhập khẩu"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] P1 = P0 × (1 + t). Chương 4, mục 4.1."
+ },
+ {
+  "question": "Hạn ngạch nhập khẩu là:",
+  "options": [
+   "Mức thuế tối thiểu đánh vào hàng nhập",
+   "Mức giá tối đa của hàng nhập khẩu",
+   "Mức nhập khẩu tối đa do chính phủ đặt ra và cấp phép",
+   "Mức trợ cấp cho nhà xuất khẩu"
+  ],
+  "answer": 2,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 4, mục 4.2."
+ },
+ {
+  "question": "Khi nội tệ mất giá, tác động thường thấy là:",
+  "options": [
+   "Hàng xuất khẩu đắt lên, hạn chế xuất khẩu",
+   "Hàng nhập khẩu rẻ đi, khuyến khích nhập khẩu",
+   "Không ảnh hưởng đến thương mại",
+   "Hàng xuất khẩu rẻ đi, khuyến khích xuất khẩu"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 4, mục 4.3."
+ },
+ {
+  "question": "SPS là biện pháp liên quan đến:",
+  "options": [
+   "Kiểm dịch động thực vật và vệ sinh an toàn thực phẩm",
+   "Tiêu chuẩn kế toán quốc tế",
+   "Quy tắc xuất xứ hàng hóa",
+   "Giấy phép lao động nước ngoài"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 4, mục 4.3."
+ },
+ {
+  "question": "Thuế quan phân loại theo mục đích gồm:",
+  "options": [
+   "Thuế xuất khẩu và thuế nhập khẩu",
+   "Thuế tài chính và thuế bảo hộ",
+   "Thuế theo số lượng và thuế theo giá trị",
+   "Thuế MFN và thuế GSP"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "[BG] Theo đối tượng: XK, NK, quá cảnh; theo phương pháp tính: số lượng, giá trị, hỗn hợp. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Thuế đối kháng (countervailing duty) được dùng để:",
+  "options": [
+   "Đối phó với hành vi bán phá giá",
+   "Bảo vệ nông sản trong mùa thu hoạch trong nước",
+   "Bù đắp tác động của trợ cấp xuất khẩu của nước ngoài",
+   "Tự vệ khẩn cấp khi nhập khẩu tăng quá mức"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Chống bán phá giá, thời vụ, bổ sung là các thuế đặc thù khác. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Thuế thời vụ thường áp dụng với:",
+  "options": [
+   "Hàng điện tử, đặt mức cao vào dịp lễ",
+   "Hàng quá cảnh, đặt mức thấp vào cuối năm",
+   "Máy móc nông nghiệp nhập khẩu",
+   "Nông sản, đặt mức cao khi vào vụ thu hoạch trong nước"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 4, mục 4.1."
+ },
+ {
+  "question": "Thuế leo thang (tariff escalation) là thuế:",
+  "options": [
+   "Hàng chế biến càng sâu thì thuế càng thấp",
+   "Hàng chế biến càng sâu thì thuế càng cao",
+   "Mức thuế tăng dần theo từng năm cố định",
+   "Thuế chỉ áp dụng khi giá thế giới giảm"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 4, mục 4.1."
+ },
+ {
+  "question": "Mức thuế cao nhất trong các mức thuế sau là:",
+  "options": [
+   "Thuế tối huệ quốc (MFN)",
+   "Thuế ưu đãi phổ cập (GSP)",
+   "Thuế trong khu vực thương mại tự do",
+   "Thuế phi tối huệ quốc (non-MFN)"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Non-MFN áp cho nước chưa là thành viên WTO và chưa có hiệp định song phương. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Thuế ưu đãi phổ cập (GSP) là:",
+  "options": [
+   "Mức thuế áp cho mọi thành viên WTO",
+   "Mức thuế cao nhất áp cho nước ngoài WTO",
+   "Ưu đãi đơn phương cho hàng từ các nước đang phát triển",
+   "Mức thuế chung của liên minh thuế quan"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 4, mục 4.1."
+ },
+ {
+  "question": "Điểm khác biệt chính giữa hạn ngạch và thuế quan là:",
+  "options": [
+   "Với hạn ngạch, chính phủ không thu thuế; phần chênh lệch thuộc người được cấp phép",
+   "Hạn ngạch làm giá nội địa giảm, thuế quan làm giá tăng",
+   "Hạn ngạch thu được tiền cho ngân sách còn thuế quan thì không",
+   "Hạn ngạch chỉ áp dụng cho hàng xuất khẩu"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Phần chênh lệch đó gọi là 'tiền thuê hạn ngạch'. Chương 4, mục 4.2."
+ },
+ {
+  "question": "Hạn chế xuất khẩu tự nguyện (VER) thường:",
+  "options": [
+   "Do nước nhập khẩu đơn phương áp đặt bằng thuế cao",
+   "Do WTO bắt buộc mọi thành viên thực hiện",
+   "Do doanh nghiệp tự quyết định không cần nhà nước",
+   "Do nước xuất khẩu chấp nhận theo yêu cầu của nước nhập khẩu để tránh hạn chế khác"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Có lợi thế chính trị và pháp lý. Chương 4, mục 4.3."
+ },
+ {
+  "question": "Hạn ngạch thuế quan khác hạn ngạch tuyệt đối ở chỗ:",
+  "options": [
+   "Cấm hoàn toàn nhập khẩu vượt hạn ngạch",
+   "Không giới hạn lượng nhập khẩu",
+   "Lượng trong hạn ngạch chịu thuế ưu đãi, phần vượt chịu thuế cao",
+   "Chỉ áp dụng với hàng xuất khẩu"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 4, mục 4.2."
+ },
+ {
+  "question": "Hàng rào kỹ thuật TBT khác SPS ở chỗ:",
+  "options": [
+   "TBT là tiêu chuẩn kỹ thuật, chất lượng nói chung; SPS về kiểm dịch và an toàn thực phẩm",
+   "TBT là kiểm dịch động thực vật; SPS là tiêu chuẩn chất lượng chung",
+   "TBT là thuế đặc thù; SPS là hạn ngạch",
+   "TBT chỉ áp dụng với hàng xuất khẩu của nước nhỏ"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Ví dụ TBT: HACCP, GlobalGAP, BMP. Chương 4, mục 4.3."
+ },
+ {
+  "question": "Tỷ lệ bảo hộ hiệu quả khác tỷ lệ bảo hộ danh nghĩa ở điểm nào?",
+  "options": [
+   "Chỉ tính thuế đánh vào đầu ra",
+   "Có tính đến thuế đánh vào đầu vào của sản xuất",
+   "Chỉ tính hạn ngạch mà bỏ qua thuế",
+   "Chỉ áp dụng cho hàng xuất khẩu"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 4, mục 4.1."
+ },
+ {
+  "question": "Nhập khẩu gạo giá P0 = 500 USD/tấn, thuế đặc thù Ts = 50 USD/tấn. Giá sau thuế P1 là:",
+  "options": [
+   "525 USD/tấn",
+   "450 USD/tấn",
+   "550 USD/tấn",
+   "5.500 USD/tấn"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BG] P1 = P0 + Ts = 500 + 50 = 550. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Nhập khẩu đường giá P0 = 800 USD/tấn, thuế theo giá trị t = 12,5%. Giá sau thuế P1 là:",
+  "options": [
+   "900 USD/tấn",
+   "812,5 USD/tấn",
+   "1.000 USD/tấn",
+   "700 USD/tấn"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] P1 = P0(1 + t) = 800 × 1,125 = 900. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Quốc gia nhỏ đánh thuế nhập khẩu, có tổn thất sản xuất b = 4, tổn thất tiêu dùng d = 3. Phúc lợi ròng của nước này:",
+  "options": [
+   "Tăng 7",
+   "Giảm 7",
+   "Giảm 1",
+   "Không đổi"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Nước nhỏ không ảnh hưởng giá thế giới nên e = 0; phúc lợi ròng = −(b + d) = −7. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Nước lớn đánh thuế nhập khẩu có b = 4, d = 3 và phần thu e = 10 từ việc giảm giá xuất khẩu của nước ngoài. Phúc lợi ròng:",
+  "options": [
+   "Giảm 3",
+   "Giảm 7",
+   "Tăng 10",
+   "Tăng 3"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Phúc lợi ròng = e − (b + d) = 10 − 7 = +3. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Nước lớn đánh thuế nhập khẩu có b = 4, d = 3, e = 5. Kết quả là:",
+  "options": [
+   "Phúc lợi ròng tăng 2",
+   "Phúc lợi ròng giảm 2",
+   "Phúc lợi ròng giảm 7",
+   "Phúc lợi ròng không đổi"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] e − (b + d) = 5 − 7 = −2; e < b + d nên phúc lợi giảm. Chương 4, mục 4.1."
+ },
+ {
+  "question": "Chính phủ đặt hạn ngạch 100.000 tấn đường. Giá thế giới 10, giá nội địa sau hạn ngạch 12 (triệu đồng/tấn). Tiền thuê hạn ngạch người được cấp phép thu được là:",
+  "options": [
+   "100.000 triệu đồng",
+   "1.000.000 triệu đồng",
+   "200.000 triệu đồng",
+   "1.200.000 triệu đồng"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BG] Tiền thuê = (12 − 10) × 100.000 = 200.000 triệu đồng; chính phủ không thu được thuế. Chương 4, mục 4.2."
+ },
+ {
+  "question": "Hạn ngạch thuế quan: trong hạn ngạch 100 tấn thuế 5%, ngoài hạn ngạch thuế 40%. Nhập 120 tấn, giá tính thuế 1.000 USD/tấn. Tổng thuế phải nộp là:",
+  "options": [
+   "13.000 USD",
+   "5.000 USD",
+   "8.000 USD",
+   "48.000 USD"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] 100 × 1.000 × 5% = 5.000; 20 × 1.000 × 40% = 8.000; tổng 13.000. Chương 4, mục 4.1–4.2."
+ },
+ {
+  "question": "Giá nông sản ở nước ngoài là 100. Chính phủ trợ cấp xuất khẩu 10 mỗi đơn vị. Nhà xuất khẩu sẽ bán ra cho đến khi giá trong nước cao hơn giá nước ngoài:",
+  "options": [
+   "Gấp đôi mức trợ cấp, tức giá trong nước là 120",
+   "Bằng 0, tức giá trong nước là 100",
+   "Bằng một nửa mức trợ cấp, tức giá trong nước là 105",
+   "Đúng bằng mức trợ cấp, tức giá trong nước là 110"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 4, mục 4.3."
+ },
+ {
+  "question": "Tác động của thuế quan nhập khẩu lên thị trường nội địa là:",
+  "options": [
+   "Giá nội địa tăng, tiêu dùng giảm, sản xuất trong nước tăng",
+   "Giá nội địa giảm, tiêu dùng tăng, sản xuất trong nước giảm",
+   "Giá nội địa tăng, tiêu dùng tăng, sản xuất giảm",
+   "Giá nội địa không đổi, tiêu dùng giảm"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] Hạn ngạch cũng có hiệu ứng tương tự. Chương 4, mục 4.1–4.2."
+ },
+ {
+  "question": "Nội tệ lên giá mạnh kéo dài sẽ dẫn đến:",
+  "options": [
+   "Hàng xuất khẩu rẻ tương đối, khuyến khích xuất khẩu",
+   "Hàng nhập khẩu rẻ tương đối, khuyến khích nhập khẩu",
+   "Thặng dư thương mại tăng nhanh",
+   "Chi phí đầu vào nhập khẩu tăng"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Nội tệ lên giá có tác động ngược với mất giá. Chương 4, mục 4.3."
+ },
+ {
+  "question": "Chính phủ ưu tiên mua nông sản trong nước dù giá cao hơn hàng nhập khẩu. Đây là công cụ:",
+  "options": [
+   "Hạn chế xuất khẩu tự nguyện",
+   "Thuế leo thang",
+   "Mua sắm của chính phủ",
+   "Hạn ngạch thuế quan"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 4, mục 4.3."
+ },
+ {
+  "question": "Hình thức liên kết kinh tế thấp nhất trong 5 mức độ là:",
+  "options": [
+   "Liên minh thuế quan",
+   "Thị trường chung",
+   "Liên minh kinh tế",
+   "Khu vực mậu dịch tự do (FTA)"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Thứ tự: FTA, liên hiệp thuế quan, thị trường chung, liên hiệp kinh tế, hội nhập kinh tế toàn bộ. Chương 5, mục 5.1."
+ },
+ {
+  "question": "AFTA là ví dụ của hình thức liên kết:",
+  "options": [
+   "Khu vực mậu dịch tự do",
+   "Liên minh thuế quan",
+   "Thị trường chung",
+   "Liên minh tiền tệ"
+  ],
+  "answer": 0,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 5, mục 5.1."
+ },
+ {
+  "question": "Liên minh tiền tệ là hình thức mà các nước:",
+  "options": [
+   "Chỉ xóa bỏ thuế quan với nhau",
+   "Hướng tới phát hành và sử dụng chung một đồng tiền",
+   "Chỉ áp dụng biểu thuế chung với nước ngoài",
+   "Chỉ cho phép di chuyển lao động tự do"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 5, mục 5.1."
+ },
+ {
+  "question": "Hội nhập kinh tế quốc tế phân loại theo quy mô không gian gồm:",
+  "options": [
+   "Hội nhập nội địa và hội nhập địa phương",
+   "Hội nhập ngắn hạn và dài hạn",
+   "Hội nhập chính thức và phi chính thức",
+   "Hội nhập khu vực và hội nhập toàn cầu"
+  ],
+  "answer": 3,
+  "difficulty": 1,
+  "explanation": "[BG] Chương 5, mục 5.2."
+ },
+ {
+  "question": "Điểm khác nhau giữa FTA và liên minh thuế quan là:",
+  "options": [
+   "FTA dùng biểu thuế chung; liên minh thuế quan giữ thuế riêng",
+   "FTA cho phép di chuyển vốn, lao động; liên minh thuế quan thì không",
+   "FTA: mỗi nước giữ thuế riêng với nước ngoài; liên minh thuế quan: dùng biểu thuế chung",
+   "FTA chỉ áp dụng cho hàng nông sản"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 5, mục 5.1."
+ },
+ {
+  "question": "Thị trường chung khác liên minh thuế quan ở chỗ:",
+  "options": [
+   "Cho phép di chuyển tự do vốn và lao động giữa các thành viên",
+   "Chỉ xóa bỏ thuế quan trong nội khối",
+   "Phát hành đồng tiền chung",
+   "Không có biểu thuế chung với nước ngoài"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Ví dụ: EEC trước năm 1992. Chương 5, mục 5.1."
+ },
+ {
+  "question": "Tác động TIÊU CỰC của liên kết kinh tế quốc tế là:",
+  "options": [
+   "Khai thác hiệu quả lợi thế so sánh",
+   "Cạnh tranh giữa các thành viên có thể làm doanh nghiệp kém cạnh tranh phá sản",
+   "Tiết kiệm chi phí quản lý và hải quan",
+   "Tạo động lực ứng dụng khoa học công nghệ"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "explanation": "[BG] Các phương án còn lại là tác động tích cực. Chương 5, mục 5.1."
+ },
+ {
+  "question": "Đặc trưng của liên kết kinh tế quốc tế là:",
+  "options": [
+   "Do một nước lớn áp đặt cho nước nhỏ",
+   "Chỉ gồm các nước cùng chế độ chính trị",
+   "Chỉ áp dụng ở cấp song phương",
+   "Tham gia tự nguyện trên cơ sở điều khoản đã thỏa thuận, là hình thức phát triển cao của phân công lao động quốc tế"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "explanation": "[BG] Sự tham gia là tự nguyện. Chương 5, mục 5.1."
+ },
+ {
+  "question": "Theo bài giảng, đặc trưng của hội nhập quốc tế KHÔNG gồm:",
+  "options": [
+   "Quá trình kết hợp các đơn vị riêng rẽ",
+   "Hình thành một chỉnh thể mới",
+   "Các quốc gia giữ nguyên chính sách, không cần điều chỉnh",
+   "Động cơ chính là lợi ích cơ bản của quốc gia"
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "explanation": "[BG] Các quốc gia phải tự điều chỉnh. Chương 5, mục 5.2."
+ },
+ {
+  "question": "Quan điểm 'hội nhập là sản phẩm cuối cùng', ví dụ Liên bang Mỹ, Thụy Sĩ, thuộc cách tiếp cận:",
+  "options": [
+   "Chủ nghĩa liên bang",
+   "Quan điểm của Karl Deutsch",
+   "Quan điểm hành vi",
+   "Quan điểm trọng thương"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "explanation": "[BG] Chương 5, mục 5.2."
+ },
+ {
+  "question": "Việt Nam gia nhập ASEAN và WTO lần lượt vào các năm:",
+  "options": [
+   "1992 và 2000",
+   "1967 và 1995",
+   "1995 và 2007",
+   "2000 và 2012"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BS] ASEAN thành lập 1967, AFTA từ 1992; Việt Nam gia nhập ASEAN 1995, WTO 2007. Cần đối chiếu nguồn chính thức."
+ },
+ {
+  "question": "Khu vực Mậu dịch Tự do ASEAN (AFTA) hình thành từ năm:",
+  "options": [
+   "1967",
+   "1992",
+   "1995",
+   "2007"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BS] ASEAN thành lập năm 1967; AFTA từ năm 1992. Cần đối chiếu nguồn chính thức."
+ },
+ {
+  "question": "Nguyên tắc 'tối huệ quốc' (MFN) của WTO có nghĩa là:",
+  "options": [
+   "Chỉ nước đang phát triển được hưởng thuế thấp",
+   "Mỗi nước tự quyết định mức thuế cho từng đối tác",
+   "Hàng nhập khẩu bị đánh thuế cao hơn hàng nội địa",
+   "Ưu đãi dành cho một thành viên phải được dành cho tất cả thành viên khác"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BS] Nguyên tắc cơ bản của WTO. Cần đối chiếu giáo trình."
+ },
+ {
+  "question": "Các nước A, B, C xóa bỏ thuế giữa nhau, dùng chung biểu thuế với nước ngoài và cho lao động, vốn di chuyển tự do. Đây là:",
+  "options": [
+   "Thị trường chung",
+   "Khu vực mậu dịch tự do",
+   "Liên minh thuế quan",
+   "Liên minh tiền tệ"
+  ],
+  "answer": 0,
+  "difficulty": 3,
+  "explanation": "[BG] Có biểu thuế chung (liên minh thuế quan) cộng thêm tự do di chuyển vốn, lao động. Chương 5, mục 5.1."
+ },
+ {
+  "question": "Các nước X, Y xóa bỏ thuế nội khối nhưng mỗi nước vẫn giữ biểu thuế riêng với nước thứ ba. Đây là:",
+  "options": [
+   "Liên minh thuế quan",
+   "Thị trường chung",
+   "Liên minh kinh tế",
+   "Khu vực mậu dịch tự do"
+  ],
+  "answer": 3,
+  "difficulty": 3,
+  "explanation": "[BG] Chương 5, mục 5.1."
+ },
+ {
+  "question": "Hội nhập kinh tế quốc tế đặt ra thách thức nào cho nông nghiệp một nước?",
+  "options": [
+   "Triệt tiêu hoàn toàn rào cản thương mại ngay lập tức",
+   "Áp lực cạnh tranh và yêu cầu hoàn thiện thể chế kinh tế",
+   "Chấm dứt phụ thuộc lẫn nhau giữa các nền kinh tế",
+   "Chỉ mang lại lợi ích, không có áp lực"
+  ],
+  "answer": 1,
+  "difficulty": 3,
+  "explanation": "[BG] Bản chất hội nhập: tạo thuận lợi nhưng cũng tạo áp lực cạnh tranh. Chương 5, mục 5.2."
+ },
+ {
+  "question": "Hiệp định SPS và TBT do tổ chức nào quản lý?",
+  "options": [
+   "ASEAN",
+   "IMF",
+   "WTO",
+   "FAO"
+  ],
+  "answer": 2,
+  "difficulty": 3,
+  "explanation": "[BS] SPS và TBT là các hiệp định thuộc WTO. Cần đối chiếu nguồn chính thức."
+ }
+]

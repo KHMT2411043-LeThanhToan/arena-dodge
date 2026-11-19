@@ -1,0 +1,304 @@
+[
+ {
+  "id": "lab",
+  "name": "Phòng Thí Nghiệm",
+  "c": [
+   "#050816",
+   "#101a40"
+  ],
+  "acc": "#22d3ee",
+  "fl": "#0f172a",
+  "plat": [
+   [
+    150,
+    360,
+    140
+   ],
+   [
+    610,
+    360,
+    140
+   ]
+  ],
+  "fav": [
+   "bolt",
+   "chain",
+   "beam",
+   "laser",
+   "venom",
+   "mine",
+   "sniper"
+  ],
+  "no": [
+   "meteor",
+   "boulder",
+   "frost"
+  ]
+ },
+ {
+  "id": "temple",
+  "name": "Độ Kiếp Trận Pháp",
+  "c": [
+   "#1a0606",
+   "#3f1010"
+  ],
+  "acc": "#fbbf24",
+  "fl": "#3b1a06",
+  "plat": [
+   [
+    380,
+    330,
+    140
+   ]
+  ],
+  "fav": [
+   "bolt",
+   "meteor",
+   "nova",
+   "homing",
+   "burst",
+   "bomb",
+   "expanding",
+   "phantom",
+   "boomerang"
+  ],
+  "no": [
+   "frost",
+   "freeze",
+   "blackhole"
+  ]
+ },
+ {
+  "id": "dungeon",
+  "name": "Hầm Ngục Cổ",
+  "c": [
+   "#0b0b10",
+   "#22222c"
+  ],
+  "acc": "#a1a1aa",
+  "fl": "#27272a",
+  "plat": [
+   [
+    110,
+    380,
+    120
+   ],
+   [
+    670,
+    380,
+    120
+   ],
+   [
+    395,
+    300,
+    110
+   ]
+  ],
+  "fav": [
+   "boulder",
+   "stalac",
+   "pendulum",
+   "mine",
+   "spike",
+   "roller",
+   "bomb",
+   "venom",
+   "shock"
+  ],
+  "no": [
+   "blackhole",
+   "portal",
+   "meteor",
+   "bolt"
+  ]
+ },
+ {
+  "id": "minimal",
+  "name": "Tối Giản Tương Phản",
+  "c": [
+   "#000",
+   "#000"
+  ],
+  "acc": "#ffffff",
+  "fl": "#111",
+  "plat": [
+   [
+    300,
+    350,
+    300
+   ]
+  ],
+  "fav": [
+   "laser",
+   "beam",
+   "sniper",
+   "nova",
+   "boomerang",
+   "high",
+   "accel",
+   "bouncer"
+  ],
+  "no": [
+   "meteor",
+   "frost",
+   "venom"
+  ]
+ },
+ {
+  "id": "space",
+  "name": "Trạm Vũ Trụ",
+  "c": [
+   "#020617",
+   "#1e1b4b"
+  ],
+  "acc": "#c084fc",
+  "fl": "#1e1b4b",
+  "plat": [
+   [
+    260,
+    320,
+    120
+   ],
+   [
+    520,
+    260,
+    120
+   ]
+  ],
+  "fav": [
+   "meteor",
+   "blackhole",
+   "nova",
+   "gravity",
+   "portal",
+   "phantom",
+   "boomerang",
+   "accel",
+   "sniper"
+  ],
+  "no": [
+   "boulder",
+   "roller",
+   "stalac",
+   "spike",
+   "shock"
+  ]
+ },
+ {
+  "id": "casino",
+  "name": "Sòng Bạc Ánh Đèn",
+  "c": [
+   "#1a0508",
+   "#2a0c14"
+  ],
+  "acc": "#fbbf24",
+  "fl": "#14532d",
+  "plat": [
+   [
+    130,
+    370,
+    150
+   ],
+   [
+    620,
+    370,
+    150
+   ]
+  ],
+  "fav": [
+   "card",
+   "dice",
+   "coin",
+   "bouncer",
+   "orb",
+   "sine"
+  ],
+  "no": [
+   "frost",
+   "freeze",
+   "blackhole"
+  ],
+  "bg": "img/maps/casino.jpg"
+ },
+ {
+  "id": "ice",
+  "name": "Bão Tuyết Đỉnh Băng",
+  "c": [
+   "#082f49",
+   "#0e7490"
+  ],
+  "acc": "#a5f3fc",
+  "fl": "#155e75",
+  "plat": [
+   [
+    250,
+    340,
+    140
+   ],
+   [
+    520,
+    280,
+    120
+   ]
+  ],
+  "fav": [
+   "icicle",
+   "frost",
+   "freeze",
+   "stalac",
+   "rain",
+   "meteor"
+  ],
+  "no": [
+   "coin",
+   "dice",
+   "card",
+   "bomb"
+  ],
+  "bg": "img/maps/ice.jpg"
+ },
+ {
+  "id": "void",
+  "name": "Hố Đen Kỳ Dị",
+  "c": [
+   "#0b0220",
+   "#2e1065"
+  ],
+  "acc": "#c084fc",
+  "fl": "#1e1b4b",
+  "plat": [
+   [
+    110,
+    350,
+    120
+   ],
+   [
+    670,
+    350,
+    120
+   ],
+   [
+    390,
+    250,
+    120
+   ]
+  ],
+  "fav": [
+   "blackhole",
+   "portal",
+   "phantom",
+   "gravity",
+   "nova",
+   "accel",
+   "sniper"
+  ],
+  "no": [
+   "boulder",
+   "roller",
+   "stalac",
+   "spike",
+   "frost"
+  ],
+  "bg": "img/maps/void.jpg"
+ }
+]

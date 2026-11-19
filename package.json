@@ -1,0 +1,11 @@
+{
+  "name": "arena-dodge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node tools/check.js",
+    "check:fast": "node tools/check.js --no-smoke",
+    "build": "node tools/build.js"
+  },
+  "devDependencies": { "jsdom": "^24.0.0" }
+}

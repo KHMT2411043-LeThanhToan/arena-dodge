@@ -1,0 +1,470 @@
+{
+ "tuning": {
+  "rain": {
+   "at": 1,
+   "min": 1,
+   "wt": 10,
+   "c": "#67e8f9",
+   "sh": "streak"
+  },
+  "high": {
+   "at": 1,
+   "min": 1,
+   "wt": 6,
+   "c": "#f87171",
+   "sh": "bar"
+  },
+  "roller": {
+   "at": 1,
+   "min": 1,
+   "wt": 6,
+   "c": "#fb923c",
+   "sh": "bar"
+  },
+  "sine": {
+   "at": 3,
+   "min": 2,
+   "wt": 6,
+   "c": "#c084fc",
+   "sh": "circle"
+  },
+  "orb": {
+   "at": 3,
+   "min": 2,
+   "wt": 5,
+   "c": "#fde047",
+   "sh": "glow"
+  },
+  "homing": {
+   "at": 4,
+   "min": 3,
+   "wt": 3,
+   "c": "#f472b6",
+   "sh": "missile"
+  },
+  "burst": {
+   "at": 4,
+   "min": 3,
+   "wt": 3,
+   "c": "#fca5a5",
+   "sh": "star"
+  },
+  "splitter": {
+   "at": 4,
+   "min": 3,
+   "wt": 3,
+   "c": "#4ade80",
+   "sh": "circle"
+  },
+  "gravity": {
+   "at": 6,
+   "min": 4,
+   "wt": 3,
+   "c": "#60a5fa",
+   "sh": "diamond"
+  },
+  "laser": {
+   "at": 6,
+   "min": 4,
+   "wt": 2,
+   "c": "#ef4444",
+   "sh": "laser"
+  },
+  "spike": {
+   "at": 7,
+   "min": 5,
+   "wt": 3,
+   "c": "#e5e7eb",
+   "sh": "spike"
+  },
+  "bomb": {
+   "at": 7,
+   "min": 5,
+   "wt": 3,
+   "c": "#374151",
+   "sh": "bomb"
+  },
+  "chain": {
+   "at": 7,
+   "min": 5,
+   "wt": 4,
+   "c": "#38bdf8",
+   "sh": "arc"
+  },
+  "frost": {
+   "at": 9,
+   "min": 6,
+   "wt": 4,
+   "c": "#e0f2fe",
+   "sh": "snow"
+  },
+  "venom": {
+   "at": 9,
+   "min": 6,
+   "wt": 4,
+   "c": "#22c55e",
+   "sh": "circle"
+  },
+  "freeze": {
+   "at": 10,
+   "min": 7,
+   "wt": 3,
+   "c": "#67e8f9",
+   "sh": "diamond"
+  },
+  "blackhole": {
+   "at": 10,
+   "min": 7,
+   "wt": 2,
+   "c": "#7c3aed",
+   "sh": "hole"
+  },
+  "accel": {
+   "at": 10,
+   "min": 7,
+   "wt": 3,
+   "c": "#fb7185",
+   "sh": "tri"
+  },
+  "phantom": {
+   "at": 9,
+   "min": 6,
+   "wt": 3,
+   "c": "#e2e8f0",
+   "sh": "circle"
+  },
+  "expanding": {
+   "at": 9,
+   "min": 6,
+   "wt": 3,
+   "c": "#f0abfc",
+   "sh": "circle"
+  },
+  "portal": {
+   "at": 12,
+   "min": 8,
+   "wt": 3,
+   "c": "#2dd4bf",
+   "sh": "ring"
+  },
+  "bshot": {
+   "at": 99,
+   "wt": 0,
+   "c": "#f43f5e",
+   "sh": "circle"
+  },
+  "bghost": {
+   "at": 99,
+   "wt": 0,
+   "c": "#e5e7eb",
+   "sh": "circle"
+  },
+  "bswell": {
+   "at": 99,
+   "wt": 0,
+   "c": "#e2e8f0",
+   "sh": "circle"
+  },
+  "bbounce": {
+   "at": 99,
+   "wt": 0,
+   "c": "#22d3ee",
+   "sh": "circle"
+  },
+  "card": {
+   "at": 2,
+   "wt": 5,
+   "c": "#f8fafc",
+   "sh": "card"
+  },
+  "dice": {
+   "at": 2,
+   "wt": 4,
+   "c": "#f1f5f9",
+   "sh": "dice"
+  },
+  "coin": {
+   "at": 3,
+   "wt": 4,
+   "c": "#facc15",
+   "sh": "coin"
+  },
+  "icicle": {
+   "at": 2,
+   "wt": 5,
+   "c": "#bae6fd",
+   "sh": "icicle"
+  },
+  "bouncer": {
+   "at": 2,
+   "wt": 5,
+   "c": "#a3e635",
+   "sh": "bouncer"
+  },
+  "boomerang": {
+   "at": 3,
+   "wt": 4,
+   "c": "#38bdf8",
+   "sh": "boomerang"
+  },
+  "shock": {
+   "at": 4,
+   "wt": 4,
+   "c": "#fbbf24",
+   "sh": "shock"
+  },
+  "meteor": {
+   "at": 5,
+   "wt": 3,
+   "c": "#bae6fd",
+   "sh": "comet"
+  },
+  "stalac": {
+   "at": 5,
+   "wt": 3,
+   "c": "#d4d4d8",
+   "sh": "stalac"
+  },
+  "boulder": {
+   "at": 5,
+   "wt": 3,
+   "c": "#78716c",
+   "sh": "boulder"
+  },
+  "beam": {
+   "at": 6,
+   "wt": 3,
+   "c": "#f43f5e",
+   "sh": "beam"
+  },
+  "pendulum": {
+   "at": 6,
+   "wt": 2,
+   "c": "#94a3b8",
+   "sh": "pend"
+  },
+  "mine": {
+   "at": 7,
+   "wt": 3,
+   "c": "#f97316",
+   "sh": "mine"
+  },
+  "sniper": {
+   "at": 9,
+   "wt": 2,
+   "c": "#f87171",
+   "sh": "sniper"
+  },
+  "bolt": {
+   "at": 8,
+   "wt": 2,
+   "c": "#fde047",
+   "sh": "bolt"
+  },
+  "nova": {
+   "at": 8,
+   "wt": 2,
+   "c": "#fb7185",
+   "sh": "nova"
+  }
+ },
+ "help": [
+  {
+   "id": "rain",
+   "name": "Mưa đạn",
+   "desc": "Rơi từ trần nhà; di chuyển khỏi cột rơi."
+  },
+  {
+   "id": "high",
+   "name": "Đạn ngang tầm cao",
+   "desc": "Bay ngang đầu, cần cúi người (giữ Cúi)."
+  },
+  {
+   "id": "roller",
+   "name": "Đạn lăn sàn",
+   "desc": "Trượt sát đất, cần nhảy qua."
+  },
+  {
+   "id": "sine",
+   "name": "Đạn sóng sin",
+   "desc": "Bay ngang theo hình sóng lên xuống."
+  },
+  {
+   "id": "orb",
+   "name": "Cầu nảy",
+   "desc": "Nảy trên tường, trần và sàn."
+  },
+  {
+   "id": "homing",
+   "name": "Đạn đuổi",
+   "desc": "Bám theo bạn vài giây rồi tự hủy."
+  },
+  {
+   "id": "burst",
+   "name": "Mưa thiên thạch",
+   "desc": "Vỡ thành chùm tia hình quạt."
+  },
+  {
+   "id": "splitter",
+   "name": "Đạn phân tách",
+   "desc": "Nổ thành nhiều mảnh giữa phòng."
+  },
+  {
+   "id": "gravity",
+   "name": "Đạn trọng lực",
+   "desc": "Rơi xuống khi lướt qua trên đầu bạn."
+  },
+  {
+   "id": "accel",
+   "name": "Đạn gia tốc",
+   "desc": "Chậm lúc đầu rồi vọt rất nhanh."
+  },
+  {
+   "id": "boomerang",
+   "name": "Lưỡi liềm",
+   "desc": "Bay 300–400px rồi quay ngược lại: phải né 2 lần."
+  },
+  {
+   "id": "meteor",
+   "name": "Mưa sao băng chéo",
+   "desc": "Loạt 5–8 sao băng rơi chéo cùng hướng, có đuôi sáng."
+  },
+  {
+   "id": "nova",
+   "name": "Vòng tròn bắn tỏa",
+   "desc": "Cầu đứng yên nạp 1,1 giây rồi bắn 2 đợt vòng đạn tỏa tròn (12–20 viên, đợt sau xoay lệch)."
+  },
+  {
+   "id": "bolt",
+   "name": "Tia sét",
+   "desc": "Đường cảnh báo nhấp nháy 1,1 giây rồi giáng xuống; đứng trên đường zigzag là mất máu.",
+   "icon": "⚡"
+  },
+  {
+   "id": "boulder",
+   "name": "Đá lăn",
+   "desc": "To hơn cầu gai, lăn chậm xuyên màn hình, đẩy bạn đi và trừ máu mỗi 0,6 giây. Nhảy lên để thoát.",
+   "icon": "🪨"
+  },
+  {
+   "id": "firezone",
+   "name": "Vùng lửa sau bom",
+   "desc": "Bom nổ xong để lại vùng lửa 3 giây, trừ máu theo nhịp. Nhảy lên hoặc rời vùng để tránh.",
+   "icon": "🔥"
+  },
+  {
+   "id": "bouncer",
+   "name": "Bóng nảy",
+   "desc": "Nảy theo đường parabol trên sàn."
+  },
+  {
+   "id": "shock",
+   "name": "Sóng xung kích",
+   "desc": "Hai sóng từ hai phía chạy vào nhau, phải nhảy."
+  },
+  {
+   "id": "stalac",
+   "name": "Thạch nhũ",
+   "desc": "Có vệt cảnh báo trên trần rồi rơi thẳng xuống gần chỗ bạn đứng.",
+   "icon": "🪨"
+  },
+  {
+   "id": "beam",
+   "name": "Tia quét ngang",
+   "desc": "Cảnh báo 1,2 giây rồi phát tia. Tia thấp thì nhảy, tia lửng thì cúi hoặc nhảy.",
+   "icon": "🔴"
+  },
+  {
+   "id": "pendulum",
+   "name": "Con lắc gai",
+   "desc": "Đu qua đu lại trong 5,5 giây.",
+   "icon": "⚙️"
+  },
+  {
+   "id": "mine",
+   "name": "Mìn",
+   "desc": "Nằm trên sàn; khi bạn lại gần, ngòi cháy 0,6 giây rồi mới nổ, đủ thời gian chạy.",
+   "icon": "💣"
+  },
+  {
+   "id": "sniper",
+   "name": "Đạn ngắm",
+   "desc": "Vòng ngắm bám theo bạn, khóa lại rồi cột sáng giáng xuống. Phải né ngang.",
+   "icon": "🎯"
+  },
+  {
+   "id": "venom",
+   "name": "Đạn độc",
+   "desc": "Trúng độc: mất 1 HP mỗi 2.5 giây."
+  },
+  {
+   "id": "phantom",
+   "name": "Đạn tàn hình",
+   "desc": "Gần như vô hình khi bay."
+  },
+  {
+   "id": "expanding",
+   "name": "Đạn phình to",
+   "desc": "Lớn dần trên đường bay."
+  },
+  {
+   "id": "portal",
+   "name": "Đạn xuyên tường",
+   "desc": "Chui qua vách sang phía bên kia."
+  },
+  {
+   "id": "blackhole",
+   "name": "Hố đen",
+   "desc": "Hút bạn về tâm và làm lệch cú nhảy."
+  },
+  {
+   "id": "bomb",
+   "name": "Bom xung kích",
+   "desc": "Nổ, gây sát thương và đẩy lùi mạnh."
+  },
+  {
+   "id": "chain",
+   "name": "Đạn điện",
+   "desc": "Nổ gây sát thương lan trong bán kính rộng."
+  },
+  {
+   "id": "frost",
+   "name": "Đạn tuyết",
+   "desc": "Làm chậm bạn 3.5 giây."
+  },
+  {
+   "id": "freeze",
+   "name": "Đạn băng",
+   "desc": "Đóng băng bạn 1.5 giây."
+  },
+  {
+   "id": "card",
+   "name": "Lá bài phi tiêu",
+   "desc": "Sòng bạc: bay ngang theo bộ 3 lá chéo nhau, nhảy hoặc cúi đúng nhịp.",
+   "icon": "🃏"
+  },
+  {
+   "id": "dice",
+   "name": "Xúc xắc nảy",
+   "desc": "Sòng bạc: rơi xuống rồi nảy 3 lần theo hướng ngẫu nhiên.",
+   "icon": "🎲"
+  },
+  {
+   "id": "coin",
+   "name": "Mưa đồng xu",
+   "desc": "Sòng bạc: chuỗi xu rơi dày đặc theo một cột.",
+   "icon": "🪙"
+  },
+  {
+   "id": "icicle",
+   "name": "Mũi băng rơi",
+   "desc": "Đỉnh băng: treo trên trần, rung lên rồi lao xuống khi bạn đi ngang qua.",
+   "icon": "🧊"
+  },
+  {
+   "id": "heart",
+   "name": "Đạn trái tim",
+   "desc": "Chạm vào để hồi 1 HP (từ thẻ Sinh Sôi Nảy Nở)."
+  }
+ ]
+}

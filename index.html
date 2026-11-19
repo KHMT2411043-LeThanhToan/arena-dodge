@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vi"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Arena Dodge &amp; Quiz Survival</title>
+<style>
+*{box-sizing:border-box;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+html,body{margin:0;height:100%;background:#05080f;color:#e2e8f0;font-family:"Segoe UI",Roboto,Arial,sans-serif;overflow:hidden;overscroll-behavior:none}
+body{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:6px;height:100dvh}
+#hud{width:900px;max-width:100%;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 10px;padding:6px 12px;background:rgba(19,26,42,.92);border:1px solid #26334d;border-radius:10px;font-size:14px;font-weight:700}
+#hud b{color:#fff;font-size:16px}
+#hstat{font-size:12px;color:#fcd34d;width:100%;text-align:center;min-height:14px}
+canvas{width:900px;max-width:100%;height:auto;aspect-ratio:900/520;border:2px solid #26334d;border-radius:10px;background:#090d16;display:block}
+#touch{display:none;width:900px;max-width:100%;justify-content:space-between;align-items:center;gap:8px;padding:2px 4px}
+#touch.on{display:flex}
+.tg{display:flex;gap:12px;align-items:center}
+.tb{width:68px;height:68px;padding:0;border-radius:50%;background:radial-gradient(circle at 35% 30%,rgba(71,85,105,.95),rgba(30,41,59,.95));border:2px solid #64748b;color:#f8fafc;font-weight:800;font-size:13px;box-shadow:0 4px 10px rgba(0,0,0,.45),inset 0 2px 4px rgba(255,255,255,.12)}
+.tb.big{width:82px;height:82px;font-size:15px;border-color:#38bdf8}
+.tb:active,.tb.p{background:#38bdf8;color:#0f172a;transform:scale(.94)}
+#joy{position:relative;width:128px;height:128px;border-radius:50%;background:radial-gradient(circle,rgba(30,41,59,.55) 55%,rgba(15,23,42,.85) 100%);border:3px solid rgba(148,163,184,.65);box-shadow:0 4px 12px rgba(0,0,0,.5),inset 0 0 14px rgba(0,0,0,.5);touch-action:none;flex:none}
+#joy::before,#joy::after{content:"";position:absolute;color:#94a3b8;font-size:15px;top:50%;transform:translateY(-50%);opacity:.8}
+#joy::before{content:"◀";left:9px}#joy::after{content:"▶";right:9px}
+#knob{position:absolute;left:50%;top:50%;width:58px;height:58px;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle at 35% 30%,#e2e8f0,#64748b 60%,#334155);border:2px solid #f1f5f9;box-shadow:0 4px 10px rgba(0,0,0,.55);pointer-events:none}
+#joy.act #knob{background:radial-gradient(circle at 35% 30%,#bae6fd,#0ea5e9 60%,#0369a1)}
+.ov{position:fixed;inset:0;background:rgba(5,8,17,.88);display:flex;align-items:center;justify-content:center;padding:14px;z-index:50;overflow:auto}
+#m-menu{background:linear-gradient(180deg,rgba(5,8,17,.25),rgba(5,8,17,.9))}
+.hide{display:none!important}
+#bFit{display:none}@media(pointer:coarse){#bFit{display:inline-block}}
+.menu{text-align:center;width:100%;max-width:420px}
+.logo{font-size:clamp(34px,8vw,56px);font-weight:900;letter-spacing:2px;color:#fff;text-shadow:0 0 18px #38bdf8,0 4px 0 #0c4a6e;line-height:1}
+.logo span{color:#f59e0b;text-shadow:0 0 18px #f59e0b,0 4px 0 #78350f}
+.sub{color:#94a3b8;font-size:14px;margin:8px 0 22px}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn{padding:12px 16px;border-radius:12px;font-weight:800;font-size:15px;cursor:pointer;background:#1e293b;color:#e2e8f0;border:1px solid #334155;margin:4px 4px 4px 0}
+.btn.big{background:linear-gradient(180deg,#38bdf8,#0284c7);color:#fff;font-size:20px;padding:16px;border:0;box-shadow:0 6px 0 #075985}
+.btn.g{background:#10b981;color:#022c22;border:0}.btn.r{background:#ef4444;color:#fff;border:0}.btn.o{background:#334155;color:#e2e8f0;border:0}
+.stats{margin-top:18px;color:#cbd5e1;font-size:14px}
+#help{margin-top:16px;text-align:left;background:rgba(19,26,42,.95);border:1px solid #26334d;border-radius:12px;padding:14px;font-size:13px;line-height:1.7;color:#cbd5e1}
+.md{background:#131a2a;border:1px solid #26334d;border-radius:14px;max-width:680px;width:100%;max-height:92vh;overflow:auto;padding:20px}
+.md h2{margin:0 0 8px;font-size:21px}
+.md p{color:#94a3b8;font-size:14px;line-height:1.5;margin:0 0 10px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+@media(max-width:520px){.opts{grid-template-columns:1fr}}
+.opt{background:#1e293b;border:1px solid #334155;color:#e2e8f0;border-radius:10px;padding:12px;text-align:left;font-size:15px;cursor:pointer}
+.opt:disabled{cursor:default}
+.opt.ok{background:#064e3b;border-color:#10b981}.opt.bad{background:#7f1d1d;border-color:#ef4444}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:10px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:12px;cursor:pointer;text-align:center}
+.card.risk{border-color:#7f1d1d}
+.card .ic{font-size:28px}.card .t{font-weight:800;margin:4px 0}.card .d{font-size:12px;color:#94a3b8}
+#qexp{font-size:14px;color:#cbd5e1;min-height:18px;margin-top:6px}
+#rot{background:#05080f;flex-direction:column;gap:14px;font-size:18px;font-weight:800;text-align:center}
+#rot .ph{font-size:56px;animation:tilt 2s ease-in-out infinite}
+@keyframes tilt{0%,100%{transform:rotate(0)}50%{transform:rotate(-90deg)}}
+
+/* ---- Fit màn hình ngang điện thoại ---- */
+body.short{gap:3px;padding:3px}
+body.short #hud{position:fixed;top:4px;left:50%;transform:translateX(-50%);z-index:15;pointer-events:none;padding:2px 8px;gap:0 10px;font-size:12px;flex-wrap:nowrap;white-space:nowrap;background:rgba(10,15,28,.55);border-color:rgba(38,51,77,.5)}
+body.short #hud b{font-size:13px}
+body.short #hstat{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+body.short #hstat{width:auto;min-height:0;font-size:11px}
+body.short #touch{position:fixed;left:0;right:0;bottom:6px;width:auto;max-width:none;padding:0 12px;pointer-events:none;z-index:20}
+body.short #touch .tb{pointer-events:auto;opacity:.6;width:58px;height:58px;font-size:12px}
+body.short #touch .tb.big{width:70px;height:70px}
+body.short #touch #joy{pointer-events:auto;opacity:.7;width:112px;height:112px}
+body.short #touch #knob{width:50px;height:50px}
+body.short #touch .tg{gap:8px}
+body.short #touch #skbar{position:fixed;right:12px;bottom:106px;flex-direction:column-reverse!important;flex-wrap:nowrap!important;align-items:flex-end;justify-content:flex-start!important;gap:6px;pointer-events:none}
+body.short #touch #skbar .tb{pointer-events:auto;width:92px;height:36px;border-radius:14px;padding:0 6px;font-size:10px;line-height:1.1;opacity:.75;overflow:hidden}
+
+/* ---- Quản lý câu hỏi ---- */
+#m-qm{z-index:60}
+.qmd{max-width:720px}
+.fbox{border:2px dashed #475569;border-radius:12px;padding:12px;text-align:center;margin:8px 0}
+.fbox input{display:none}
+.fbox label{display:inline-block}
+#qmsg{font-size:13px;color:#fcd34d;min-height:18px;margin:6px 0;white-space:pre-line}
+.dstat{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.dstat span{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:6px 10px;font-size:13px;font-weight:700}
+#qlist{max-height:240px;overflow:auto;border:1px solid #26334d;border-radius:10px;margin:8px 0}
+.qrow{display:flex;gap:8px;align-items:center;padding:7px 10px;border-bottom:1px solid #1e293b;font-size:13px}
+.qrow:last-child{border-bottom:0}
+.qrow .bd{flex:none;font-size:11px;font-weight:800;border-radius:6px;padding:2px 6px;color:#0f172a}
+.d1{background:#34d399}.d2{background:#fbbf24}.d3{background:#f87171}
+.qrow .tx{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#cbd5e1}
+.qrow .x{flex:none;background:#7f1d1d;color:#fff;border:0;border-radius:6px;width:28px;height:28px;font-weight:800}
+.skprev{width:96px;height:96px;margin:0 auto 4px;background-repeat:no-repeat;background-position:0 0;image-rendering:pixelated}
+.small{font-size:12px;color:#94a3b8;line-height:1.5}
+.card.risk{border-color:#7f1d1d}.card .ic{font-size:28px}.card .t{font-weight:800;margin:4px 0}.card .d{font-size:12px;color:#94a3b8}
+.card.tier-vang{border-color:#f59e0b}.card.tier-kim{border-color:#a78bfa;box-shadow:0 0 12px rgba(167,139,250,.45)}.tag{font-size:11px;font-weight:800;margin-top:4px}
+</style>
+</head>
+<body>
+<div id="hud">
+  <span>❤️ HP <b id="hp">3</b></span>
+  <span>🌀 Vòng <b id="rd">1</b></span>
+  <span>⏱ <b id="tm">20.0</b>s</span>
+  <span>💥 <b id="dm">1</b>/đòn</span>
+  <span>🗺 <b id="mp">-</b></span><span>🪙 <b id="cn">0</b></span>
+  <span id="hstat"></span>
+</div>
+<canvas id="c" width="900" height="520"></canvas>
+<div id="touch">
+  <div class="tg" id="skbar" style="flex-wrap:wrap;justify-content:center"></div>
+  <div id="joy"><div id="knob"></div></div>
+  <div class="tg"><button class="tb" id="tc">Cúi</button><button class="tb" id="td">Lướt</button><button class="tb" id="tsh" style="display:none">🔫</button><button class="tb" id="tbl">💥</button><button class="tb big" id="tj">Nhảy</button></div>
+</div>
+
+<div id="m-menu" class="ov">
+  <div class="menu">
+    <div class="logo"><span>ARENA</span><br>DODGE</div>
+    <div class="sub">Sinh tồn tri thức · Né đạn, trả lời đúng để sống tiếp</div>
+    <div class="btns">
+      <button class="btn big" id="bStart">▶ BẮT ĐẦU</button>
+      <button class="btn" id="bHelp">📖 Cách chơi</button>
+      <button class="btn" id="bSound">🔊 Âm thanh: Bật</button>
+      <button class="btn" id="bFit">📐 Khung hình: Phóng to</button>
+      <button class="btn" id="bBoss">👑 Boss: Ngẫu nhiên</button>
+      <button class="btn" id="bQM">📚 Quản lý câu hỏi</button>
+      <button class="btn" id="bShop">🛒 Cửa hàng</button>
+    </div>
+    <div id="help" class="hide">
+      🎯 <b>Di chuyển:</b> kéo núm tròn sang trái/phải (hoặc A/D, ←/→)<br>
+      ⬆ <b>Nhảy:</b> nút Nhảy (W, ↑, Space). Có thẻ Nhảy kép thì nhảy thêm được một lần trên không.<br>
+      ⬇ <b>Cúi:</b> giữ nút Cúi (S, ↓) để né đạn bay ngang tầm cao.<br>
+      💨 <b>Lướt:</b> chỉ hiện khi có thẻ Lướt (Shift).<br>
+      💔 <b>Hết HP:</b> trả lời đúng để hồi sinh. Câu đầu tiên sai là thua.<br>
+      🎁 <b>Hết mỗi vòng:</b> câu hỏi thưởng (không bắt buộc) rồi chọn 1 trong 3 thẻ hiệu ứng.<br>
+      🗺 <b>Bản đồ:</b> đổi ngẫu nhiên mỗi vòng.<br>⚡ <b>Sự kiện ngẫu nhiên:</b> 🌋 động đất · 🌫️ sương mù · 🌪 thiên tai (chỉ 1 loại đạn) · ☄️ diệt thế (chạy vào khu an toàn) · 📝 kiểm tra đột xuất (10 giây, đúng +50% máu, sai −50%).
+    </div>
+    <div class="stats">🪙 Xu: <b id="cnm">0</b> · 🏆 Kỷ lục: <b id="best">0</b> vòng · 📚 <b id="qn">0</b> câu hỏi</div>
+  </div>
+</div>
+
+<div id="m-quiz" class="ov hide">
+  <div class="md">
+    <h2 id="qt">Câu hỏi</h2>
+    <p id="qs"></p>
+    <p id="qx" style="color:#e2e8f0;font-size:16px;font-weight:700"></p>
+    <div class="opts" id="qo"></div>
+    <div id="qexp"></div>
+    <div id="qa" style="margin-top:8px"></div>
+  </div>
+</div>
+
+<div id="m-buff" class="ov hide">
+  <div class="md">
+    <h2>🎁 Chọn 1 thẻ hiệu ứng</h2>
+    <p>Thẻ viền đỏ là đánh đổi rủi ro cao.</p>
+    <div class="cards" id="bc"></div>
+  </div>
+</div>
+
+<div id="m-over" class="ov hide">
+  <div class="md">
+    <h2>💀 Game Over</h2>
+    <p id="ov-r"></p>
+    <p>Vòng đạt được: <b id="ov-round"></b> · Câu đúng: <b id="ov-cor"></b> · Kỷ lục: <b id="ov-best"></b></p>
+    <button class="btn g" id="bRetry">🔁 Chơi lại</button>
+    <button class="btn o" id="bMenu">Về menu</button>
+  </div>
+</div>
+
+<div id="m-skill" class="ov hide"><div class="md"><h2>🔁 Thay thế kỹ năng</h2><p id="sk-p"></p><div class="cards" id="sk-c"></div></div></div>
+<div id="errbox" style="display:none;position:fixed;left:8px;right:8px;bottom:8px;background:#7f1d1d;color:#fff;padding:10px;border-radius:10px;font-size:12px;z-index:99;white-space:pre-wrap;max-height:40vh;overflow:auto"></div>
+<div id="m-shop" class="ov hide"><div class="md"><h2>🛒 Cửa hàng skin</h2>
+<p>🪙 Xu hiện có: <b id="shc">0</b> · Mỗi câu trả lời đúng được +1 xu, tích lũy qua mọi lần chơi.</p>
+<div class="cards" id="shl"></div><p id="shm" style="color:#fcd34d;min-height:18px"></p>
+<button class="btn g" id="bSaveOut">💾 Xuất dữ liệu</button> <label class="btn" for="saveIn">📥 Nhập dữ liệu</label><input type="file" id="saveIn" accept=".json,application/json" style="display:none"> <button class="btn o" id="bShopClose">Đóng</button><p id="savem" style="color:#fcd34d;min-height:18px;font-size:12px"></p></div></div>
+<div id="m-qm" class="ov hide">
+  <div class="md qmd">
+    <h2>📚 Quản lý ngân hàng câu hỏi</h2>
+    <div class="dstat" id="qstat"></div>
+    <div class="fbox">
+      <label class="btn g" for="qfile">📂 Tải file câu hỏi (.json / .csv)</label>
+      <input type="file" id="qfile" accept=".json,.csv,.txt,application/json,text/csv" multiple="">
+      <div class="small" style="margin-top:6px">Chọn được nhiều file cùng lúc. Câu mới sẽ được <b>nối thêm</b> vào kho hiện có, câu trùng nội dung tự động bị bỏ.</div>
+    </div>
+    <div id="qmsg"></div>
+    <div id="qlist"></div>
+    <div>
+      <button class="btn g" id="bExport">⬇ Xuất File Game Kèm Câu Hỏi (.html)</button>
+      <button class="btn o" id="bTpl">📄 Tải file CSV mẫu</button>
+      <button class="btn r" id="bQReset">♻ Đặt lại câu mẫu</button>
+      <button class="btn o" id="bQClose">Đóng</button>
+    </div>
+    <p class="small" style="margin-top:10px">
+      <b>CSV</b> (UTF-8): cột <code>question, A, B, C, D, answer, difficulty, explanation</code>. <code>answer</code> là A–D hoặc 0–3; <code>difficulty</code> là 1 (dễ), 2 (vừa), 3 (khó).<br>
+      <b>JSON</b>: mảng các đối tượng <code>{"question":"...","options":["..","..","..",".."],"answer":1,"difficulty":2,"explanation":"..."}</code>.
+    </p>
+  </div>
+</div>
+
+<div id="rot" class="ov hide">
+  <div class="ph">📱</div>
+  <div>Xoay ngang điện thoại để chơi</div>
+</div>
+
+<script id="embedded-questions" type="application/json">[]</script>
+<script src="boot.js"></script>
+</body></html>

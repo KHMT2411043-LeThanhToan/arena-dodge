@@ -1,0 +1,27 @@
+[
+ {
+  "id": "pig",
+  "name": "Heo Mặc Định",
+  "price": 0,
+  "img": "img/skins/pig.png"
+ },
+ {
+  "id": "ninja",
+  "name": "Thỏ May Mắn",
+  "price": 500,
+  "img": "img/skins/ninja.png"
+ },
+ {
+  "id": "beggar",
+  "name": "Heo Ăn Xin",
+  "price": 500,
+  "img": "img/skins/beggar.png"
+ },
+ {
+  "id": "superman",
+  "name": "Heo Superman",
+  "price": 800,
+  "img": "img/skins/superman.png",
+  "fx": "hero"
+ }
+]
