@@ -1365,6 +1365,12 @@ function drawThunder(b){
  if(b.hit>0)ctx.filter='brightness(2.2)';
  const g=ctx.createRadialGradient(0,0,6,0,0,80);g.addColorStop(0,'rgba(255,255,255,.18)');g.addColorStop(1,'rgba(0,0,0,0)');
  ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,0,80,0,7);ctx.fill();
+ const at=b.d.atlas;
+ if(at&&at.complete&&at.naturalWidth){  /* sprite Thiên Kiếp Thượng Nhân (img/bosses/temple.png: 6 cột × 2 hàng, ô 192px) */
+  const k=th.k,f=b.hit>0?10:weak?11:th.tp>0?3:th.cast>0?(b.enr?9:k===0?6:7):th.mode==='wave'?2:(Math.floor(G.t*1.6)%2?1:0),D=170;
+  ctx.shadowColor=b.enr?'#ef4444':col;ctx.shadowBlur=b.enr?30:14;
+  ctx.drawImage(at,(f%6)*192,Math.floor(f/6)*192,192,192,-D/2,-D/2-6,D,D);ctx.shadowBlur=0;
+ }else{
  ctx.shadowColor=col;ctx.shadowBlur=b.enr?34:20;
  ctx.fillStyle='#e5e7eb';ctx.beginPath();ctx.ellipse(0,-20,25,36,0,0,7);ctx.fill();                      /* tóc bạc dài phía sau */
  ctx.shadowBlur=0;
@@ -1383,6 +1389,7 @@ function drawThunder(b){
  ctx.fillStyle='#f9fafb';ctx.beginPath();ctx.moveTo(-10,-21);ctx.quadraticCurveTo(-15,12,0,36);ctx.quadraticCurveTo(15,12,10,-21);ctx.quadraticCurveTo(0,-14,-10,-21);ctx.fill();   /* râu bạc */
  ctx.fillStyle=b.enr?'#ef4444':col;ctx.shadowColor=b.enr?'#ef4444':col;ctx.shadowBlur=8;ctx.fillRect(-9,-31,7,2.6);ctx.fillRect(2,-31,7,2.6);ctx.shadowBlur=0;   /* mắt phát sáng */
  ctx.fillStyle='#f3f4f6';ctx.fillRect(-10,-35,8,2);ctx.fillRect(2,-35,8,2);                                    /* lông mày */
+ }
  ctx.restore();
  /* Lôi Cầu + dây điện */
  ctx.save();ctx.globalAlpha=vis;ctx.lineCap='round';ctx.lineJoin='round';
