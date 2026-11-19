@@ -47,6 +47,12 @@ tools/
 
 **Boss.** Đổi tên, màu, emoji, nhóm đạn trong `bosses.json`. Boss có cách đánh riêng (như khối lập phương) nằm trong `game.js`.
 
+**Lõi Trí Tuệ Quá Tải** (boss map Phòng Thí Nghiệm, `ai: "overload"`, code `overloadAI` + `drawOverload`) treo trên ray trần, đánh theo 3 chu kỳ: nhịp nhẹ (đạn gia tốc nối tiếp + laser tầm cao), nhịp dồn (laser tầm thấp, cầu điện từ, đạn bám trục X), quá tải (lõi đỏ, laser chéo/kép, mưa plasma). Trúng đòn gây nhiễu sóng (glitch). Vòng càng cao thì thời gian báo càng ngắn, sát thương càng lớn.
+
+**Thiên Kiếp Thượng Nhân** (boss map Độ Kiếp Trận Pháp, `ai: "thunder"`, code `thunderAI` + `drawThunder` trong `game.js`) đánh theo chu kỳ 3 → 6 → 9 đạo sét, nghỉ 1.5–2 giây giữa các đợt. Không có chữ cảnh báo: 3 Lôi Cầu đổi màu và tốc độ xoay để báo đợt (xanh lam Khởi Kiếp, tím Chuyển Kiếp, vàng Tuyệt Kiếp). Vòng càng cao tia định vị càng ngắn và sét càng đau. Chạm tia lửa điện sẽ bị Tê Liệt ngắn (trừ khi có kháng điện).
+
+**Thực Thể Dị Dạng** (boss map Hố Đen Kỳ Dị, `ai: "void"`, code `voidAI` + `drawVoid` trong `game.js`, sprite `img/bosses/void.png`: lưới 6 cột × 2 hàng, ô 192px, 12 khung) dịch chuyển qua Cổng Không Gian rồi tung 1 chiêu (vòng 1–2), combo 2 chiêu (vòng 3–7) hoặc combo 3 chiêu (vòng 8+), nghỉ 1.6–2.8 giây giữa các lần. Chiêu: **Mìn không gian** (hiện rõ 0.7 giây, mờ gần tàng hình, lóe 0.3 giây cuối rồi tan), **Hố đen mini** (hút hoặc đẩy, không gây sát thương), **Đạn xuyên cổng** (chui qua mép màn hình, bay sát sàn), **Vết cắt không gian** (báo trước 1–1.7 giây rồi bùng nổ), **Đảo trọng lực** (từ vòng 5: báo trước 1 giây, rơi lên trần 3.2–3.6 giây, nhảy để rơi xuống) và **Trọng lực yếu**. Khi đánh boss này, map không tự bật sự kiện trọng lực để boss điều khiển. Các loại đạn riêng `vmine`, `vwarp`, `vwell`, `vslit` nằm trong bảng `BT`, chỉ boss gọi ra.
+
 ## Kiểm tra
 
 ```

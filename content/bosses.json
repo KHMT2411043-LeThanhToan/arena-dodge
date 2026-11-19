@@ -1,21 +1,16 @@
 {
   "lab": {
-    "n": "Cỗ Máy Hủy Diệt",
+    "n": "Lõi Trí Tuệ Quá Tải",
     "c": "#22d3ee",
-    "e": "🤖",
-    "pool": [
-      "sine",
-      "chain",
-      "laser"
-    ]
+    "e": "🧠",
+    "pool": [],
+    "ai": "overload"
   },
   "temple": {
     "n": "Thiên Kiếp Thượng Nhân",
     "c": "#fbbf24",
     "e": "⚡",
-    "pool": [
-      "bolt"
-    ],
+    "pool": [],
     "ai": "thunder"
   },
   "dungeon": {
@@ -67,13 +62,12 @@
     ]
   },
   "void": {
-    "n": "Hố Đen Sống",
-    "c": "#7c3aed",
+    "n": "Thực Thể Dị Dạng",
+    "c": "#a855f7",
     "e": "🌀",
-    "pool": [
-      "blackhole",
-      "portal",
-      "phantom"
-    ]
+    "ai": "void",
+    "pool": [],
+    "img": "img/bosses/void.png",
+    "fw": 192
   }
 }
