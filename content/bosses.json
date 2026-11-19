@@ -11,7 +11,9 @@
     "c": "#fbbf24",
     "e": "⚡",
     "pool": [],
-    "ai": "thunder"
+    "ai": "thunder",
+    "img": "img/bosses/temple.png",
+    "fw": 192
   },
   "dungeon": {
     "n": "Quỷ Ngục Tối",
