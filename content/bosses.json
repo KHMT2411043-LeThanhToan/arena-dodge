@@ -1,80 +1,79 @@
 {
- "lab": {
-  "n": "Cỗ Máy Hủy Diệt",
-  "c": "#22d3ee",
-  "e": "🤖",
-  "pool": [
-   "sine",
-   "chain",
-   "laser"
-  ]
- },
- "temple": {
-  "n": "Thần Hộ Pháp",
-  "c": "#fbbf24",
-  "e": "👹",
-  "pool": [
-   "homing",
-   "burst",
-   "expanding"
-  ]
- },
- "dungeon": {
-  "n": "Quỷ Ngục Tối",
-  "c": "#a1a1aa",
-  "e": "💀",
-  "pool": [
-   "roller",
-   "bomb",
-   "venom"
-  ]
- },
- "minimal": {
-  "n": "Khối Lập Phương Vô Định",
-  "c": "#e5e7eb",
-  "e": "🧊",
-  "ai": "cube",
-  "pool": [],
-  "img": "img/bosses/minimal.png"
- },
- "space": {
-  "n": "Kẻ Du Hành Hư Không",
-  "c": "#c084fc",
-  "e": "👾",
-  "pool": [
-   "gravity",
-   "blackhole",
-   "frost"
-  ]
- },
- "casino": {
-  "n": "Chủ Sòng Bạc",
-  "c": "#fbbf24",
-  "e": "🎩",
-  "pool": [
-   "card",
-   "dice",
-   "coin"
-  ]
- },
- "ice": {
-  "n": "Băng Vương",
-  "c": "#a5f3fc",
-  "e": "🧊",
-  "pool": [
-   "icicle",
-   "frost",
-   "freeze"
-  ]
- },
- "void": {
-  "n": "Hố Đen Sống",
-  "c": "#7c3aed",
-  "e": "🌀",
-  "pool": [
-   "blackhole",
-   "portal",
-   "phantom"
-  ]
- }
+  "lab": {
+    "n": "Cỗ Máy Hủy Diệt",
+    "c": "#22d3ee",
+    "e": "🤖",
+    "pool": [
+      "sine",
+      "chain",
+      "laser"
+    ]
+  },
+  "temple": {
+    "n": "Thiên Kiếp Thượng Nhân",
+    "c": "#fbbf24",
+    "e": "⚡",
+    "pool": [
+      "bolt"
+    ],
+    "ai": "thunder"
+  },
+  "dungeon": {
+    "n": "Quỷ Ngục Tối",
+    "c": "#a1a1aa",
+    "e": "💀",
+    "pool": [
+      "roller",
+      "bomb",
+      "venom"
+    ]
+  },
+  "minimal": {
+    "n": "Khối Lập Phương Vô Định",
+    "c": "#e5e7eb",
+    "e": "🧊",
+    "ai": "cube",
+    "pool": [],
+    "img": "img/bosses/minimal.png"
+  },
+  "space": {
+    "n": "Kẻ Du Hành Hư Không",
+    "c": "#c084fc",
+    "e": "👾",
+    "pool": [
+      "gravity",
+      "blackhole",
+      "frost"
+    ]
+  },
+  "casino": {
+    "n": "Chủ Sòng Bạc",
+    "c": "#fbbf24",
+    "e": "🎩",
+    "pool": [
+      "card",
+      "dice",
+      "coin"
+    ]
+  },
+  "ice": {
+    "n": "Băng Vương",
+    "c": "#a5f3fc",
+    "e": "🧊",
+    "pool": [
+      "icicle",
+      "frost",
+      "freeze"
+    ]
+  },
+  "void": {
+    "n": "Hố Đen Sống",
+    "c": "#7c3aed",
+    "e": "🌀",
+    "pool": [
+      "blackhole",
+      "portal",
+      "phantom"
+    ]
+  }
 }

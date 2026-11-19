@@ -1030,15 +1030,20 @@ function bossTick(dt){
  if(b.d.ai==='cube'){const pc=b.hp/b.max,mx=b.fight?3:G.round>=3?2:1,np=Math.min(mx,pc<=.33?3:pc<=.66?2:1);if(np>(b.pz||1))bossPhase(b,np);cubeAI(b,dt)}else{b.y=Math.min(110,b.y+160*dt);b.x=W/2+Math.sin(b.t*(.6+G.round*.02)*(b.enr?1.5:1))*300}
  if(!b.fight)b.hp-=b.max/b.dur*dt*.9;
  if(b.t>2&&b.d.ai!=='cube'){b.at-=dt;if(b.at<=0){
-  b.at=Math.max(.7,2.1-G.round*.06)*(b.enr?.6:1);b.n++;
+  b.at=(b.d.ai==='thunder'?Math.max(1.8,2.9-G.round*.05):Math.max(.7,2.1-G.round*.06))*(b.enr?.6:1);b.n++;
   const m=b.n%3,sp=(240+G.round*7)*(b.enr?1.2:1);
-  if(m===1)spawnType(pick(b.d.pool));
+  if(b.d.ai==='thunder')thunderAI(b);
+  else if(m===1)spawnType(pick(b.d.pool));
   else if(m===2){const a=Math.atan2(P.y-ph()/2-b.y,P.x-b.x);for(let i=-1;i<=(G.round>=8?1:0);i++){const q=a+i*.22;G.bullets.push({type:'bshot',x:b.x,y:b.y,vx:Math.cos(q)*sp,vy:Math.sin(q)*sp,r:8})}}
   else{const n=8+Math.floor(G.round/4),o=rnd(0,6.28);for(let i=0;i<n;i++){const q=o+i*6.283/n;G.bullets.push({type:'bshot',x:b.x,y:b.y,vx:Math.cos(q)*sp*.8,vy:Math.sin(q)*sp*.8,r:7})}}
   beep(200,.08,.05,'square')}}
  if(b.hp<=0){b.hp=0;bossWin();openBonus();return true}
  return false;
 }
+/* Thiên Kiếp Thượng Nhân: chu kỳ lôi kiếp 3 → 6 → 9 đạo sét, lặp lại */
+function thunderAI(b){const k=3*((b.n-1)%3+1);
+ for(let i=0;i<k;i++)setTimeout(()=>{if(G.boss&&!G.boss.dead&&G.mode==='playing')spawnType('bolt')},i*160);
+ beep(260+k*20,.1,.05,'square');}
 function polyHW(y){const p=G.poly;if(!p||!G.boss||G.boss.dead)return 1e9;
  if(p.k==='tri')return 200+(y/FLOOR)*240;
  if(p.k==='hex')return Math.max(240,340-Math.abs(y-235)*.45);
