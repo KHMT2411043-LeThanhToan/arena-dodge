@@ -1,1250 +1,2605 @@
 [
- {
-  "question": "Công thức lưu thông hàng hóa đặc trưng của hoạt động thương mại (thương gia mua để bán kiếm lời) là:",
-  "options": [
-   "H – T – H",
-   "T – T′ – H",
-   "T – H – T′",
-   "H – H′ – T"
-  ],
-  "answer": 2,
-  "difficulty": 1,
-  "explanation": "[BG] Thương gia mua bán để kiếm lời nên tiền ứng ra (T) thu về lớn hơn (T′). Chương 1, mục 1."
- },
- {
-  "question": "Theo bài giảng, mục đích của hoạt động thương mại là gì?",
-  "options": [
-   "Nhằm vào giá trị sử dụng của hàng hóa",
-   "Nhằm vào việc tự cung tự cấp cho cộng đồng",
-   "Nhằm vào việc dự trữ vàng bạc cho nhà nước",
-   "Nhằm vào giá trị, cụ thể là lợi nhuận"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Mục đích thương mại không phải giá trị sử dụng mà là giá trị (lợi nhuận). Chương 1, mục 1."
- },
- {
-  "question": "Thương mại ra đời khi nào?",
-  "options": [
-   "Khi con người còn săn bắt hái lượm, chưa có sản phẩm dư",
-   "Khi sản xuất có sản phẩm dư thừa và phân công lao động xã hội phát triển",
-   "Khi nhà nước đầu tiên ban hành luật thương mại",
-   "Khi tiền giấy bắt đầu được in và lưu hành rộng rãi"
-  ],
-  "answer": 1,
-  "difficulty": 1,
-  "explanation": "[BG] Thương mại là kết quả tất yếu của phát triển trao đổi và phân công lao động xã hội. Chương 1, mục 1."
- },
- {
-  "question": "Ai là tác giả của lý thuyết lợi thế tuyệt đối (1776)?",
-  "options": [
-   "Adam Smith",
-   "David Ricardo",
-   "Raymond Vernon",
-   "Michael Porter"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Adam Smith, tác phẩm về bản chất và nguyên nhân giàu có của các quốc gia (1776). Chương 1, mục 2.2."
- },
- {
-  "question": "Theo thuyết trọng thương, sự giàu có của quốc gia được thể hiện qua:",
-  "options": [
-   "Số lượng hàng hóa nhập khẩu được",
-   "Năng suất lao động bình quân cả nước",
-   "Mức độ tự do hóa thương mại",
-   "Lượng vàng, bạc tích lũy được"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Trọng thương đo sự giàu có bằng vàng bạc, chủ trương xuất siêu. Chương 1, mục 2.1."
- },
- {
-  "question": "Thương mại bán lẻ là hoạt động thương mại:",
-  "options": [
-   "Bán hàng hóa, dịch vụ cho người tiêu dùng cuối cùng",
-   "Giữa các nhà sản xuất với nhau",
-   "Giữa các thương gia với nhau",
-   "Giữa các quốc gia với nhau"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Bán buôn diễn ra giữa nhà sản xuất/thương gia; bán lẻ phục vụ người tiêu dùng cuối cùng. Chương 1, mục 5.2."
- },
- {
-  "question": "Lý thuyết 'kim cương' về lợi thế cạnh tranh quốc gia là của:",
-  "options": [
-   "Wassily Leontief",
-   "Staffan Linder",
-   "Michael Porter",
-   "Eli Heckscher"
-  ],
-  "answer": 2,
-  "difficulty": 1,
-  "explanation": "[BG] Michael Porter (Harvard). Chương 1, mục 2.9."
- },
- {
-  "question": "Hoạt động thương mại theo Luật Thương mại Việt Nam được hiểu là hoạt động nhằm:",
-  "options": [
-   "Mục đích phi lợi nhuận",
-   "Mục đích sinh lợi",
-   "Mục đích phúc lợi xã hội",
-   "Mục đích tích trữ tiền tệ"
-  ],
-  "answer": 1,
-  "difficulty": 1,
-  "explanation": "[BG] Gồm mua bán hàng hóa, cung ứng dịch vụ, đầu tư, xúc tiến thương mại và hoạt động sinh lợi khác. Chương 1, mục 4.1."
- },
- {
-  "question": "Nghịch lý Leontief phát hiện điều gì khi kiểm chứng mô hình H–O với nước Mỹ?",
-  "options": [
-   "Hàng xuất khẩu của Mỹ thâm dụng lao động hơn hàng nhập khẩu thay thế",
-   "Hàng xuất khẩu của Mỹ thâm dụng vốn hơn hàng nhập khẩu",
-   "Mỹ không xuất khẩu bất kỳ sản phẩm nào",
-   "Mỹ chỉ nhập khẩu hàng thâm dụng lao động"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Kết quả trái với dự đoán H–O (Mỹ dồi dào vốn nên xuất hàng thâm dụng vốn). Chương 1, mục 2.5."
- },
- {
-  "question": "Lợi thế so sánh của Ricardo dựa trên cơ sở nào?",
-  "options": [
-   "Năng suất tuyệt đối cao hơn",
-   "Chi phí cơ hội thấp hơn",
-   "Lượng vàng bạc tích lũy lớn hơn",
-   "Quy mô thị trường nội địa lớn hơn"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Ricardo: nước nên chuyên môn hóa sản phẩm có chi phí cơ hội thấp hơn. Chương 1, mục 2.3."
- },
- {
-  "question": "Lý thuyết của Linder về sự tương đồng giữa các quốc gia nhấn mạnh yếu tố nào?",
-  "options": [
-   "Phía cung: nguồn lực sản xuất dồi dào",
-   "Phía chính phủ: mức thuế quan thấp",
-   "Phía cầu: thu nhập và thị hiếu tương tự",
-   "Phía vận tải: khoảng cách địa lý gần"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Doanh nghiệp bán nội địa trước, sau đó xuất sang nước có thu nhập và thị hiếu giống mình. Chương 1, mục 2.6."
- },
- {
-  "question": "Theo lý thuyết chu kỳ sản phẩm quốc tế của Vernon, ở giai đoạn sản phẩm tiêu chuẩn hóa, sản xuất thường chuyển sang:",
-  "options": [
-   "Chỉ các nước phát minh ra sản phẩm",
-   "Các nước có lao động kỹ năng cao nhất",
-   "Các nước có thu nhập bình quân cao nhất",
-   "Các nước đang phát triển có lao động rẻ"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Sản phẩm tiêu chuẩn hóa không cần kỹ năng cao nên dịch chuyển tới nơi chi phí lao động thấp. Chương 1, mục 2.7."
- },
- {
-  "question": "Trường hợp nào KHÔNG phải là chức năng cụ thể của thương mại theo bài giảng?",
-  "options": [
-   "Chức năng chuyên môn kỹ thuật",
-   "Chức năng tài chính",
-   "Chức năng sản xuất trực tiếp ra hàng hóa",
-   "Chức năng quản trị"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Bốn chức năng: chuyên môn kỹ thuật, thương mại, tài chính, quản trị. Chương 1, mục 7."
- },
- {
-  "question": "Hạn chế chính của lý thuyết lợi thế tuyệt đối là:",
-  "options": [
-   "Không thừa nhận vai trò của chuyên môn hóa",
-   "Cho rằng thương mại là trò chơi tổng bằng không",
-   "Chỉ áp dụng được cho hàng công nghệ cao",
-   "Không giải thích được khi một nước kém hơn ở mọi sản phẩm"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Đây là điểm Ricardo khắc phục bằng lợi thế so sánh. Chương 1, mục 2.2."
- },
- {
-  "question": "Theo Heckscher–Ohlin, một nước dồi dào đất đai tương đối sẽ có xu hướng:",
-  "options": [
-   "Xuất khẩu sản phẩm dùng nhiều đất đai",
-   "Nhập khẩu sản phẩm dùng nhiều đất đai",
-   "Chỉ xuất khẩu sản phẩm thâm dụng vốn",
-   "Không tham gia thương mại quốc tế"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Nước xuất khẩu sản phẩm dùng nhiều yếu tố dồi dào và nhập sản phẩm dùng nhiều yếu tố khan hiếm. Chương 1, mục 2.4."
- },
- {
-  "question": "Yếu tố nào sau đây thuộc 4 nhóm điều kiện chính của kim cương Porter?",
-  "options": [
-   "Vai trò của chính phủ",
-   "Ngành hỗ trợ và ngành liên quan",
-   "Các sự kiện hoặc cơ hội bất ngờ",
-   "Tỷ giá hối đoái"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Vai trò chính phủ và cơ hội là hai yếu tố bổ sung, không thuộc 4 nhóm chính. Chương 1, mục 2.9."
- },
- {
-  "question": "Nguồn tạo lợi thế cạnh tranh lâu dài của công ty đa quốc gia theo lý thuyết lợi thế cạnh tranh toàn cầu KHÔNG gồm:",
-  "options": [
-   "Sở hữu trí tuệ",
-   "Đầu tư nghiên cứu và phát triển (R&D)",
-   "Tài nguyên thiên nhiên sẵn có của quốc gia",
-   "Kinh tế theo quy mô và phạm vi"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Lý thuyết nhấn mạnh doanh nghiệp tự tạo lợi thế qua chiến lược, không chỉ dựa tài nguyên sẵn có. Chương 1, mục 2.8."
- },
- {
-  "question": "Boeing sản xuất chiếc máy bay đầu tiên tốn 100 triệu USD, tỷ lệ kinh nghiệm 80%. Chi phí chiếc thứ 2 là bao nhiêu?",
-  "options": [
-   "20 triệu USD",
-   "50 triệu USD",
-   "90 triệu USD",
-   "80 triệu USD"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Sản lượng tích lũy tăng gấp đôi (1 → 2) thì chi phí đơn vị còn 80%: 100 × 0,8 = 80. Chương 1, mục 2.8."
- },
- {
-  "question": "Bảng năng suất: Mỹ – lúa mì 6 giạ/giờ, vải 4 m/giờ; Anh – lúa mì 1 giạ/giờ, vải 2 m/giờ. Kết luận nào đúng?",
-  "options": [
-   "Mỹ có lợi thế so sánh về cả hai mặt hàng",
-   "Mỹ có lợi thế tuyệt đối cả hai mặt hàng nhưng chỉ có lợi thế so sánh về lúa mì",
-   "Anh có lợi thế tuyệt đối về vải",
-   "Anh không thể thu lợi từ thương mại với Mỹ"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Mỹ: 6/1 > 4/2 nên so sánh ở lúa mì; Anh có lợi thế so sánh ở vải (2/4 > 1/6). Anh vẫn có lợi khi trao đổi. Chương 1, mục 2.3."
- },
- {
-  "question": "Với số liệu ở câu trên, chi phí cơ hội để sản xuất 1 giạ lúa mì ở Mỹ (tính bằng mét vải) là:",
-  "options": [
-   "2/3 mét vải",
-   "1,5 mét vải",
-   "2 mét vải",
-   "6 mét vải"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] Mỹ: 1 giờ làm được 6 giạ hoặc 4 m vải, nên 1 giạ lúa mì = 4/6 = 2/3 m vải (ở Anh là 2 m vải)."
- },
- {
-  "question": "Boeing có tỷ lệ kinh nghiệm 80%, chiếc đầu tiên tốn 100 triệu USD. Chi phí đơn vị khi sản lượng tích lũy đạt chiếc thứ 8 là:",
-  "options": [
-   "40 triệu USD",
-   "64 triệu USD",
-   "51,2 triệu USD",
-   "60 triệu USD"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BG] Gấp đôi 3 lần (1→2→4→8): 100 × 0,8³ = 51,2. Chương 1, mục 2.8."
- },
- {
-  "question": "Nước X sản xuất cả gạo và cà phê kém hiệu quả hơn nước Y, nhưng bất lợi ở cà phê nhỏ hơn bất lợi ở gạo. Theo Ricardo:",
-  "options": [
-   "X nên nhập khẩu cả hai mặt hàng từ Y",
-   "X vẫn có lợi thế so sánh về cà phê và nên chuyên môn hóa cà phê",
-   "X không thể thu lợi vì kém hơn ở mọi sản phẩm",
-   "X nên chuyên môn hóa gạo vì bất lợi lớn hơn"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Lợi thế so sánh phụ thuộc mức bất lợi tương đối chứ không cần giỏi hơn tuyệt đối. Chương 1, mục 2.3."
- },
- {
-  "question": "Cách giải thích nào sau đây KHÔNG phù hợp để giải thích nghịch lý Leontief?",
-  "options": [
-   "Lao động Mỹ có kỹ năng thấp hơn lao động các nước khác",
-   "Lao động Mỹ có kỹ năng và năng suất cao (vốn nhân lực)",
-   "Công nghệ giữa các nước không giống nhau",
-   "Thuế quan và cơ cấu nhu cầu làm sai lệch kết quả"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] Các cách giải thích đúng đều cho rằng lao động Mỹ có kỹ năng cao (vốn nhân lực lớn). Chương 1, mục 2.5."
- },
- {
-  "question": "Việc giày dép thể thao thiết kế ở Mỹ, Đức nhưng nay sản xuất chủ yếu ở Việt Nam, Indonesia, Bangladesh minh họa rõ nhất cho lý thuyết nào?",
-  "options": [
-   "Lợi thế tuyệt đối của Smith",
-   "Sự tương đồng giữa các quốc gia của Linder",
-   "Chủ nghĩa trọng thương",
-   "Chu kỳ sản phẩm quốc tế của Vernon"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Sản phẩm đã tiêu chuẩn hóa chuyển sang nước có lao động rẻ. Chương 1, mục 2.7."
- },
- {
-  "question": "Biện pháp nào sau đây mang tính trọng thương trong nông nghiệp?",
-  "options": [
-   "Xóa bỏ toàn bộ hạn ngạch và thuế nhập khẩu nông sản",
-   "Hạn chế xuất khẩu nguyên liệu thô, khuyến khích xuất khẩu sản phẩm chế biến",
-   "Chuyên môn hóa theo lợi thế so sánh và mở cửa hoàn toàn",
-   "Để giá nông sản do thị trường quốc tế quyết định hoàn toàn"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Trọng thương ủng hộ bảo hộ, trợ cấp, kiểm soát xuất khẩu và ưu tiên xuất khẩu hàng chế biến. Chương 1, mục 2.1."
- },
- {
-  "question": "Điểm khác biệt cơ bản giữa Linder và Heckscher–Ohlin là:",
-  "options": [
-   "Linder giải thích từ phía cung, H–O từ phía cầu",
-   "Linder chỉ áp dụng cho nước đang phát triển, H–O cho nước phát triển",
-   "Linder phủ nhận lợi thế so sánh, H–O ủng hộ lợi thế tuyệt đối",
-   "Linder giải thích từ phía cầu, H–O giải thích từ phía cung (nguồn lực)"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Linder bổ sung cho H–O và giải thích thương mại nội ngành giữa các nước tương đồng. Chương 1, mục 2.6."
- },
- {
-  "question": "Thị trường là:",
-  "options": [
-   "Tập hợp các thỏa thuận qua đó người mua và người bán tiếp xúc để trao đổi hàng hóa, dịch vụ",
-   "Địa điểm cố định duy nhất nơi diễn ra mua bán",
-   "Nơi nhà nước quy định giá cho mọi hàng hóa",
-   "Hệ thống kho bãi dự trữ hàng hóa"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Thông qua thị trường, giá cả được xác lập. Chương 2, mục 1."
- },
- {
-  "question": "Tại mức giá cao hơn giá cân bằng PE, thị trường xuất hiện tình trạng:",
-  "options": [
-   "Thiếu hàng (cầu lớn hơn cung)",
-   "Cân bằng bền vững",
-   "Thừa hàng (cung lớn hơn cầu)",
-   "Cầu tăng mạnh"
-  ],
-  "answer": 2,
-  "difficulty": 1,
-  "explanation": "[BG] Giá cao hơn PE: lượng cung > lượng cầu nên dư thừa. Chương 2, mục 1."
- },
- {
-  "question": "Giá cổng trại là mức giá:",
-  "options": [
-   "Nông dân bán cho tổ chức thu mua",
-   "Giữa các khâu trung gian",
-   "Người tiêu dùng cuối cùng trả",
-   "Do nhà nhập khẩu trả tại cảng"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Phân biệt giá cổng trại, bán buôn, bán lẻ. Chương 2, mục 2.5."
- },
- {
-  "question": "Đặc điểm nào sau đây là đặc điểm của sản phẩm nông nghiệp?",
-  "options": [
-   "Kích cỡ hoàn toàn đồng nhất",
-   "Không phụ thuộc điều kiện tự nhiên",
-   "Chỉ phục vụ nhu cầu xa xỉ",
-   "Mang tính thời vụ và dễ hỏng"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Sản phẩm nông nghiệp thời vụ, địa phương, dễ hỏng, kích cỡ không đồng nhất. Chương 2, mục 2.4."
- },
- {
-  "question": "Theo mô hình hành vi người tiêu dùng của Kotler, nhóm nhân tố ảnh hưởng gồm:",
-  "options": [
-   "Chỉ giá cả và thu nhập",
-   "Văn hóa, xã hội, cá nhân và tâm lý",
-   "Chỉ khuyến mại và quảng cáo",
-   "Chỉ nguồn cung và đối thủ"
-  ],
-  "answer": 1,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 2, mục 2.2."
- },
- {
-  "question": "Tiêu chí nào sau đây thuộc tiêu chí phân khúc thị trường?",
-  "options": [
-   "Chỉ quy mô vốn của doanh nghiệp",
-   "Chỉ giá thành sản xuất",
-   "Địa lý, nhân khẩu học, tâm lý, hành vi",
-   "Chỉ số lượng đối thủ"
-  ],
-  "answer": 2,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 2, mục 2.3."
- },
- {
-  "question": "Cầu thị trường khác 'nhu cầu' ở điểm nào?",
-  "options": [
-   "Cầu là đòi hỏi cơ bản của con người, không gắn với giá",
-   "Cầu là lượng hàng muốn mua tại mỗi mức giá, trong thời gian và địa điểm xác định",
-   "Cầu là dạng cụ thể của mong muốn, không gắn với thu nhập",
-   "Cầu chỉ phụ thuộc vào ý thích cá nhân, không gắn thị trường"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Nhu cầu là đòi hỏi cơ bản; mong muốn là dạng cụ thể; cầu gắn với khả năng thanh toán và mức giá. Chương 2, mục 1."
- },
- {
-  "question": "Khi giá cà phê (hàng bổ sung với đường) tăng mạnh, cầu về đường thường:",
-  "options": [
-   "Giảm",
-   "Tăng",
-   "Không đổi",
-   "Tăng gấp đôi"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Hàng bổ sung: giá hàng này tăng làm cầu hàng kia giảm. Chương 2, mục 1."
- },
- {
-  "question": "Yếu tố nào sau đây làm CUNG nông sản tăng?",
-  "options": [
-   "Giá đầu vào (phân bón) tăng",
-   "Thu nhập người tiêu dùng tăng",
-   "Tiến bộ công nghệ làm giảm chi phí sản xuất",
-   "Thị hiếu người tiêu dùng thay đổi"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Tiến bộ công nghệ, giảm giá đầu vào, trợ cấp làm cung tăng; thu nhập và thị hiếu là yếu tố của cầu. Chương 2, mục 1."
- },
- {
-  "question": "Sự thỏa mãn của khách hàng được định nghĩa là:",
-  "options": [
-   "Tổng chi phí khách hàng bỏ ra",
-   "Mức giá thấp nhất trên thị trường",
-   "Số lượng sản phẩm đã mua",
-   "Cảm nhận so sánh giữa kết quả tiêu dùng và kỳ vọng trước khi mua"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 2, mục 2.2."
- },
- {
-  "question": "Định vị sản phẩm là:",
-  "options": [
-   "Xác định giá bán thấp nhất cho sản phẩm",
-   "Tạo vị thế của sản phẩm trong tâm trí khách hàng mục tiêu so với đối thủ cạnh tranh",
-   "Chọn địa điểm đặt nhà máy sản xuất",
-   "Chia thị trường thành các khu vực hành chính"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 2, mục 2.3."
- },
- {
-  "question": "Yếu tố nào thuộc môi trường kinh doanh VI MÔ?",
-  "options": [
-   "Môi trường nhân khẩu",
-   "Môi trường công nghệ",
-   "Môi trường văn hóa – xã hội",
-   "Nhà cung ứng và trung gian marketing"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Vĩ mô: nhân khẩu, kinh tế, công nghệ, tự nhiên, chính trị–pháp luật, văn hóa–xã hội. Vi mô: nhà cung ứng, trung gian, khách hàng, đối thủ, công chúng. Chương 2, mục 2.3."
- },
- {
-  "question": "Theo Hill và Ingersent, chuỗi tiêu biểu của thị trường nông sản theo thứ tự là:",
-  "options": [
-   "Người sản xuất → thu gom → bán buôn → bán lẻ → người tiêu dùng",
-   "Người sản xuất → bán lẻ → thu gom → bán buôn → người tiêu dùng",
-   "Người thu gom → sản xuất → bán lẻ → bán buôn → người tiêu dùng",
-   "Người sản xuất → bán buôn → thu gom → người tiêu dùng → bán lẻ"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Mỗi lần chuyển quyền sở hữu là một lần định giá, hình thành hệ thống giá. Chương 2, mục 2.5."
- },
- {
-  "question": "Căn cứ nào KHÔNG phải căn cứ chọn thị trường mục tiêu?",
-  "options": [
-   "Phù hợp mục tiêu và quan niệm kinh doanh",
-   "Phù hợp nguồn lực của doanh nghiệp",
-   "Thị trường có nhiều đối thủ nhất để dễ so sánh",
-   "Đủ quy mô doanh số để có lời"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 2, mục 2.3."
- },
- {
-  "question": "Thị trường gạo có hàm cầu Qd = 100 − 2P và hàm cung Qs = 20 + 2P. Giá và lượng cân bằng là:",
-  "options": [
-   "P = 15; Q = 70",
-   "P = 25; Q = 50",
-   "P = 30; Q = 40",
-   "P = 20; Q = 60"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Qd = Qs ⇒ 100 − 2P = 20 + 2P ⇒ P = 20, Q = 60. Chương 2, mục 1."
- },
- {
-  "question": "Với thị trường ở câu trước, nếu giá bị ấn định ở P = 25 thì tình trạng thị trường là:",
-  "options": [
-   "Thừa 20 đơn vị",
-   "Thiếu 20 đơn vị",
-   "Thừa 40 đơn vị",
-   "Thiếu 40 đơn vị"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] Tại P = 25: Qd = 50, Qs = 70 nên cung vượt cầu 20 đơn vị."
- },
- {
-  "question": "Thu nhập người dân tăng khiến cầu về mì gói giảm, cầu về thịt tăng. Mì gói thuộc loại hàng:",
-  "options": [
-   "Hàng bình thường",
-   "Hàng thứ cấp",
-   "Hàng bổ sung",
-   "Hàng thay thế"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Hàng thứ cấp: thu nhập tăng thì cầu giảm. Chương 2, mục 1."
- },
- {
-  "question": "Một doanh nghiệp chia khách hàng thành nhóm 'ưa chuộng nông sản hữu cơ', 'tìm hàng giá rẻ', 'quan tâm thương hiệu'. Đây là phân khúc theo tiêu chí:",
-  "options": [
-   "Địa lý",
-   "Nhân khẩu học",
-   "Tâm lý và hành vi",
-   "Quy mô doanh nghiệp"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BG] Dựa vào thái độ, ưa chuộng và hành vi mua. Chương 2, mục 2.3."
- },
- {
-  "question": "Phân tích khách hàng nhằm trả lời câu hỏi nào sau đây?",
-  "options": [
-   "Giá cân bằng là bao nhiêu, thuế bao nhiêu, ai sản xuất",
-   "Đối thủ là ai, thuế quan bao nhiêu, quota bao nhiêu",
-   "Vốn đầu tư bao nhiêu, bao lâu hoàn vốn, lãi suất nào",
-   "Khách hàng là ai, cần và mong muốn gì, doanh nghiệp cần làm gì để thỏa mãn"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 2, mục 2.2."
- },
- {
-  "question": "Vì sao thị trường nông sản được cho là tạo ra khả năng sử dụng sản phẩm?",
-  "options": [
-   "Vì loại bỏ hoàn toàn tính thời vụ của nông sản",
-   "Vì tạo hữu dụng về thời gian, không gian địa lý và hình thức",
-   "Vì giúp giá cả luôn cố định quanh năm",
-   "Vì thay thế vai trò của người sản xuất"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 2, mục 2.5."
- },
- {
-  "question": "Chính sách thương mại quốc tế là:",
-  "options": [
-   "Hệ thống nguyên tắc, biện pháp kinh tế, hành chính, pháp luật nhằm thực hiện mục tiêu đối ngoại của một nước",
-   "Hệ thống giá bán nông sản do doanh nghiệp quyết định",
-   "Tập hợp các hợp đồng mua bán giữa hai doanh nghiệp",
-   "Quy định thuế thu nhập của người dân"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 3, khái niệm."
- },
- {
-  "question": "Chính sách mậu dịch tự do có đặc điểm:",
-  "options": [
-   "Nhà nước cấm hoàn toàn nhập khẩu",
-   "Nhà nước độc quyền ngoại thương",
-   "Nhà nước không can thiệp trực tiếp, mở cửa thị trường",
-   "Nhà nước đánh thuế cao mọi hàng nhập"
-  ],
-  "answer": 2,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 3, mục phân loại."
- },
- {
-  "question": "Chính sách bảo hộ mậu dịch nhằm:",
-  "options": [
-   "Bảo vệ thị trường nội địa trước hàng ngoại nhập",
-   "Xóa bỏ mọi rào cản thương mại",
-   "Khuyến khích nhập khẩu tối đa",
-   "Giảm vai trò của nhà nước trong kinh tế"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 3, mục phân loại."
- },
- {
-  "question": "Nhóm 'bốn con hổ châu Á' gồm:",
-  "options": [
-   "Nhật Bản, Hàn Quốc, Thái Lan, Malaysia",
-   "Việt Nam, Thái Lan, Indonesia, Philippines",
-   "Trung Quốc, Ấn Độ, Brazil, Nga",
-   "Hồng Kông, Đài Loan, Hàn Quốc, Singapore"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 3, mục 3.1."
- },
- {
-  "question": "Chính sách hướng nội có đặc điểm nào sau đây?",
-  "options": [
-   "Lấy xuất khẩu làm động lực phát triển",
-   "Tự lực phát triển, công nghiệp hóa thay thế nhập khẩu",
-   "Tham gia sâu vào phân công lao động quốc tế",
-   "Mở cửa hoàn toàn nền kinh tế"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Hướng ngoại mới lấy xuất khẩu làm động lực. Chương 3, mục phân loại."
- },
- {
-  "question": "Hạn chế của chính sách hướng ngoại là:",
-  "options": [
-   "Hàng hóa thiếu sức cạnh tranh quốc tế do được bảo hộ lâu dài",
-   "Kinh tế khép kín, người tiêu dùng chịu thiệt",
-   "Nền kinh tế chịu tác động lớn của thị trường thế giới",
-   "Tăng trưởng ổn định nhưng chậm"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Hướng ngoại: ưu điểm năng động, thu hút vốn; hạn chế: phụ thuộc thị trường thế giới, sai lầm vĩ mô gây thiệt hại lớn. Chương 3."
- },
- {
-  "question": "Hạn chế của mậu dịch tự do theo bài giảng là:",
-  "options": [
-   "Thiếu hàng hóa, môi trường kém cạnh tranh",
-   "Cô lập kinh tế, trì trệ",
-   "Nợ nước ngoài tăng do hạn chế nhập khẩu",
-   "Nền kinh tế dễ khủng hoảng, doanh nghiệp yếu dễ phá sản"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 3, mục phân loại."
- },
- {
-  "question": "Công nghiệp hóa thay thế nhập khẩu dẫn tới tình trạng 'kinh tế nhị nguyên', nghĩa là:",
-  "options": [
-   "Hai khu vực công nghiệp cùng phát triển như nhau",
-   "Xuất khẩu vượt nhập khẩu ở cả hai khu vực",
-   "Công nghiệp phát triển bên cạnh khu vực nông nghiệp lạc hậu",
-   "Nông nghiệp phát triển nhanh hơn công nghiệp"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Dấu hiệu: năng suất và lương công nghiệp cao hơn nhiều so với nông nghiệp, thất nghiệp thành thị. Chương 3, mục 3.1."
- },
- {
-  "question": "Công nghiệp hóa hướng về xuất khẩu của 'sự diệu kỳ Đông Á' bắt đầu từ:",
-  "options": [
-   "Sau Thế chiến I",
-   "Cuối những năm 1960",
-   "Những năm 1990",
-   "Đầu thế kỷ 21"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Các nước HPAEs đạt tăng trưởng cao, Nhật Bản đi đầu. Chương 3, mục 3.1."
- },
- {
-  "question": "Công nghiệp hóa thay thế nhập khẩu được thực hiện chủ yếu trong giai đoạn:",
-  "options": [
-   "Sau Thế chiến II đến những năm 1970",
-   "Thế kỷ 15 đến thế kỷ 18",
-   "Những năm 1990 đến nay",
-   "Trước Thế chiến I"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 3, mục 3.1."
- },
- {
-  "question": "Tranh luận về 'sự diệu kỳ Đông Á', bài giảng kết luận như thế nào?",
-  "options": [
-   "Thành công hoàn toàn nhờ mậu dịch tự do, không cần nhà nước",
-   "Thành công hoàn toàn nhờ bảo hộ cao và nhà nước độc quyền",
-   "Thành công chỉ nhờ tài nguyên thiên nhiên dồi dào",
-   "Thành công liên quan cả thương mại tự do lẫn vai trò chính sách của nhà nước"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Các nước này có bảo hộ thấp hơn nhưng vai trò can thiệp của chính phủ vẫn lớn. Chương 3, mục 3.1."
- },
- {
-  "question": "Quốc gia X bảo hộ mạnh, hàng nội địa thiếu sức cạnh tranh, cán cân thương mại mất cân đối, nợ nước ngoài lớn. Đây là hệ quả điển hình của:",
-  "options": [
-   "Chính sách hướng ngoại dựa vào xuất khẩu",
-   "Mậu dịch tự do hoàn toàn",
-   "Chính sách hướng nội thay thế nhập khẩu",
-   "Liên minh thuế quan"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 3, mục phân loại và 3.1."
- },
- {
-  "question": "Nhận định nào đúng khi so sánh hướng nội và hướng ngoại?",
-  "options": [
-   "Hướng nội thu hút vốn nước ngoài nhiều hơn hướng ngoại",
-   "Hướng ngoại thu hút vốn và cạnh tranh thúc đẩy cải tiến, nhưng dễ bị tác động từ thị trường thế giới",
-   "Hướng ngoại ít chịu tác động của thị trường thế giới hơn hướng nội",
-   "Hướng nội lấy xuất khẩu làm động lực chính"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 3, mục phân loại."
- },
- {
-  "question": "Dấu hiệu nào KHÔNG phải của nền kinh tế nhị nguyên sau công nghiệp hóa thay thế nhập khẩu?",
-  "options": [
-   "Lương nông nghiệp cao hơn lương công nghiệp",
-   "Năng suất công nghiệp cao hơn nhiều so với nông nghiệp",
-   "Thất nghiệp thành thị",
-   "Bảo hộ làm chênh lệch lương tăng"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] Thực tế lương công nghiệp cao hơn nông nghiệp. Chương 3, mục 3.1."
- },
- {
-  "question": "Thuế quan là khoản tiền:",
-  "options": [
-   "Doanh nghiệp nộp cho ngân hàng khi vay vốn",
-   "Chủ hàng xuất khẩu, nhập khẩu hoặc quá cảnh phải nộp cho hải quan",
-   "Người tiêu dùng nộp khi mua hàng trong nước",
-   "Nhà nước trả cho nhà xuất khẩu"
-  ],
-  "answer": 1,
-  "difficulty": 1,
-  "explanation": "[BG] Thuế quan làm tăng chi phí đưa hàng vào nước. Chương 4, mục 4.1."
- },
- {
-  "question": "Thuế nhập khẩu theo giá trị (ad valorem) được tính theo:",
-  "options": [
-   "Tỷ lệ phần trăm trên giá trị hàng hóa",
-   "Số tiền cố định trên mỗi đơn vị hàng",
-   "Trọng lượng hàng hóa",
-   "Số container nhập khẩu"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] P1 = P0 × (1 + t). Chương 4, mục 4.1."
- },
- {
-  "question": "Hạn ngạch nhập khẩu là:",
-  "options": [
-   "Mức thuế tối thiểu đánh vào hàng nhập",
-   "Mức giá tối đa của hàng nhập khẩu",
-   "Mức nhập khẩu tối đa do chính phủ đặt ra và cấp phép",
-   "Mức trợ cấp cho nhà xuất khẩu"
-  ],
-  "answer": 2,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 4, mục 4.2."
- },
- {
-  "question": "Khi nội tệ mất giá, tác động thường thấy là:",
-  "options": [
-   "Hàng xuất khẩu đắt lên, hạn chế xuất khẩu",
-   "Hàng nhập khẩu rẻ đi, khuyến khích nhập khẩu",
-   "Không ảnh hưởng đến thương mại",
-   "Hàng xuất khẩu rẻ đi, khuyến khích xuất khẩu"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 4, mục 4.3."
- },
- {
-  "question": "SPS là biện pháp liên quan đến:",
-  "options": [
-   "Kiểm dịch động thực vật và vệ sinh an toàn thực phẩm",
-   "Tiêu chuẩn kế toán quốc tế",
-   "Quy tắc xuất xứ hàng hóa",
-   "Giấy phép lao động nước ngoài"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 4, mục 4.3."
- },
- {
-  "question": "Thuế quan phân loại theo mục đích gồm:",
-  "options": [
-   "Thuế xuất khẩu và thuế nhập khẩu",
-   "Thuế tài chính và thuế bảo hộ",
-   "Thuế theo số lượng và thuế theo giá trị",
-   "Thuế MFN và thuế GSP"
-  ],
-  "answer": 1,
-  "difficulty": 1,
-  "explanation": "[BG] Theo đối tượng: XK, NK, quá cảnh; theo phương pháp tính: số lượng, giá trị, hỗn hợp. Chương 4, mục 4.1."
- },
- {
-  "question": "Thuế đối kháng (countervailing duty) được dùng để:",
-  "options": [
-   "Đối phó với hành vi bán phá giá",
-   "Bảo vệ nông sản trong mùa thu hoạch trong nước",
-   "Bù đắp tác động của trợ cấp xuất khẩu của nước ngoài",
-   "Tự vệ khẩn cấp khi nhập khẩu tăng quá mức"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Chống bán phá giá, thời vụ, bổ sung là các thuế đặc thù khác. Chương 4, mục 4.1."
- },
- {
-  "question": "Thuế thời vụ thường áp dụng với:",
-  "options": [
-   "Hàng điện tử, đặt mức cao vào dịp lễ",
-   "Hàng quá cảnh, đặt mức thấp vào cuối năm",
-   "Máy móc nông nghiệp nhập khẩu",
-   "Nông sản, đặt mức cao khi vào vụ thu hoạch trong nước"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 4, mục 4.1."
- },
- {
-  "question": "Thuế leo thang (tariff escalation) là thuế:",
-  "options": [
-   "Hàng chế biến càng sâu thì thuế càng thấp",
-   "Hàng chế biến càng sâu thì thuế càng cao",
-   "Mức thuế tăng dần theo từng năm cố định",
-   "Thuế chỉ áp dụng khi giá thế giới giảm"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 4, mục 4.1."
- },
- {
-  "question": "Mức thuế cao nhất trong các mức thuế sau là:",
-  "options": [
-   "Thuế tối huệ quốc (MFN)",
-   "Thuế ưu đãi phổ cập (GSP)",
-   "Thuế trong khu vực thương mại tự do",
-   "Thuế phi tối huệ quốc (non-MFN)"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Non-MFN áp cho nước chưa là thành viên WTO và chưa có hiệp định song phương. Chương 4, mục 4.1."
- },
- {
-  "question": "Thuế ưu đãi phổ cập (GSP) là:",
-  "options": [
-   "Mức thuế áp cho mọi thành viên WTO",
-   "Mức thuế cao nhất áp cho nước ngoài WTO",
-   "Ưu đãi đơn phương cho hàng từ các nước đang phát triển",
-   "Mức thuế chung của liên minh thuế quan"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 4, mục 4.1."
- },
- {
-  "question": "Điểm khác biệt chính giữa hạn ngạch và thuế quan là:",
-  "options": [
-   "Với hạn ngạch, chính phủ không thu thuế; phần chênh lệch thuộc người được cấp phép",
-   "Hạn ngạch làm giá nội địa giảm, thuế quan làm giá tăng",
-   "Hạn ngạch thu được tiền cho ngân sách còn thuế quan thì không",
-   "Hạn ngạch chỉ áp dụng cho hàng xuất khẩu"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Phần chênh lệch đó gọi là 'tiền thuê hạn ngạch'. Chương 4, mục 4.2."
- },
- {
-  "question": "Hạn chế xuất khẩu tự nguyện (VER) thường:",
-  "options": [
-   "Do nước nhập khẩu đơn phương áp đặt bằng thuế cao",
-   "Do WTO bắt buộc mọi thành viên thực hiện",
-   "Do doanh nghiệp tự quyết định không cần nhà nước",
-   "Do nước xuất khẩu chấp nhận theo yêu cầu của nước nhập khẩu để tránh hạn chế khác"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Có lợi thế chính trị và pháp lý. Chương 4, mục 4.3."
- },
- {
-  "question": "Hạn ngạch thuế quan khác hạn ngạch tuyệt đối ở chỗ:",
-  "options": [
-   "Cấm hoàn toàn nhập khẩu vượt hạn ngạch",
-   "Không giới hạn lượng nhập khẩu",
-   "Lượng trong hạn ngạch chịu thuế ưu đãi, phần vượt chịu thuế cao",
-   "Chỉ áp dụng với hàng xuất khẩu"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 4, mục 4.2."
- },
- {
-  "question": "Hàng rào kỹ thuật TBT khác SPS ở chỗ:",
-  "options": [
-   "TBT là tiêu chuẩn kỹ thuật, chất lượng nói chung; SPS về kiểm dịch và an toàn thực phẩm",
-   "TBT là kiểm dịch động thực vật; SPS là tiêu chuẩn chất lượng chung",
-   "TBT là thuế đặc thù; SPS là hạn ngạch",
-   "TBT chỉ áp dụng với hàng xuất khẩu của nước nhỏ"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Ví dụ TBT: HACCP, GlobalGAP, BMP. Chương 4, mục 4.3."
- },
- {
-  "question": "Tỷ lệ bảo hộ hiệu quả khác tỷ lệ bảo hộ danh nghĩa ở điểm nào?",
-  "options": [
-   "Chỉ tính thuế đánh vào đầu ra",
-   "Có tính đến thuế đánh vào đầu vào của sản xuất",
-   "Chỉ tính hạn ngạch mà bỏ qua thuế",
-   "Chỉ áp dụng cho hàng xuất khẩu"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 4, mục 4.1."
- },
- {
-  "question": "Nhập khẩu gạo giá P0 = 500 USD/tấn, thuế đặc thù Ts = 50 USD/tấn. Giá sau thuế P1 là:",
-  "options": [
-   "525 USD/tấn",
-   "450 USD/tấn",
-   "550 USD/tấn",
-   "5.500 USD/tấn"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BG] P1 = P0 + Ts = 500 + 50 = 550. Chương 4, mục 4.1."
- },
- {
-  "question": "Nhập khẩu đường giá P0 = 800 USD/tấn, thuế theo giá trị t = 12,5%. Giá sau thuế P1 là:",
-  "options": [
-   "900 USD/tấn",
-   "812,5 USD/tấn",
-   "1.000 USD/tấn",
-   "700 USD/tấn"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] P1 = P0(1 + t) = 800 × 1,125 = 900. Chương 4, mục 4.1."
- },
- {
-  "question": "Quốc gia nhỏ đánh thuế nhập khẩu, có tổn thất sản xuất b = 4, tổn thất tiêu dùng d = 3. Phúc lợi ròng của nước này:",
-  "options": [
-   "Tăng 7",
-   "Giảm 7",
-   "Giảm 1",
-   "Không đổi"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Nước nhỏ không ảnh hưởng giá thế giới nên e = 0; phúc lợi ròng = −(b + d) = −7. Chương 4, mục 4.1."
- },
- {
-  "question": "Nước lớn đánh thuế nhập khẩu có b = 4, d = 3 và phần thu e = 10 từ việc giảm giá xuất khẩu của nước ngoài. Phúc lợi ròng:",
-  "options": [
-   "Giảm 3",
-   "Giảm 7",
-   "Tăng 10",
-   "Tăng 3"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Phúc lợi ròng = e − (b + d) = 10 − 7 = +3. Chương 4, mục 4.1."
- },
- {
-  "question": "Nước lớn đánh thuế nhập khẩu có b = 4, d = 3, e = 5. Kết quả là:",
-  "options": [
-   "Phúc lợi ròng tăng 2",
-   "Phúc lợi ròng giảm 2",
-   "Phúc lợi ròng giảm 7",
-   "Phúc lợi ròng không đổi"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] e − (b + d) = 5 − 7 = −2; e < b + d nên phúc lợi giảm. Chương 4, mục 4.1."
- },
- {
-  "question": "Chính phủ đặt hạn ngạch 100.000 tấn đường. Giá thế giới 10, giá nội địa sau hạn ngạch 12 (triệu đồng/tấn). Tiền thuê hạn ngạch người được cấp phép thu được là:",
-  "options": [
-   "100.000 triệu đồng",
-   "1.000.000 triệu đồng",
-   "200.000 triệu đồng",
-   "1.200.000 triệu đồng"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BG] Tiền thuê = (12 − 10) × 100.000 = 200.000 triệu đồng; chính phủ không thu được thuế. Chương 4, mục 4.2."
- },
- {
-  "question": "Hạn ngạch thuế quan: trong hạn ngạch 100 tấn thuế 5%, ngoài hạn ngạch thuế 40%. Nhập 120 tấn, giá tính thuế 1.000 USD/tấn. Tổng thuế phải nộp là:",
-  "options": [
-   "13.000 USD",
-   "5.000 USD",
-   "8.000 USD",
-   "48.000 USD"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] 100 × 1.000 × 5% = 5.000; 20 × 1.000 × 40% = 8.000; tổng 13.000. Chương 4, mục 4.1–4.2."
- },
- {
-  "question": "Giá nông sản ở nước ngoài là 100. Chính phủ trợ cấp xuất khẩu 10 mỗi đơn vị. Nhà xuất khẩu sẽ bán ra cho đến khi giá trong nước cao hơn giá nước ngoài:",
-  "options": [
-   "Gấp đôi mức trợ cấp, tức giá trong nước là 120",
-   "Bằng 0, tức giá trong nước là 100",
-   "Bằng một nửa mức trợ cấp, tức giá trong nước là 105",
-   "Đúng bằng mức trợ cấp, tức giá trong nước là 110"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 4, mục 4.3."
- },
- {
-  "question": "Tác động của thuế quan nhập khẩu lên thị trường nội địa là:",
-  "options": [
-   "Giá nội địa tăng, tiêu dùng giảm, sản xuất trong nước tăng",
-   "Giá nội địa giảm, tiêu dùng tăng, sản xuất trong nước giảm",
-   "Giá nội địa tăng, tiêu dùng tăng, sản xuất giảm",
-   "Giá nội địa không đổi, tiêu dùng giảm"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] Hạn ngạch cũng có hiệu ứng tương tự. Chương 4, mục 4.1–4.2."
- },
- {
-  "question": "Nội tệ lên giá mạnh kéo dài sẽ dẫn đến:",
-  "options": [
-   "Hàng xuất khẩu rẻ tương đối, khuyến khích xuất khẩu",
-   "Hàng nhập khẩu rẻ tương đối, khuyến khích nhập khẩu",
-   "Thặng dư thương mại tăng nhanh",
-   "Chi phí đầu vào nhập khẩu tăng"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Nội tệ lên giá có tác động ngược với mất giá. Chương 4, mục 4.3."
- },
- {
-  "question": "Chính phủ ưu tiên mua nông sản trong nước dù giá cao hơn hàng nhập khẩu. Đây là công cụ:",
-  "options": [
-   "Hạn chế xuất khẩu tự nguyện",
-   "Thuế leo thang",
-   "Mua sắm của chính phủ",
-   "Hạn ngạch thuế quan"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 4, mục 4.3."
- },
- {
-  "question": "Hình thức liên kết kinh tế thấp nhất trong 5 mức độ là:",
-  "options": [
-   "Liên minh thuế quan",
-   "Thị trường chung",
-   "Liên minh kinh tế",
-   "Khu vực mậu dịch tự do (FTA)"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Thứ tự: FTA, liên hiệp thuế quan, thị trường chung, liên hiệp kinh tế, hội nhập kinh tế toàn bộ. Chương 5, mục 5.1."
- },
- {
-  "question": "AFTA là ví dụ của hình thức liên kết:",
-  "options": [
-   "Khu vực mậu dịch tự do",
-   "Liên minh thuế quan",
-   "Thị trường chung",
-   "Liên minh tiền tệ"
-  ],
-  "answer": 0,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 5, mục 5.1."
- },
- {
-  "question": "Liên minh tiền tệ là hình thức mà các nước:",
-  "options": [
-   "Chỉ xóa bỏ thuế quan với nhau",
-   "Hướng tới phát hành và sử dụng chung một đồng tiền",
-   "Chỉ áp dụng biểu thuế chung với nước ngoài",
-   "Chỉ cho phép di chuyển lao động tự do"
-  ],
-  "answer": 1,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 5, mục 5.1."
- },
- {
-  "question": "Hội nhập kinh tế quốc tế phân loại theo quy mô không gian gồm:",
-  "options": [
-   "Hội nhập nội địa và hội nhập địa phương",
-   "Hội nhập ngắn hạn và dài hạn",
-   "Hội nhập chính thức và phi chính thức",
-   "Hội nhập khu vực và hội nhập toàn cầu"
-  ],
-  "answer": 3,
-  "difficulty": 1,
-  "explanation": "[BG] Chương 5, mục 5.2."
- },
- {
-  "question": "Điểm khác nhau giữa FTA và liên minh thuế quan là:",
-  "options": [
-   "FTA dùng biểu thuế chung; liên minh thuế quan giữ thuế riêng",
-   "FTA cho phép di chuyển vốn, lao động; liên minh thuế quan thì không",
-   "FTA: mỗi nước giữ thuế riêng với nước ngoài; liên minh thuế quan: dùng biểu thuế chung",
-   "FTA chỉ áp dụng cho hàng nông sản"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 5, mục 5.1."
- },
- {
-  "question": "Thị trường chung khác liên minh thuế quan ở chỗ:",
-  "options": [
-   "Cho phép di chuyển tự do vốn và lao động giữa các thành viên",
-   "Chỉ xóa bỏ thuế quan trong nội khối",
-   "Phát hành đồng tiền chung",
-   "Không có biểu thuế chung với nước ngoài"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Ví dụ: EEC trước năm 1992. Chương 5, mục 5.1."
- },
- {
-  "question": "Tác động TIÊU CỰC của liên kết kinh tế quốc tế là:",
-  "options": [
-   "Khai thác hiệu quả lợi thế so sánh",
-   "Cạnh tranh giữa các thành viên có thể làm doanh nghiệp kém cạnh tranh phá sản",
-   "Tiết kiệm chi phí quản lý và hải quan",
-   "Tạo động lực ứng dụng khoa học công nghệ"
-  ],
-  "answer": 1,
-  "difficulty": 2,
-  "explanation": "[BG] Các phương án còn lại là tác động tích cực. Chương 5, mục 5.1."
- },
- {
-  "question": "Đặc trưng của liên kết kinh tế quốc tế là:",
-  "options": [
-   "Do một nước lớn áp đặt cho nước nhỏ",
-   "Chỉ gồm các nước cùng chế độ chính trị",
-   "Chỉ áp dụng ở cấp song phương",
-   "Tham gia tự nguyện trên cơ sở điều khoản đã thỏa thuận, là hình thức phát triển cao của phân công lao động quốc tế"
-  ],
-  "answer": 3,
-  "difficulty": 2,
-  "explanation": "[BG] Sự tham gia là tự nguyện. Chương 5, mục 5.1."
- },
- {
-  "question": "Theo bài giảng, đặc trưng của hội nhập quốc tế KHÔNG gồm:",
-  "options": [
-   "Quá trình kết hợp các đơn vị riêng rẽ",
-   "Hình thành một chỉnh thể mới",
-   "Các quốc gia giữ nguyên chính sách, không cần điều chỉnh",
-   "Động cơ chính là lợi ích cơ bản của quốc gia"
-  ],
-  "answer": 2,
-  "difficulty": 2,
-  "explanation": "[BG] Các quốc gia phải tự điều chỉnh. Chương 5, mục 5.2."
- },
- {
-  "question": "Quan điểm 'hội nhập là sản phẩm cuối cùng', ví dụ Liên bang Mỹ, Thụy Sĩ, thuộc cách tiếp cận:",
-  "options": [
-   "Chủ nghĩa liên bang",
-   "Quan điểm của Karl Deutsch",
-   "Quan điểm hành vi",
-   "Quan điểm trọng thương"
-  ],
-  "answer": 0,
-  "difficulty": 2,
-  "explanation": "[BG] Chương 5, mục 5.2."
- },
- {
-  "question": "Việt Nam gia nhập ASEAN và WTO lần lượt vào các năm:",
-  "options": [
-   "1992 và 2000",
-   "1967 và 1995",
-   "1995 và 2007",
-   "2000 và 2012"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BS] ASEAN thành lập 1967, AFTA từ 1992; Việt Nam gia nhập ASEAN 1995, WTO 2007. Cần đối chiếu nguồn chính thức."
- },
- {
-  "question": "Khu vực Mậu dịch Tự do ASEAN (AFTA) hình thành từ năm:",
-  "options": [
-   "1967",
-   "1992",
-   "1995",
-   "2007"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BS] ASEAN thành lập năm 1967; AFTA từ năm 1992. Cần đối chiếu nguồn chính thức."
- },
- {
-  "question": "Nguyên tắc 'tối huệ quốc' (MFN) của WTO có nghĩa là:",
-  "options": [
-   "Chỉ nước đang phát triển được hưởng thuế thấp",
-   "Mỗi nước tự quyết định mức thuế cho từng đối tác",
-   "Hàng nhập khẩu bị đánh thuế cao hơn hàng nội địa",
-   "Ưu đãi dành cho một thành viên phải được dành cho tất cả thành viên khác"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BS] Nguyên tắc cơ bản của WTO. Cần đối chiếu giáo trình."
- },
- {
-  "question": "Các nước A, B, C xóa bỏ thuế giữa nhau, dùng chung biểu thuế với nước ngoài và cho lao động, vốn di chuyển tự do. Đây là:",
-  "options": [
-   "Thị trường chung",
-   "Khu vực mậu dịch tự do",
-   "Liên minh thuế quan",
-   "Liên minh tiền tệ"
-  ],
-  "answer": 0,
-  "difficulty": 3,
-  "explanation": "[BG] Có biểu thuế chung (liên minh thuế quan) cộng thêm tự do di chuyển vốn, lao động. Chương 5, mục 5.1."
- },
- {
-  "question": "Các nước X, Y xóa bỏ thuế nội khối nhưng mỗi nước vẫn giữ biểu thuế riêng với nước thứ ba. Đây là:",
-  "options": [
-   "Liên minh thuế quan",
-   "Thị trường chung",
-   "Liên minh kinh tế",
-   "Khu vực mậu dịch tự do"
-  ],
-  "answer": 3,
-  "difficulty": 3,
-  "explanation": "[BG] Chương 5, mục 5.1."
- },
- {
-  "question": "Hội nhập kinh tế quốc tế đặt ra thách thức nào cho nông nghiệp một nước?",
-  "options": [
-   "Triệt tiêu hoàn toàn rào cản thương mại ngay lập tức",
-   "Áp lực cạnh tranh và yêu cầu hoàn thiện thể chế kinh tế",
-   "Chấm dứt phụ thuộc lẫn nhau giữa các nền kinh tế",
-   "Chỉ mang lại lợi ích, không có áp lực"
-  ],
-  "answer": 1,
-  "difficulty": 3,
-  "explanation": "[BG] Bản chất hội nhập: tạo thuận lợi nhưng cũng tạo áp lực cạnh tranh. Chương 5, mục 5.2."
- },
- {
-  "question": "Hiệp định SPS và TBT do tổ chức nào quản lý?",
-  "options": [
-   "ASEAN",
-   "IMF",
-   "WTO",
-   "FAO"
-  ],
-  "answer": 2,
-  "difficulty": 3,
-  "explanation": "[BS] SPS và TBT là các hiệp định thuộc WTO. Cần đối chiếu nguồn chính thức."
- }
+  {
+    "question": "Theo khái niệm được Đại hội XI nêu năm 2011, tư tưởng Hồ Chí Minh là gì?",
+    "options": [
+      "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam",
+      "Tập hợp các bài nói chuyện về đạo đức cá nhân",
+      "Một học thuyết tách rời chủ nghĩa Mác - Lênin",
+      "Chỉ là kinh nghiệm hoạt động ngoại giao"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Khái niệm nhấn mạnh hệ thống quan điểm toàn diện, sâu sắc về cách mạng Việt Nam. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Một trong những nguồn gốc hình thành tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Chủ nghĩa thực dân",
+      "Chủ nghĩa Mác - Lênin",
+      "Chủ nghĩa cá nhân",
+      "Tư tưởng phong kiến bảo thủ"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định chủ nghĩa Mác - Lênin là cơ sở lý luận quan trọng nhất. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh được hình thành trên cơ sở kế thừa giá trị nào của dân tộc?",
+    "options": [
+      "Tâm lý cục bộ địa phương",
+      "Tư tưởng bá quyền",
+      "Truyền thống yêu nước và các giá trị tốt đẹp của dân tộc",
+      "Tập quán phân biệt đẳng cấp"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu việc kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Đối tượng nghiên cứu của môn học Tư tưởng Hồ Chí Minh chủ yếu là:",
+    "options": [
+      "Các sự kiện quân sự trên thế giới",
+      "Toàn bộ quan điểm của Hồ Chí Minh thể hiện trong di sản và thực tiễn",
+      "Lịch sử các triều đại phong kiến",
+      "Chỉ các văn bản pháp luật hiện hành"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Đối tượng bao gồm hệ thống quan điểm và quá trình tư tưởng đó vận động trong thực tiễn. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp luận được giáo trình nhấn mạnh khi nghiên cứu tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử",
+      "Chủ nghĩa duy tâm chủ quan",
+      "Phương pháp suy đoán thuần túy",
+      "Phương pháp loại trừ thực tiễn"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình xác định phương pháp luận Mác - Lênin làm cơ sở. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Nguyên tắc thống nhất giữa lý luận và thực tiễn yêu cầu người học:",
+    "options": [
+      "Chỉ ghi nhớ khái niệm",
+      "Tách lý luận khỏi hoạt động thực tế",
+      "Vận dụng lý luận vào thực tiễn và kiểm nghiệm bằng thực tiễn",
+      "Coi kinh nghiệm cá nhân là chân lý tuyệt đối"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh lý luận phải liên hệ và được kiểm nghiệm trong thực tiễn. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Quan điểm lịch sử - cụ thể yêu cầu xem xét tư tưởng trong:",
+    "options": [
+      "Một hoàn cảnh bất biến",
+      "Điều kiện, hoàn cảnh và tiến trình lịch sử cụ thể",
+      "Sự tách biệt với thời đại",
+      "Những nhận định không cần chứng cứ"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Cần đặt sự vật, hiện tượng trong các mối liên hệ và điều kiện lịch sử cụ thể. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Vì sao cần nghiên cứu tư tưởng Hồ Chí Minh một cách toàn diện và hệ thống?",
+    "options": [
+      "Để tách rời các nội dung thành những quan điểm độc lập",
+      "Vì các nội dung có quan hệ thống nhất, tác động qua lại",
+      "Để chỉ tập trung vào một vài câu nói nổi tiếng",
+      "Vì mọi nội dung đều không thay đổi theo thực tiễn"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình lưu ý các bộ phận của hệ thống tư tưởng có quan hệ biện chứng với nhau. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp kết hợp logic và lịch sử giúp người nghiên cứu:",
+    "options": [
+      "Chỉ liệt kê sự kiện theo năm",
+      "Chỉ khái quát mà không xét quá trình",
+      "Vừa nắm trình tự phát triển vừa nhận thức bản chất, quy luật",
+      "Bỏ qua bối cảnh ra đời của tư tưởng"
+    ],
+    "answer": 2,
+    "difficulty": 3,
+    "explanation": "[GT] Kết hợp hai phương pháp giúp nhận thức cả quá trình vận động và bản chất của vấn đề. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Một ý nghĩa của việc học tập môn Tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Thay thế toàn bộ các môn khoa học khác",
+      "Nâng cao năng lực tư duy lý luận và phương pháp công tác",
+      "Chỉ phục vụ việc ghi nhớ niên đại",
+      "Không liên quan đến rèn luyện đạo đức"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu ý nghĩa nâng cao năng lực tư duy lý luận, đạo đức và phong cách. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi phân tích một quan điểm của Hồ Chí Minh, cách làm phù hợp là:",
+    "options": [
+      "Chỉ trích riêng một câu nói khỏi bối cảnh",
+      "Đặt quan điểm trong hệ thống tư tưởng và hoàn cảnh lịch sử",
+      "Dựa hoàn toàn vào suy nghĩ chủ quan",
+      "Bỏ qua thực tiễn hoạt động của Người"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Cần xem xét quan điểm trong chỉnh thể hệ thống và điều kiện lịch sử cụ thể. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh cùng với chủ nghĩa Mác - Lênin được xác định là:",
+    "options": [
+      "Nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng",
+      "Một tài liệu tham khảo không có vai trò định hướng",
+      "Một hệ tư tưởng chỉ dùng trong nghiên cứu lịch sử",
+      "Một bộ phận của văn hóa dân gian"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình khẳng định vị trí nền tảng tư tưởng và kim chỉ nam cho hành động. (Chương 1).",
+    "chapter": 1
+  },
+  {
+    "question": "Bối cảnh Việt Nam cuối thế kỷ XIX, đầu thế kỷ XX nổi bật bởi tình trạng nào?",
+    "options": [
+      "Đã hoàn thành công nghiệp hóa",
+      "Trở thành thuộc địa và xã hội biến đổi dưới ách thống trị thực dân",
+      "Độc lập, thống nhất và phát triển ổn định",
+      "Không tồn tại mâu thuẫn xã hội"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình trình bày quá trình Pháp xâm lược và biến đổi xã hội Việt Nam. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Các phong trào yêu nước theo khuynh hướng phong kiến cuối thế kỷ XIX có điểm chung nào?",
+    "options": [
+      "Đều giành được thắng lợi hoàn toàn",
+      "Đều không có tinh thần yêu nước",
+      "Thể hiện lòng yêu nước nhưng cuối cùng thất bại",
+      "Đều chủ trương xây dựng chủ nghĩa xã hội"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu các phong trào chống Pháp anh dũng nhưng không thành công. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Một hạn chế cơ bản của các phong trào yêu nước theo khuynh hướng dân chủ tư sản đầu thế kỷ XX là:",
+    "options": [
+      "Không có người tham gia",
+      "Chưa tìm được đường lối và phương pháp đấu tranh đúng đắn",
+      "Không đặt mục tiêu cứu nước",
+      "Được thực dân Pháp ủng hộ"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Các phong trào thể hiện tinh thần yêu nước nhưng chưa xác định được con đường thắng lợi. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Sự xuất hiện của giai cấp công nhân Việt Nam gắn với quá trình nào?",
+    "options": [
+      "Khai thác thuộc địa của thực dân Pháp",
+      "Cải cách ruộng đất sau năm 1954",
+      "Công nghiệp hóa xã hội chủ nghĩa",
+      "Thành lập ASEAN"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Giai cấp công nhân hình thành trong quá trình khai thác thuộc địa. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Theo giáo trình, cách mạng Tháng Mười Nga năm 1917 có ý nghĩa quốc tế nổi bật nào?",
+    "options": [
+      "Khôi phục chế độ phong kiến ở Nga",
+      "Mở ra thời đại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội",
+      "Chấm dứt mọi cuộc đấu tranh dân tộc",
+      "Thành lập Liên hợp quốc"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Thắng lợi cách mạng Tháng Mười mở ra thời đại mới và con đường giải phóng cho các dân tộc. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Quốc tế Cộng sản được thành lập vào năm nào?",
+    "options": [
+      "1917",
+      "1919",
+      "1925",
+      "1930"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu Quốc tế Cộng sản ra đời ngày 2-3-1919 tại Mátxcơva. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Giá trị truyền thống nào có vai trò quan trọng thúc đẩy Hồ Chí Minh ra đi tìm đường cứu nước?",
+    "options": [
+      "Chủ nghĩa cá nhân",
+      "Lòng yêu nước và ý chí độc lập dân tộc",
+      "Tư tưởng biệt lập",
+      "Tâm lý cầu an"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Lòng yêu nước là động lực và điểm xuất phát quan trọng trong hành trình cứu nước. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Trong các nguồn gốc lý luận, chủ nghĩa Mác - Lênin có vai trò như thế nào đối với tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Là nguồn gốc lý luận trực tiếp và giữ vai trò quyết định về bản chất",
+      "Chỉ là một tài liệu tham khảo phụ",
+      "Không có ảnh hưởng",
+      "Chỉ ảnh hưởng đến phong cách diễn đạt"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình xác định chủ nghĩa Mác - Lênin là cơ sở lý luận quan trọng nhất. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Hồ Chí Minh tiếp thu tinh hoa văn hóa nhân loại theo phương thức nào?",
+    "options": [
+      "Tiếp thu nguyên xi, không chọn lọc",
+      "Phủ nhận toàn bộ văn hóa phương Đông",
+      "Có chọn lọc, phê phán và vận dụng sáng tạo",
+      "Chỉ tiếp thu văn hóa của một quốc gia"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Người tiếp thu tinh hoa văn hóa nhân loại một cách chọn lọc, sáng tạo. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Yếu tố chủ quan nào góp phần quan trọng hình thành tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Phẩm chất cá nhân, tư duy độc lập và năng lực hoạt động thực tiễn",
+      "Điều kiện địa lý בלבד",
+      "Sự áp đặt của một cá nhân khác",
+      "Hoàn cảnh gia đình là yếu tố duy nhất"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình đề cập phẩm chất, năng lực tư duy và hoạt động thực tiễn của Hồ Chí Minh. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Sự kiện nào đánh dấu Hồ Chí Minh tìm thấy con đường cứu nước theo khuynh hướng vô sản?",
+    "options": [
+      "Đọc Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và thuộc địa của Lênin",
+      "Tham gia phong trào Cần Vương",
+      "Thành lập Mặt trận Việt Minh",
+      "Đọc Tuyên ngôn Độc lập năm 1945"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Việc tiếp cận luận cương của Lênin giúp Người tìm thấy phương hướng giải phóng dân tộc. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Hồ Chí Minh xác định con đường giải phóng dân tộc gắn với:",
+    "options": [
+      "Chủ nghĩa phong kiến",
+      "Chủ nghĩa tư bản thuộc địa",
+      "Cách mạng vô sản",
+      "Chính sách cải lương"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Người lựa chọn con đường cách mạng vô sản để giải phóng dân tộc. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Giai đoạn 1921–1930 trong quá trình hình thành tư tưởng Hồ Chí Minh gắn với nội dung chủ yếu nào?",
+    "options": [
+      "Hình thành cơ bản tư tưởng về con đường cách mạng Việt Nam",
+      "Lãnh đạo xây dựng chủ nghĩa xã hội ở miền Bắc",
+      "Lãnh đạo kháng chiến chống Mỹ",
+      "Tổng kết công cuộc đổi mới"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "explanation": "[GT] Đây là giai đoạn Người hoạt động, truyền bá chủ nghĩa Mác - Lênin và chuẩn bị về tư tưởng, chính trị, tổ chức cho Đảng. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Sự kiện thành lập Đảng Cộng sản Việt Nam năm 1930 gắn với vai trò nào của Hồ Chí Minh?",
+    "options": [
+      "Trực tiếp soạn thảo và chủ trì việc hợp nhất các tổ chức cộng sản",
+      "Chỉ tham gia với tư cách quan sát viên",
+      "Không có liên hệ",
+      "Lãnh đạo Quốc hội khóa I"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh chủ trì Hội nghị hợp nhất các tổ chức cộng sản đầu năm 1930. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Giai đoạn 1941–1969 thể hiện đặc điểm nào trong sự phát triển tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Tư tưởng được bổ sung, phát triển và chỉ đạo cách mạng Việt Nam trong thực tiễn",
+      "Người ngừng hoạt động chính trị",
+      "Chỉ tập trung nghiên cứu văn học",
+      "Không có sự phát triển về tư tưởng"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tư tưởng tiếp tục phát triển qua lãnh đạo cách mạng, kháng chiến và xây dựng đất nước. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Hội nghị Trung ương 8 tháng 5-1941 có ý nghĩa nổi bật nào?",
+    "options": [
+      "Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu",
+      "Quyết định tiến hành công nghiệp hóa",
+      "Thành lập ASEAN",
+      "Thông qua Hiến pháp năm 1992"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hội nghị xác định giải phóng dân tộc là nhiệm vụ cấp bách, hàng đầu. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh hình thành từ thực tiễn Việt Nam và thế giới cho thấy đặc điểm nào?",
+    "options": [
+      "Tính độc lập, sáng tạo và gắn bó với thực tiễn",
+      "Tính sao chép máy móc",
+      "Tính biệt lập với phong trào thế giới",
+      "Tính bất biến, không phát triển"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tư tưởng là kết quả vận dụng sáng tạo lý luận vào điều kiện cụ thể. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Việc học tập kinh nghiệm quốc tế theo Hồ Chí Minh cần tránh điều gì?",
+    "options": [
+      "Chọn lọc kinh nghiệm phù hợp",
+      "Vận dụng sáng tạo vào hoàn cảnh Việt Nam",
+      "Sao chép máy móc mô hình của nước khác",
+      "Trao đổi và đoàn kết với các nước"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Người nhấn mạnh phải học tập nhưng không áp dụng máy móc kinh nghiệm nước ngoài. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Một bài học từ sự thất bại của các phong trào yêu nước trước khi Đảng ra đời là:",
+    "options": [
+      "Cần có đường lối cứu nước đúng đắn và tổ chức lãnh đạo phù hợp",
+      "Không cần tập hợp lực lượng",
+      "Chỉ dựa vào viện trợ bên ngoài",
+      "Từ bỏ mục tiêu độc lập"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Thực tiễn đặt ra yêu cầu tìm con đường và phương pháp cách mạng đúng đắn. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Quá trình hình thành tư tưởng Hồ Chí Minh được giáo trình nhìn nhận như thế nào?",
+    "options": [
+      "Một quá trình liên tục, gắn với hoạt động thực tiễn và sự phát triển của cách mạng",
+      "Một sự kiện diễn ra trong một ngày",
+      "Chỉ hình thành sau năm 1945",
+      "Không chịu tác động của bối cảnh lịch sử"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "explanation": "[GT] Tư tưởng hình thành và phát triển qua nhiều giai đoạn, gắn với thực tiễn cách mạng. (Chương 2).",
+    "chapter": 2
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh, mục tiêu trước hết của cách mạng ở thuộc địa là:",
+    "options": [
+      "Giải phóng dân tộc",
+      "Phát triển tư bản độc quyền",
+      "Duy trì chế độ thuộc địa",
+      "Mở rộng lãnh thổ"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Giải phóng dân tộc là nhiệm vụ hàng đầu trong hoàn cảnh nước thuộc địa. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Độc lập dân tộc theo tư tưởng Hồ Chí Minh phải là nền độc lập:",
+    "options": [
+      "Hình thức, phụ thuộc nước ngoài",
+      "Thực sự, hoàn toàn và gắn với quyền tự quyết của dân tộc",
+      "Chỉ dành cho một nhóm người",
+      "Không cần chủ quyền lãnh thổ"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Độc lập phải thực chất, toàn diện, có chủ quyền và quyền tự quyết. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Câu nói nào thể hiện khát vọng độc lập, tự do của Hồ Chí Minh?",
+    "options": [
+      "Không có gì quý hơn độc lập, tự do",
+      "Một cây làm chẳng nên non",
+      "Có công mài sắt, có ngày nên kim",
+      "Uống nước nhớ nguồn"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đây là câu nói thể hiện sâu sắc giá trị độc lập, tự do. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc muốn thắng lợi cần đi theo con đường:",
+    "options": [
+      "Cách mạng vô sản",
+      "Cải lương trong khuôn khổ thuộc địa",
+      "Quân chủ lập hiến",
+      "Tách rời phong trào cách mạng thế giới"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Người khẳng định con đường cách mạng vô sản là con đường giải phóng dân tộc. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Lực lượng của cách mạng giải phóng dân tộc theo tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Chỉ một tầng lớp trí thức",
+      "Toàn dân tộc, lấy liên minh công - nông làm nền tảng",
+      "Chỉ giai cấp tư sản",
+      "Chỉ lực lượng bên ngoài"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Người chủ trương đoàn kết toàn dân, trong đó công nhân và nông dân là nền tảng. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Hồ Chí Minh đánh giá cách mạng giải phóng dân tộc ở thuộc địa có khả năng:",
+    "options": [
+      "Chỉ thắng lợi sau khi cách mạng chính quốc thắng lợi",
+      "Chủ động giành thắng lợi trước cách mạng ở chính quốc",
+      "Không thể giành thắng lợi",
+      "Chỉ thành công bằng con đường cải lương"
+    ],
+    "answer": 1,
+    "difficulty": 3,
+    "explanation": "[GT] Người khẳng định cách mạng thuộc địa có tính chủ động, sáng tạo và có thể thắng lợi trước. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Phương châm đấu tranh của cách mạng giải phóng dân tộc được Hồ Chí Minh xác định là:",
+    "options": [
+      "Kết hợp đấu tranh chính trị với đấu tranh vũ trang khi cần thiết",
+      "Chỉ đấu tranh nghị trường",
+      "Chỉ dựa vào ngoại giao",
+      "Không sử dụng bất kỳ hình thức đấu tranh nào"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình trình bày việc sử dụng bạo lực cách mạng và kết hợp các hình thức đấu tranh phù hợp. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Theo Hồ Chí Minh, độc lập dân tộc gắn liền với chủ nghĩa xã hội vì:",
+    "options": [
+      "Chủ nghĩa xã hội làm mất quyền độc lập",
+      "Độc lập là điều kiện tiên quyết, chủ nghĩa xã hội bảo đảm độc lập bền vững",
+      "Hai mục tiêu không liên quan",
+      "Chỉ cần độc lập chính trị, không cần đời sống nhân dân"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Độc lập dân tộc là điều kiện để xây dựng CNXH; CNXH là cơ sở bảo đảm độc lập lâu dài. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Mục tiêu của chủ nghĩa xã hội theo tư tưởng Hồ Chí Minh trước hết hướng tới:",
+    "options": [
+      "Nâng cao đời sống vật chất và tinh thần của nhân dân",
+      "Tăng đặc quyền cho một nhóm nhỏ",
+      "Xóa bỏ mọi hoạt động sản xuất",
+      "Chỉ phát triển quân sự"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Chủ nghĩa xã hội hướng đến cuộc sống ấm no, tự do, hạnh phúc cho nhân dân. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Một đặc trưng quan trọng của chủ nghĩa xã hội theo tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Nhân dân là người làm chủ",
+      "Quyền lực tập trung vào một dòng họ",
+      "Không có vai trò của lao động",
+      "Duy trì áp bức giai cấp"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Nhân dân làm chủ là nội dung cốt lõi trong quan niệm về CNXH. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Động lực quan trọng nhất của chủ nghĩa xã hội theo Hồ Chí Minh là:",
+    "options": [
+      "Con người, trước hết là nhân dân lao động",
+      "Tài nguyên thiên nhiên đơn thuần",
+      "Viện trợ từ bên ngoài",
+      "Bộ máy hành chính"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Con người là động lực quan trọng, trong đó lợi ích và sức mạnh nhân dân giữ vị trí trung tâm. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Theo Hồ Chí Minh, muốn xây dựng chủ nghĩa xã hội cần:",
+    "options": [
+      "Kết hợp cải tạo xã hội cũ với xây dựng xã hội mới",
+      "Chỉ thay đổi khẩu hiệu",
+      "Bỏ qua mọi điều kiện thực tế",
+      "Sao chép nguyên mẫu nước ngoài"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Xây dựng CNXH là quá trình cải biến toàn diện, vừa xây vừa chống và phù hợp thực tiễn. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Nguyên tắc quan trọng trong xây dựng chủ nghĩa xã hội ở Việt Nam là:",
+    "options": [
+      "Độc lập, tự chủ và sáng tạo",
+      "Phụ thuộc hoàn toàn vào mô hình nước khác",
+      "Không cần đoàn kết quốc tế",
+      "Tách rời điều kiện lịch sử cụ thể"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh nhấn mạnh phải xuất phát từ thực tế Việt Nam và giữ vững độc lập tự chủ. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Quan điểm 'xây đi đôi với chống' trong xây dựng chủ nghĩa xã hội có nghĩa là:",
+    "options": [
+      "Vừa xây dựng các mặt tích cực, vừa đấu tranh chống lực cản và tiêu cực",
+      "Chỉ tập trung phê phán",
+      "Chỉ xây dựng mà không phòng ngừa sai trái",
+      "Phủ nhận mọi thành tựu đã có"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Xây dựng phải đi đôi với đấu tranh chống các thế lực, biểu hiện cản trở sự phát triển. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Theo Hồ Chí Minh, bước đi và biện pháp xây dựng chủ nghĩa xã hội phải:",
+    "options": [
+      "Phù hợp điều kiện thực tế, có kế hoạch và bước đi thích hợp",
+      "Tiến hành nóng vội, chủ quan",
+      "Giống hệt mọi quốc gia",
+      "Không cần căn cứ nguồn lực"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Người yêu cầu xác định bước đi phù hợp, tránh chủ quan, nóng vội. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Mối quan hệ giữa cách mạng giải phóng dân tộc và cách mạng xã hội chủ nghĩa được hiểu đúng là:",
+    "options": [
+      "Hai cuộc cách mạng tách biệt tuyệt đối",
+      "Giải phóng dân tộc mở đường và độc lập gắn với định hướng xã hội chủ nghĩa",
+      "Chủ nghĩa xã hội phải có trước độc lập",
+      "Không có mối liên hệ"
+    ],
+    "answer": 1,
+    "difficulty": 3,
+    "explanation": "[GT] Tư tưởng Hồ Chí Minh thống nhất mục tiêu độc lập dân tộc với CNXH. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Hồ Chí Minh chủ trương đoàn kết, học tập kinh nghiệm các nước xã hội chủ nghĩa nhưng phải:",
+    "options": [
+      "Vận dụng sáng tạo, không rập khuôn",
+      "Sao chép toàn bộ thể chế",
+      "Từ chối mọi kinh nghiệm",
+      "Chỉ tiếp nhận kinh nghiệm quân sự"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh học tập kinh nghiệm nhưng phải phù hợp phong tục, lịch sử và điều kiện Việt Nam. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc chỉ có ý nghĩa đầy đủ khi:",
+    "options": [
+      "Nhân dân được hưởng tự do, hạnh phúc và có cuộc sống ấm no",
+      "Chỉ có quốc kỳ và quốc ca",
+      "Chỉ có bộ máy nhà nước",
+      "Không cần quan tâm đến quyền lợi nhân dân"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Độc lập phải gắn với tự do, hạnh phúc và quyền lợi thiết thực của nhân dân. (Chương 3).",
+    "chapter": 3
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh, sự ra đời của Đảng Cộng sản Việt Nam là kết quả kết hợp:",
+    "options": [
+      "Chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước",
+      "Phong trào tư sản với chủ nghĩa thực dân",
+      "Tôn giáo với phong trào quân chủ",
+      "Phong trào địa chủ với tư bản độc quyền"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình trình bày quy luật hình thành Đảng từ sự kết hợp ba nhân tố. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Đảng Cộng sản Việt Nam mang bản chất giai cấp nào?",
+    "options": [
+      "Giai cấp tư sản",
+      "Giai cấp công nhân",
+      "Giai cấp địa chủ",
+      "Tầng lớp tiểu thương"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Đảng mang bản chất giai cấp công nhân, đồng thời có tính nhân dân và dân tộc sâu sắc. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Theo Hồ Chí Minh, Đảng phải lấy chủ nghĩa nào làm cốt?",
+    "options": [
+      "Chủ nghĩa Mác - Lênin",
+      "Chủ nghĩa cá nhân",
+      "Chủ nghĩa dân tộc hẹp hòi",
+      "Chủ nghĩa thực dụng"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Hồ Chí Minh khẳng định Đảng phải lấy chủ nghĩa Mác - Lênin làm cốt. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Nguyên tắc tổ chức cơ bản của Đảng được Hồ Chí Minh nhấn mạnh là:",
+    "options": [
+      "Tập trung dân chủ",
+      "Tập trung tuyệt đối không dân chủ",
+      "Tự do vô tổ chức",
+      "Phân quyền theo dòng họ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tập trung dân chủ là nguyên tắc tổ chức cơ bản của Đảng. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Tự phê bình và phê bình trong Đảng nhằm mục đích chủ yếu nào?",
+    "options": [
+      "Giúp tổ chức và mỗi đảng viên tiến bộ, sửa chữa khuyết điểm",
+      "Hạ thấp uy tín đồng chí",
+      "Tạo mâu thuẫn kéo dài",
+      "Thay thế kỷ luật tổ chức"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tự phê bình và phê bình là phương thức xây dựng Đảng, phải có tính xây dựng. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Theo Hồ Chí Minh, Đảng cầm quyền phải chú trọng điều gì?",
+    "options": [
+      "Giữ gìn Đảng trong sạch, vững mạnh và gắn bó với nhân dân",
+      "Đặt lợi ích tổ chức cao hơn lợi ích dân tộc",
+      "Tách khỏi quần chúng",
+      "Chỉ quan tâm đến số lượng đảng viên"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Đảng cầm quyền phải thường xuyên tự chỉnh đốn, giữ đạo đức và mối liên hệ với nhân dân. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Một nguy cơ cần kiên quyết chống trong Đảng theo Hồ Chí Minh là:",
+    "options": [
+      "Chủ nghĩa cá nhân",
+      "Tinh thần trách nhiệm",
+      "Tự phê bình",
+      "Gắn bó với nhân dân"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Hồ Chí Minh coi chủ nghĩa cá nhân là nguồn gốc của nhiều căn bệnh trong Đảng. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh, Nhà nước Việt Nam là Nhà nước:",
+    "options": [
+      "Của nhân dân, do nhân dân, vì nhân dân",
+      "Của riêng đội ngũ công chức",
+      "Của một tầng lớp đặc quyền",
+      "Đứng ngoài nhân dân"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đây là nội dung khái quát về bản chất Nhà nước trong tư tưởng Hồ Chí Minh. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Nhà nước của dân có nghĩa là:",
+    "options": [
+      "Mọi quyền lực nhà nước thuộc về nhân dân",
+      "Nhân dân không có quyền tham gia quản lý",
+      "Cán bộ tự quyết định mọi vấn đề",
+      "Nhà nước không chịu sự giám sát"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nhân dân là chủ thể tối cao của quyền lực nhà nước. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Nhà nước do dân được hiểu là:",
+    "options": [
+      "Nhà nước do nhân dân lập nên, ủng hộ và tham gia xây dựng",
+      "Nhà nước tự hình thành không cần nhân dân",
+      "Nhà nước chỉ do một nhóm chuyên gia thành lập",
+      "Nhà nước do nước ngoài quyết định"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nhân dân là chủ thể xây dựng và tham gia vào hoạt động của nhà nước. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Nhà nước vì dân đòi hỏi hoạt động của bộ máy nhà nước phải:",
+    "options": [
+      "Phục vụ lợi ích và quyền lợi chính đáng của nhân dân",
+      "Ưu tiên lợi ích riêng của cán bộ",
+      "Chỉ bảo vệ lợi ích của người giàu",
+      "Không cần giải trình"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Mục tiêu hoạt động của nhà nước là phục vụ nhân dân. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Hồ Chí Minh quan niệm cán bộ nhà nước là:",
+    "options": [
+      "Công bộc, người phục vụ nhân dân",
+      "Người đứng trên nhân dân",
+      "Người có quyền lợi không giới hạn",
+      "Người không chịu trách nhiệm"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Cán bộ là người gánh vác việc chung, phục vụ nhân dân chứ không phải làm quan cách mạng. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Quyền lực nhà nước theo Hồ Chí Minh có nguồn gốc từ đâu?",
+    "options": [
+      "Sự ủy thác của nhân dân",
+      "Bản thân bộ máy nhà nước",
+      "Một cá nhân đứng đầu",
+      "Một tổ chức kinh tế"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nhà nước không tự có quyền lực; quyền lực do nhân dân ủy thác. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Dân chủ trực tiếp là hình thức trong đó:",
+    "options": [
+      "Nhân dân trực tiếp quyết định những vấn đề liên quan đến quyền và vận mệnh của mình",
+      "Nhân dân chỉ nghe thông báo",
+      "Mọi quyết định do cơ quan đại diện tự đưa ra",
+      "Cán bộ quyết định thay nhân dân trong mọi trường hợp"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Dân chủ trực tiếp cho phép nhân dân trực tiếp thực hiện quyền làm chủ. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Dân chủ gián tiếp hay dân chủ đại diện được thực hiện thông qua:",
+    "options": [
+      "Các đại biểu do nhân dân lựa chọn, bầu ra và các thiết chế quyền lực",
+      "Các doanh nghiệp tư nhân",
+      "Các tổ chức nước ngoài",
+      "Những người tự nhận đại diện"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nhân dân thực thi quyền lực thông qua đại biểu và thiết chế do mình lập nên. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Một quyền của nhân dân để kiểm soát quyền lực nhà nước theo Hồ Chí Minh là:",
+    "options": [
+      "Phê bình, kiểm tra và bãi miễn đại biểu khi cần",
+      "Không được góp ý cho chính quyền",
+      "Không được giám sát cán bộ",
+      "Trao quyền lực vô thời hạn cho đại biểu"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình nêu nhân dân có quyền kiểm soát, phê bình và bãi miễn đại biểu. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Nhà nước pháp quyền theo tư tưởng Hồ Chí Minh cần bảo đảm:",
+    "options": [
+      "Quản lý xã hội bằng pháp luật và mọi người bình đẳng trước pháp luật",
+      "Cán bộ đứng ngoài pháp luật",
+      "Pháp luật chỉ áp dụng với người dân",
+      "Không cần cơ chế kiểm tra"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nhà nước phải tôn trọng pháp luật, tổ chức và hoạt động theo hiến pháp, pháp luật. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Để xây dựng Nhà nước trong sạch, vững mạnh, cần chú trọng chống:",
+    "options": [
+      "Tham ô, lãng phí, quan liêu",
+      "Tinh thần trách nhiệm",
+      "Thực hành dân chủ",
+      "Công khai và minh bạch"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh coi tham ô, lãng phí, quan liêu là những căn bệnh cần kiên quyết đấu tranh. (Chương 4).",
+    "chapter": 4
+  },
+  {
+    "question": "Theo Hồ Chí Minh, đại đoàn kết toàn dân tộc có vị trí như thế nào?",
+    "options": [
+      "Vấn đề chiến lược, quyết định thành công của cách mạng",
+      "Biện pháp tình thế trong một thời điểm",
+      "Nội dung chỉ liên quan đến ngoại giao",
+      "Hoạt động tự nguyện không có vai trò chính trị"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đại đoàn kết là vấn đề chiến lược, có ý nghĩa quyết định đối với thắng lợi cách mạng. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Nền tảng của khối đại đoàn kết toàn dân tộc theo Hồ Chí Minh là:",
+    "options": [
+      "Liên minh công nhân - nông dân - trí thức",
+      "Chỉ tầng lớp doanh nhân",
+      "Chỉ các tổ chức tôn giáo",
+      "Chỉ lực lượng vũ trang"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh liên minh công - nông là nền tảng, đồng thời cần liên minh với trí thức. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Lực lượng của khối đại đoàn kết toàn dân tộc bao gồm:",
+    "options": [
+      "Mọi người Việt Nam yêu nước, không phân biệt giai cấp, dân tộc, tôn giáo",
+      "Chỉ người cùng nghề nghiệp",
+      "Chỉ một địa phương",
+      "Chỉ người có cùng quan điểm cá nhân"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đại đoàn kết phải tập hợp rộng rãi mọi người Việt Nam có lòng yêu nước. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Hình thức tổ chức tiêu biểu của khối đại đoàn kết toàn dân tộc là:",
+    "options": [
+      "Mặt trận dân tộc thống nhất",
+      "Một hội nghề nghiệp riêng lẻ",
+      "Một cơ quan hành chính",
+      "Một tổ chức kinh tế độc quyền"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Mặt trận dân tộc thống nhất là hình thức tổ chức tập hợp lực lượng rộng rãi. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Nguyên tắc hoạt động của Mặt trận dân tộc thống nhất theo tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Hiệp thương dân chủ",
+      "Áp đặt một chiều",
+      "Loại trừ mọi khác biệt",
+      "Phục tùng cá nhân"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Mặt trận gồm nhiều giai cấp, tầng lớp, tôn giáo nên cần hiệp thương dân chủ. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Đại đoàn kết toàn dân tộc phải được xây dựng trên cơ sở nào?",
+    "options": [
+      "Lợi ích tối cao của dân tộc và quyền lợi cơ bản của nhân dân",
+      "Lợi ích riêng của một nhóm",
+      "Sự đồng nhất tuyệt đối về nghề nghiệp",
+      "Việc loại bỏ mọi ý kiến khác nhau"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Mục tiêu vì nước, vì dân là mẫu số chung để quy tụ các lực lượng. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Theo Hồ Chí Minh, đoàn kết cần đi đôi với:",
+    "options": [
+      "Đấu tranh, phê bình những biểu hiện chia rẽ và tiêu cực",
+      "Thỏa hiệp với mọi hành vi sai trái",
+      "Bỏ qua nguyên tắc",
+      "Loại bỏ mọi khác biệt hợp pháp"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Đoàn kết phải gắn với đấu tranh, khắc phục những biểu hiện gây mất đoàn kết. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Đoàn kết quốc tế theo Hồ Chí Minh nhằm mục đích nào?",
+    "options": [
+      "Kết hợp sức mạnh dân tộc với sức mạnh thời đại, vì mục tiêu chung tiến bộ",
+      "Thay thế hoàn toàn sức mạnh dân tộc",
+      "Tạo sự phụ thuộc vào bên ngoài",
+      "Chỉ phục vụ lợi ích kinh tế ngắn hạn"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Đoàn kết quốc tế góp phần thực hiện mục tiêu hòa bình, độc lập dân tộc, dân chủ và tiến bộ xã hội. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Theo Hồ Chí Minh, đại đoàn kết dân tộc có quan hệ với đoàn kết quốc tế như thế nào?",
+    "options": [
+      "Đại đoàn kết dân tộc là cơ sở, đoàn kết quốc tế là sự mở rộng và hỗ trợ",
+      "Hai nội dung hoàn toàn đối lập",
+      "Đoàn kết quốc tế thay thế đoàn kết dân tộc",
+      "Không có mối liên hệ"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình nêu đại đoàn kết toàn dân tộc phải gắn liền với đoàn kết quốc tế. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Một lực lượng quan trọng trong đoàn kết quốc tế theo tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Phong trào cộng sản và công nhân quốc tế",
+      "Chỉ các tập đoàn độc quyền",
+      "Các thế lực thực dân",
+      "Những tổ chức chống hòa bình"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh coi trọng đoàn kết với phong trào cộng sản và công nhân quốc tế. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Đoàn kết với các dân tộc bị áp bức nhằm:",
+    "options": [
+      "Ủng hộ cuộc đấu tranh vì độc lập, tự do và quyền tự quyết",
+      "Duy trì chế độ thuộc địa",
+      "Mở rộng sự thống trị của nước lớn",
+      "Ngăn cản phong trào giải phóng dân tộc"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Đây là một nội dung quan trọng của tư tưởng đoàn kết quốc tế. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Khi thực hiện đoàn kết quốc tế, Hồ Chí Minh chủ trương tránh khuynh hướng nào?",
+    "options": [
+      "Chủ nghĩa vị kỷ dân tộc và chủ nghĩa sôvanh",
+      "Tinh thần hợp tác bình đẳng",
+      "Tôn trọng độc lập, tự chủ",
+      "Đoàn kết trên cơ sở mục tiêu chung"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "explanation": "[GT] Các khuynh hướng vị kỷ, sôvanh làm suy yếu sự đoàn kết quốc tế. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Cơ sở để mở rộng Mặt trận dân tộc thống nhất là:",
+    "options": [
+      "Mục tiêu chung vì nước, vì dân và lợi ích dân tộc",
+      "Yêu cầu mọi thành viên có cùng tôn giáo",
+      "Chỉ chấp nhận một tầng lớp xã hội",
+      "Loại trừ người có khác biệt"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Lợi ích tối cao của dân tộc là điểm quy tụ rộng rãi các lực lượng. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Theo Hồ Chí Minh, đoàn kết phải được thực hiện bằng cách:",
+    "options": [
+      "Chân thành, rộng rãi, lâu dài và có nguyên tắc",
+      "Chỉ liên kết khi có lợi trước mắt",
+      "Ép buộc các lực lượng tham gia",
+      "Không cần tôn trọng sự khác biệt"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Đoàn kết cần chân thành, rộng rãi, bền vững và dựa trên nguyên tắc. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Ý nghĩa của đoàn kết quốc tế đối với cách mạng Việt Nam là:",
+    "options": [
+      "Tranh thủ sự đồng tình, ủng hộ và tạo sức mạnh chung với các lực lượng tiến bộ",
+      "Làm mất tính độc lập của cách mạng",
+      "Thay thế vai trò của nhân dân trong nước",
+      "Chỉ nhằm mở rộng thương mại"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đoàn kết quốc tế góp phần phá thế cô lập và tăng cường sức mạnh cho cách mạng Việt Nam. (Chương 5).",
+    "chapter": 5
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh, văn hóa có vai trò như thế nào?",
+    "options": [
+      "Một mặt trận, đồng thời soi đường cho quốc dân đi",
+      "Hoạt động giải trí không liên quan xã hội",
+      "Lĩnh vực chỉ dành cho nghệ sĩ",
+      "Yếu tố không ảnh hưởng đến cách mạng"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh coi văn hóa là một mặt trận và có vai trò dẫn dắt nhận thức, hành động. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Nền văn hóa mới theo tư tưởng Hồ Chí Minh có tính chất:",
+    "options": [
+      "Dân tộc, khoa học và đại chúng",
+      "Phong kiến, khép kín và đặc quyền",
+      "Thực dân, lệ thuộc và phiến diện",
+      "Chỉ mang tính thương mại"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Ba tính chất cơ bản được nêu trong tư tưởng Hồ Chí Minh về văn hóa. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Tính dân tộc của nền văn hóa thể hiện ở việc:",
+    "options": [
+      "Kế thừa và phát huy bản sắc, truyền thống tốt đẹp của dân tộc",
+      "Từ bỏ mọi giá trị truyền thống",
+      "Sao chép nguyên mẫu văn hóa nước ngoài",
+      "Khép kín, không giao lưu"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tính dân tộc đòi hỏi giữ gìn và phát huy bản sắc văn hóa Việt Nam. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Tính khoa học của nền văn hóa đòi hỏi:",
+    "options": [
+      "Tiến bộ, phù hợp quy luật và chống những gì phản khoa học",
+      "Dựa vào mê tín dị đoan",
+      "Phủ nhận tri thức",
+      "Chỉ bảo vệ tập quán lạc hậu"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tính khoa học hướng văn hóa đến tiến bộ, hợp lý và chống phản khoa học. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Tính đại chúng của nền văn hóa có nghĩa là:",
+    "options": [
+      "Văn hóa phục vụ nhân dân và do nhân dân tham gia sáng tạo",
+      "Văn hóa chỉ dành cho tầng lớp thượng lưu",
+      "Nhân dân không được tiếp cận văn hóa",
+      "Văn hóa tách khỏi đời sống"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Văn hóa phải thuộc về nhân dân, phục vụ nhân dân và phát huy vai trò sáng tạo của nhân dân. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Theo Hồ Chí Minh, văn hóa phải gắn bó với:",
+    "options": [
+      "Chính trị và kinh tế",
+      "Chỉ hoạt động giải trí",
+      "Chỉ nghi lễ tôn giáo",
+      "Các hoạt động tách biệt đời sống xã hội"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh nhấn mạnh quan hệ giữa văn hóa với chính trị, kinh tế và đời sống xã hội. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Quan điểm về xây dựng đời sống mới hướng tới:",
+    "options": [
+      "Lối sống, nếp sống và đạo đức lành mạnh, tiến bộ",
+      "Duy trì thói quen lạc hậu",
+      "Đề cao hưởng thụ cá nhân",
+      "Tách cá nhân khỏi cộng đồng"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đời sống mới bao gồm cách sống, nếp sống và đạo đức phù hợp xã hội mới. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Theo Hồ Chí Minh, đạo đức có vai trò như thế nào đối với người cách mạng?",
+    "options": [
+      "Là gốc, là nền tảng của người cách mạng",
+      "Chỉ là yếu tố trang trí",
+      "Không cần thiết nếu có năng lực",
+      "Chỉ quan trọng trong đời sống riêng"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Hồ Chí Minh coi đạo đức là gốc của người cách mạng. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Chuẩn mực đạo đức cách mạng 'trung với nước, hiếu với dân' thể hiện:",
+    "options": [
+      "Lòng trung thành với Tổ quốc và hết lòng phục vụ nhân dân",
+      "Sự phục tùng cá nhân",
+      "Chỉ lòng hiếu thảo trong gia đình",
+      "Trách nhiệm riêng với một tổ chức"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh phát triển nội dung trung, hiếu truyền thống thành trung với nước, hiếu với dân. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Chuẩn mực 'cần, kiệm, liêm, chính, chí công vô tư' nhấn mạnh:",
+    "options": [
+      "Lao động chăm chỉ, tiết kiệm, trong sạch, ngay thẳng và đặt lợi ích chung lên trên",
+      "Tích lũy tài sản bằng mọi cách",
+      "Ưu tiên lợi ích cá nhân",
+      "Tránh mọi trách nhiệm"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Đây là hệ chuẩn mực đạo đức quan trọng trong tư tưởng Hồ Chí Minh. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Theo Hồ Chí Minh, yêu thương con người phải gắn với:",
+    "options": [
+      "Tôn trọng con người, giúp đỡ nhau và đấu tranh chống áp bức",
+      "Sự ban ơn từ người có quyền lực",
+      "Thái độ phân biệt đối xử",
+      "Sự thờ ơ trước khó khăn"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Lòng yêu thương con người thể hiện ở sự cảm thông, tôn trọng và giúp con người phát triển. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Tinh thần quốc tế trong sáng theo tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Đoàn kết với nhân dân các nước vì hòa bình, độc lập và tiến bộ",
+      "Đề cao chủ nghĩa dân tộc hẹp hòi",
+      "Can thiệp vào công việc nội bộ nước khác",
+      "Chỉ hợp tác khi có lợi ích vật chất trực tiếp"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Tinh thần quốc tế trong sáng gắn chủ nghĩa yêu nước chân chính với chủ nghĩa quốc tế. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Nguyên tắc xây dựng đạo đức cách mạng theo Hồ Chí Minh là:",
+    "options": [
+      "Nói đi đôi với làm, nêu gương về đạo đức",
+      "Chỉ nói mà không làm",
+      "Đánh giá đạo đức qua lời hứa",
+      "Tách đạo đức khỏi công việc"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nêu gương và thống nhất lời nói với việc làm là nguyên tắc quan trọng. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Một nguyên tắc khác trong xây dựng đạo đức cách mạng là:",
+    "options": [
+      "Xây đi đôi với chống",
+      "Chỉ chống mà không xây",
+      "Chỉ xây mà không đấu tranh",
+      "Không cần tự rèn luyện"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Cần xây dựng phẩm chất tốt đồng thời đấu tranh với biểu hiện sai trái. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Theo Hồ Chí Minh, đạo đức cách mạng không phải là điều có sẵn mà cần:",
+    "options": [
+      "Tu dưỡng, rèn luyện bền bỉ hằng ngày",
+      "Chờ đợi tự hình thành",
+      "Chỉ học lý thuyết một lần",
+      "Dựa vào danh tiếng cá nhân"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Đạo đức được hình thành qua quá trình tu dưỡng và rèn luyện liên tục. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Quan niệm của Hồ Chí Minh về con người là:",
+    "options": [
+      "Vừa là mục tiêu, vừa là động lực của cách mạng",
+      "Chỉ là công cụ sản xuất",
+      "Chỉ là đối tượng quản lý",
+      "Không có vai trò trong sự phát triển xã hội"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Con người là mục tiêu giải phóng, đồng thời là nguồn lực và động lực của cách mạng. (Chương 6).",
+    "chapter": 6
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh, chiến lược trồng người cần được thực hiện:",
+    "options": [
+      "Thường xuyên, lâu dài và gắn với giáo dục, đào tạo, tự rèn luyện",
+      "Chỉ trong thời chiến",
+      "Chỉ dành cho cán bộ lãnh đạo",
+      "Không cần quan tâm đến thế hệ trẻ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Trồng người là công việc lâu dài, có ý nghĩa chiến lược đối với sự nghiệp cách mạng. (Chương 6).",
+    "chapter": 6
+  }
+]
+
+[
+  {
+    "question": "Đại hội đại biểu toàn quốc lần thứ XI của Đảng nêu khái niệm Tư tưởng Hồ Chí Minh vào năm nào?",
+    "options": [
+      "Năm 2011",
+      "Năm 1986",
+      "Năm 1991",
+      "Năm 2006"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình dẫn khái niệm được Đại hội XI nêu năm 2011. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo khái niệm được trích dẫn trong giáo trình, tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và phát triển sáng tạo học thuyết nào?",
+    "options": [
+      "Chủ nghĩa tự do",
+      "Chủ nghĩa thực dân",
+      "Chủ nghĩa bảo thủ",
+      "Chủ nghĩa Mác - Lênin"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Khái niệm xác định chủ nghĩa Mác - Lênin là cơ sở được vận dụng và phát triển sáng tạo. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Ngoài việc vận dụng chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh còn kế thừa yếu tố nào?",
+    "options": [
+      "Tư tưởng bá quyền",
+      "Các quan niệm phân biệt dân tộc",
+      "Các giá trị truyền thống tốt đẹp của dân tộc",
+      "Các tập quán lạc hậu"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Khái niệm nhấn mạnh sự kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Yếu tố văn hóa nào được nêu trong khái niệm Tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Những yếu tố văn hóa phản tiến bộ",
+      "Tinh hoa văn hóa nhân loại",
+      "Chỉ văn hóa của một nước",
+      "Chỉ văn hóa cung đình"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Khái niệm ghi nhận sự tiếp thu tinh hoa văn hóa nhân loại. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh được khẳng định là tài sản tinh thần của:",
+    "options": [
+      "Đảng và dân tộc ta",
+      "Riêng một tổ chức xã hội",
+      "Chỉ giới nghiên cứu",
+      "Chỉ thế hệ đương thời"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Khái niệm nêu tư tưởng Hồ Chí Minh là tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, nội dung cơ bản của tư tưởng Hồ Chí Minh phản ánh những vấn đề có tính chất nào của cách mạng Việt Nam?",
+    "options": [
+      "Ngẫu nhiên",
+      "Thuần túy cá nhân",
+      "Không liên quan lịch sử",
+      "Tính quy luật"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Hệ thống quan điểm phản ánh những vấn đề có tính quy luật của cách mạng Việt Nam. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Mục tiêu xây dựng đất nước được nêu khi giải thích nội hàm tư tưởng Hồ Chí Minh là một nước Việt Nam như thế nào?",
+    "options": [
+      "Chỉ giàu mạnh về quân sự",
+      "Phát triển nhưng không có dân chủ",
+      "Hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh",
+      "Chia cắt, lệ thuộc và khép kín"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu rõ mục tiêu xây dựng nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo phần giải thích nội hàm, con đường phát triển của dân tộc Việt Nam là:",
+    "options": [
+      "Phụ thuộc vào chủ nghĩa thực dân",
+      "Độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "Độc lập dân tộc tách rời mọi mục tiêu xã hội",
+      "Trở lại chế độ phong kiến"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Đây là con đường phát triển được xác định trong hệ thống quan điểm của Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Trong hệ thống quan điểm được trình bày ở Chương I, lực lượng cách mạng Việt Nam được xác định là:",
+    "options": [
+      "Toàn thể nhân dân Việt Nam yêu nước",
+      "Chỉ một nhóm người có tài sản",
+      "Chỉ lực lượng bên ngoài",
+      "Chỉ một tầng lớp trí thức"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu lực lượng cách mạng là toàn thể nhân dân Việt Nam yêu nước. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nội dung xây dựng con người Việt Nam trong tư tưởng Hồ Chí Minh hướng đến việc hình thành con người có:",
+    "options": [
+      "Đặc quyền kinh tế",
+      "Tâm lý thụ động",
+      "Tư tưởng cục bộ",
+      "Năng lực và phẩm chất đạo đức cách mạng"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Phần giải thích nội hàm đề cập xây dựng con người Việt Nam có năng lực và phẩm chất đạo đức cách mạng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc kết hợp sức mạnh dân tộc với sức mạnh thời đại được đặt trên cơ sở quan hệ quốc tế nào?",
+    "options": [
+      "Cô lập và biệt lập",
+      "Cạnh tranh bằng mọi giá",
+      "Hòa bình, hợp tác, hữu nghị cùng phát triển",
+      "Đối đầu và áp đặt"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu cơ sở quan hệ quốc tế hòa bình, hợp tác, hữu nghị cùng phát triển. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khái niệm Tư tưởng Hồ Chí Minh đồng thời làm rõ những nội dung nào?",
+    "options": [
+      "Chỉ những tác phẩm văn học",
+      "Nội hàm, cơ sở hình thành và ý nghĩa",
+      "Tiểu sử gia đình, sở thích và đời sống riêng",
+      "Chỉ các mốc hoạt động ngoại giao"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình khái quát ba nội dung: nội hàm, cơ sở hình thành và ý nghĩa. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, Cương lĩnh chính trị đầu tiên của Đảng được thông qua khi nào?",
+    "options": [
+      "Ngay khi Đảng Cộng sản Việt Nam ra đời",
+      "Sau Đại hội VII",
+      "Sau năm 1945",
+      "Trong thời kỳ đổi mới"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình cho biết các văn kiện làm thành Cương lĩnh chính trị đầu tiên được thông qua ngay từ khi Đảng ra đời. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Cương lĩnh chính trị đầu tiên của Đảng thể hiện điều gì liên quan đến tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Toàn bộ các chính sách kinh tế hiện đại",
+      "Chỉ các vấn đề văn hóa",
+      "Một hệ thống quan điểm không liên quan cách mạng",
+      "Những nội dung rất cơ bản về cách mạng Việt Nam"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhận định Cương lĩnh đầu tiên thể hiện những nội dung rất cơ bản của tư tưởng Hồ Chí Minh về cách mạng Việt Nam. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, Đại hội II của Đảng diễn ra vào thời gian nào?",
+    "options": [
+      "Tháng 9 năm 1945",
+      "Tháng 4 năm 1975",
+      "Tháng 2 năm 1951",
+      "Tháng 2 năm 1930"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn đánh giá của Đại hội II vào tháng 2-1951 về đường lối, tác phong và đạo đức Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội II của Đảng nhấn mạnh việc học tập Hồ Chí Minh là điều kiện tiên quyết để:",
+    "options": [
+      "Tách Đảng khỏi quần chúng",
+      "Làm cho Đảng mạnh và cách mạng đi mau đến thắng lợi hoàn toàn",
+      "Thay thế mọi hoạt động thực tiễn",
+      "Chỉ phục vụ công tác tuyên truyền"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Đây là ý được trích trong đánh giá tại Đại hội II năm 1951. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội đại biểu toàn quốc lần thứ IV của Đảng diễn ra vào năm nào?",
+    "options": [
+      "Năm 1976",
+      "Năm 1960",
+      "Năm 1986",
+      "Năm 1991"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn đánh giá của Đại hội IV vào tháng 12-1976. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội V của Đảng (tháng 3-1982) nhấn mạnh yêu cầu nào?",
+    "options": [
+      "Chỉ học thuộc các khẩu hiệu",
+      "Ngừng nghiên cứu tư tưởng Hồ Chí Minh",
+      "Chỉ nghiên cứu hoạt động đối ngoại",
+      "Tổ chức học tập có hệ thống tư tưởng, đạo đức, tác phong Hồ Chí Minh trong toàn Đảng"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn yêu cầu của Đại hội V về học tập có hệ thống tư tưởng, đạo đức, tác phong Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội VI của Đảng năm 1986 nhấn mạnh việc kế thừa di sản nào?",
+    "options": [
+      "Các quan điểm phong kiến",
+      "Những mô hình không phù hợp thực tiễn",
+      "Di sản quý báu về tư tưởng và lý luận cách mạng của Chủ tịch Hồ Chí Minh",
+      "Di sản của chế độ thực dân"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn nội dung Đại hội VI về kế thừa di sản tư tưởng và lý luận cách mạng của Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội VII của Đảng năm 1991 có điểm nổi bật nào về tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Chỉ nhấn mạnh kinh nghiệm quản lý",
+      "Khẳng định Đảng lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng, kim chỉ nam cho hành động",
+      "Loại bỏ tư tưởng Hồ Chí Minh khỏi nền tảng tư tưởng",
+      "Chỉ xem tư tưởng Hồ Chí Minh là tài liệu lịch sử"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Đại hội VII là mốc quan trọng trong việc khẳng định vị trí tư tưởng Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội IX của Đảng (năm 2001) đã bổ sung điểm nào trong nhận thức về tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Nêu khái niệm đầy đủ với nội dung vận dụng sáng tạo, kế thừa truyền thống và tiếp thu tinh hoa văn hóa",
+      "Xác định tư tưởng Hồ Chí Minh chỉ là kinh nghiệm cá nhân",
+      "Bỏ nội dung về chủ nghĩa Mác - Lênin",
+      "Chỉ đề cập phong cách sinh hoạt"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhận định Đại hội IX trình bày nhận thức đầy đủ hơn về khái niệm. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội X của Đảng diễn ra vào tháng 4 năm nào?",
+    "options": [
+      "Năm 1991",
+      "Năm 2001",
+      "Năm 2011",
+      "Năm 2006"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn nội dung Đại hội X vào tháng 4-2006. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đại hội XII của Đảng (năm 2016) nhấn mạnh yêu cầu nào?",
+    "options": [
+      "Không cần phát triển lý luận",
+      "Chỉ vận dụng trong lĩnh vực giáo dục",
+      "Kiên định chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, vận dụng sáng tạo và phát triển phù hợp thực tiễn Việt Nam",
+      "Sao chép nguyên mẫu mô hình nước ngoài"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn quan điểm Đại hội XII về kiên định và vận dụng sáng tạo. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "UNESCO thông qua nghị quyết về kỷ niệm 100 năm Ngày sinh Chủ tịch Hồ Chí Minh tại khóa họp Đại hội đồng lần thứ mấy?",
+    "options": [
+      "Khóa họp lần thứ 10",
+      "Khóa họp lần thứ 24",
+      "Khóa họp lần thứ 18",
+      "Khóa họp lần thứ 30"
+    ],
+    "answer": 2,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình nêu UNESCO thông qua Nghị quyết 24C/18.6.5 tại Khóa họp Đại hội đồng lần thứ 24. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nghị quyết UNESCO về kỷ niệm 100 năm Ngày sinh Hồ Chí Minh được thông qua vào năm nào?",
+    "options": [
+      "Năm 1987",
+      "Năm 1976",
+      "Năm 1991",
+      "Năm 2001"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu khóa họp Đại hội đồng UNESCO diễn ra từ 20-10 đến 20-11-1987. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "UNESCO ghi nhận năm 1990 là dịp kỷ niệm sự kiện nào?",
+    "options": [
+      "50 năm thành lập Đảng Cộng sản Việt Nam",
+      "45 năm Quốc khánh Việt Nam",
+      "100 năm ngày thành lập UNESCO",
+      "100 năm Ngày sinh Chủ tịch Hồ Chí Minh"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Nghị quyết UNESCO ghi nhận năm 1990 đánh dấu 100 năm Ngày sinh Chủ tịch Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, sự đánh giá của quốc tế đối với Hồ Chí Minh thể hiện ở phạm vi nào?",
+    "options": [
+      "Chỉ trong lĩnh vực quân sự",
+      "Chỉ trong đời sống cá nhân",
+      "Vai trò đối với dân tộc Việt Nam và sự phát triển văn minh, tiến bộ của nhân loại",
+      "Chỉ trong phạm vi hoạt động của một địa phương"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu nhiều tổ chức, chính phủ và cá nhân quốc tế đánh giá cao vai trò của Người ở cả hai bình diện. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Trong khái niệm Tư tưởng Hồ Chí Minh, cụm từ 'mãi mãi soi đường' nhấn mạnh điều gì?",
+    "options": [
+      "Tác dụng riêng trong nghiên cứu lịch sử",
+      "Giá trị định hướng lâu dài đối với sự nghiệp cách mạng của nhân dân",
+      "Giá trị chỉ có trong một giai đoạn",
+      "Vai trò thay thế thực tiễn"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Khái niệm khẳng định tư tưởng Hồ Chí Minh tiếp tục soi đường cho sự nghiệp cách mạng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc nhận thức của Đảng về tư tưởng Hồ Chí Minh được giáo trình mô tả là:",
+    "options": [
+      "Một quá trình phát triển qua thực tiễn và các kỳ đại hội",
+      "Một kết luận xuất hiện đầy đủ ngay từ đầu",
+      "Một quá trình không có thay đổi",
+      "Chỉ bắt đầu sau năm 2016"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình khái quát quá trình nhận thức của Đảng qua nhiều mốc lịch sử. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi khái quát nội hàm tư tưởng Hồ Chí Minh, cần tránh cách hiểu nào?",
+    "options": [
+      "Nhìn nhận đây là một hệ thống quan điểm",
+      "Xem xét cả lý luận và thực tiễn",
+      "Đặt trong hoàn cảnh lịch sử cụ thể",
+      "Thu hẹp tư tưởng Hồ Chí Minh thành một vài câu nói hoặc tác phẩm riêng lẻ"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình xác định đây là hệ thống quan điểm toàn diện, sâu sắc, không phải tập hợp rời rạc. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Môn học Tư tưởng Hồ Chí Minh thuộc nội dung của chuyên ngành nào?",
+    "options": [
+      "Ngôn ngữ học",
+      "Địa chất học",
+      "Hồ Chí Minh học",
+      "Kinh tế học"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định môn học là một nội dung của chuyên ngành Hồ Chí Minh học. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, chuyên ngành Hồ Chí Minh học nằm trong ngành khoa học nào?",
+    "options": [
+      "Khoa học nông nghiệp",
+      "Khoa học chính trị",
+      "Khoa học tự nhiên",
+      "Khoa học sức khỏe"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu Hồ Chí Minh học nằm trong ngành Khoa học chính trị. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đối tượng nghiên cứu của môn học bao gồm quan điểm Hồ Chí Minh được thể hiện trong:",
+    "options": [
+      "Di sản của Người",
+      "Chỉ các tài liệu do người khác viết",
+      "Chỉ văn bản pháp luật hiện nay",
+      "Chỉ các công trình nghiên cứu nước ngoài"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định đối tượng là toàn bộ quan điểm thể hiện trong di sản của Người. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Ngoài bài nói và bài viết, tư tưởng Hồ Chí Minh còn được phản ánh qua:",
+    "options": [
+      "Chỉ các tài liệu lưu trữ ở nước ngoài",
+      "Các suy đoán về đời tư",
+      "Những tác phẩm không liên quan",
+      "Hoạt động cách mạng và cuộc sống hằng ngày của Người"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu quan điểm của Người được phản ánh trong hoạt động cách mạng và cuộc sống hằng ngày. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Các vấn đề giải phóng được nêu trong phạm vi đối tượng nghiên cứu gồm:",
+    "options": [
+      "Chỉ giải phóng lãnh thổ",
+      "Chỉ giải phóng cá nhân khỏi nghĩa vụ xã hội",
+      "Giải phóng dân tộc, xã hội, giai cấp và con người",
+      "Chỉ giải phóng kinh tế"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình liệt kê các phương diện giải phóng ở tầm dân tộc và thế giới. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Đối tượng nghiên cứu của môn học không chỉ là hệ thống quan điểm mà còn là:",
+    "options": [
+      "Các nhận xét tách rời bối cảnh",
+      "Quá trình hệ thống quan điểm đó vận động trong thực tiễn",
+      "Quá trình xuất bản sách giáo khoa",
+      "Quá trình thay đổi tên gọi các cơ quan"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh nghiên cứu cả quá trình hiện thực hóa hệ thống quan điểm. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Thuật ngữ 'hiện thực hóa' trong phần đối tượng nghiên cứu được hiểu là:",
+    "options": [
+      "Đưa hệ thống quan điểm vào thực tiễn phát triển của dân tộc Việt Nam",
+      "Chuyển quan điểm thành khẩu hiệu không thực hiện",
+      "Chỉ lưu trữ quan điểm trong văn bản",
+      "Thay đổi nội dung quan điểm tùy ý"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dùng 'hiện thực hóa' để chỉ quá trình thể hiện hệ thống quan điểm trong thực tiễn. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quá trình hiện thực hóa tư tưởng Hồ Chí Minh đòi hỏi cách mạng Việt Nam:",
+    "options": [
+      "Giữ nguyên mọi biện pháp bất kể hoàn cảnh",
+      "Tách lý luận khỏi thực tiễn",
+      "Từ bỏ toàn bộ những quan điểm đã có",
+      "Vận dụng sáng tạo và phát triển hệ thống quan điểm trong điều kiện mới"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh sự vận dụng sáng tạo, phát triển trong điều kiện mới. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Di sản được dùng làm căn cứ nghiên cứu tư tưởng Hồ Chí Minh có phạm vi:",
+    "options": [
+      "Chỉ gồm thư từ cá nhân",
+      "Chỉ gồm văn kiện của tổ chức quốc tế",
+      "Rộng hơn các tác phẩm văn bản, bao gồm cả hoạt động thực tiễn",
+      "Chỉ gồm các tác phẩm đã in"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình lưu ý di sản tinh thần còn thể hiện trong toàn bộ cuộc đời và hoạt động của Người. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Vì sao không thể chỉ dựa vào văn bản khi nghiên cứu tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Vì thực tiễn không liên quan tư tưởng",
+      "Vì nhiều nội dung tư tưởng còn thể hiện trong chỉ đạo và hoạt động thực tiễn",
+      "Vì văn bản không có giá trị",
+      "Vì không có tác phẩm nào của Người"
+    ],
+    "answer": 2,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình khẳng định thực tiễn chỉ đạo cách mạng là bộ phận quan trọng của hệ thống tư tưởng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quá trình vận động của tư tưởng Hồ Chí Minh trong thực tiễn cần được xem xét trong:",
+    "options": [
+      "Điều kiện mới của sự phát triển cách mạng Việt Nam",
+      "Một hoàn cảnh cố định",
+      "Bối cảnh không có biến đổi",
+      "Các giả định không có căn cứ"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh sự vận dụng và phát triển trong những điều kiện mới. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nội dung nghiên cứu môn học gắn với hoạt động của Hồ Chí Minh ở phạm vi:",
+    "options": [
+      "Chỉ tại một địa phương",
+      "Chỉ trong thời gian ở nước ngoài",
+      "Chỉ sau khi thành lập Nhà nước",
+      "Trong nước và trên thế giới"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình đề cập cuộc đời hoạt động phong phú của Người cả trong nước và trên thế giới. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Cách hiểu nào phù hợp nhất về đối tượng nghiên cứu của môn học?",
+    "options": [
+      "Chỉ phân tích một số câu trích dẫn",
+      "Chỉ nghiên cứu lịch sử các kỳ đại hội",
+      "Nghiên cứu hệ thống quan điểm trong di sản và quá trình vận động của hệ thống ấy trong thực tiễn",
+      "Chỉ ghi nhớ tiểu sử"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Đây là cách khái quát hai phương diện chính của đối tượng nghiên cứu được trình bày trong giáo trình. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh lấy nền tảng nào làm cơ sở?",
+    "options": [
+      "Phương pháp kinh nghiệm thuần túy",
+      "Phương pháp luận chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử Mác - Lênin",
+      "Phương pháp duy tâm chủ quan",
+      "Phương pháp thần bí"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định phương pháp luận Mác - Lênin là cơ sở. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp luận Hồ Chí Minh được hình thành và phát triển thông qua:",
+    "options": [
+      "Quá trình hoạt động cách mạng của Người",
+      "Việc nghiên cứu lý thuyết tách biệt thực tế",
+      "Một quyết định hành chính",
+      "Hoạt động văn học đơn thuần"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu phương pháp luận được hình thành và phát triển qua hoạt động cách mạng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nguyên tắc thống nhất tính đảng và tính khoa học yêu cầu người nghiên cứu:",
+    "options": [
+      "Chỉ dựa vào cảm xúc cá nhân",
+      "Bỏ qua các luận cứ khách quan",
+      "Chỉ sử dụng một chiều thông tin",
+      "Vừa quán triệt lập trường, quan điểm, vừa bảo đảm tính khách quan và khoa học"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình yêu cầu kết hợp lập trường giai cấp công nhân, quan điểm Mác - Lênin với tính khách quan, khoa học. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Trong nguyên tắc thống nhất tính đảng và tính khoa học, người nghiên cứu cần quán triệt:",
+    "options": [
+      "Các nhận định không có căn cứ",
+      "Những quan điểm phủ nhận thực tiễn",
+      "Cương lĩnh, đường lối và quan điểm của Đảng Cộng sản Việt Nam",
+      "Quan điểm của bất kỳ cá nhân nào"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu yêu cầu quán triệt cương lĩnh, đường lối và quan điểm của Đảng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Tính khoa học trong nghiên cứu tư tưởng Hồ Chí Minh đòi hỏi:",
+    "options": [
+      "Không cần kiểm chứng",
+      "Bảo đảm tính khách quan của các luận đề được đưa ra",
+      "Chấp nhận mọi nhận định chủ quan",
+      "Chỉ chọn dữ kiện có lợi cho kết luận"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nhấn mạnh phải bảo đảm tính khách quan, khoa học. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, thước đo hiệu quả tư duy và hành động cách mạng là:",
+    "options": [
+      "Tư duy và hành động đó có đem lại quyền lợi chính đáng cho nhân dân hay không",
+      "Mức độ nổi tiếng của người thực hiện",
+      "Số lượng khẩu hiệu được sử dụng",
+      "Lợi ích riêng của tổ chức"
+    ],
+    "answer": 1,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình nhấn mạnh quyền lợi chính đáng của nhân dân là thước đo quan trọng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nguyên tắc thống nhất lý luận và thực tiễn đòi hỏi lý luận phải:",
+    "options": [
+      "Chỉ tồn tại trong sách",
+      "Không cần liên hệ hoàn cảnh",
+      "Thay thế hoàn toàn hoạt động thực tiễn",
+      "Được vận dụng vào công việc thực tế"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Hồ Chí Minh phê phán lý luận suông và yêu cầu đem lý luận áp dụng vào thực tế. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo tư tưởng được trích trong giáo trình, lý luận chân chính được hình thành bằng cách:",
+    "options": [
+      "Sao chép nguyên văn tài liệu",
+      "Chỉ dựa vào ý muốn chủ quan",
+      "Đúc rút lực lượng trong lịch sử, kinh nghiệm, đấu tranh rồi kiểm chứng với thực tế",
+      "Suy đoán không dựa vào kinh nghiệm"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình dẫn quan niệm của Hồ Chí Minh về quá trình tổng kết kinh nghiệm và chứng minh bằng thực tế. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Hồ Chí Minh ví lý luận như thế nào đối với công việc thực tế?",
+    "options": [
+      "Như công cụ không cần sử dụng",
+      "Như cái kim chỉ nam chỉ phương hướng",
+      "Như vật trang trí",
+      "Như kết quả cuối cùng"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình trích dẫn hình ảnh lý luận như kim chỉ nam chỉ phương hướng cho công việc thực tế. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Biểu hiện của bệnh 'lý luận suông' là:",
+    "options": [
+      "Có kiến thức lý luận nhưng không biết đem ra thực hành",
+      "Biết vận dụng lý luận để giải quyết công việc",
+      "Tổng kết kinh nghiệm thực tế",
+      "Kiểm nghiệm nhận thức bằng thực tiễn"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình dẫn lời phê bình của Hồ Chí Minh đối với việc học lý luận mà không thực hành. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo ví dụ của Hồ Chí Minh, lý luận giống như tên hoặc viên đạn, còn thực hành giống như:",
+    "options": [
+      "Người chế tạo cung tên",
+      "Một cuốn sách",
+      "Một khẩu hiệu",
+      "Cái đích để bắn"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình sử dụng phép so sánh này để làm rõ quan hệ giữa lý luận và thực hành. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quan điểm lịch sử - cụ thể yêu cầu xem xét sự vật, hiện tượng theo:",
+    "options": [
+      "Nhận định bất biến",
+      "Ý kiến không gắn bối cảnh",
+      "Mối liên hệ lịch sử căn bản và các giai đoạn phát triển của nó",
+      "Một trạng thái tách rời lịch sử"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình yêu cầu xem xét sự vật từ quá trình xuất hiện, phát triển đến trạng thái hiện nay. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi vận dụng quan điểm lịch sử - cụ thể, người nghiên cứu cần tìm hiểu:",
+    "options": [
+      "Chỉ ý kiến cá nhân",
+      "Sự vật xuất hiện như thế nào và trải qua những giai đoạn phát triển chủ yếu nào",
+      "Chỉ kết quả cuối cùng",
+      "Chỉ tên gọi hiện tại"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Đây là nội dung được giáo trình trình bày khi giải thích quan điểm lịch sử - cụ thể. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quan điểm toàn diện và hệ thống xuất phát từ nhận thức rằng tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Một hệ thống quan điểm có quan hệ thống nhất biện chứng nội tại",
+      "Những nhận định rời rạc, không liên quan",
+      "Một danh sách sự kiện lịch sử",
+      "Một tập hợp quan điểm mâu thuẫn không thể nghiên cứu"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh tính hệ thống và quan hệ thống nhất biện chứng của các quan điểm. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nghiên cứu tư tưởng Hồ Chí Minh theo quan điểm toàn diện cần:",
+    "options": [
+      "Tách từng nội dung khỏi chỉnh thể",
+      "Chỉ chọn nội dung dễ học",
+      "Bỏ qua quan hệ giữa các vấn đề",
+      "Xem xét các nội dung trong mối liên hệ và tác động qua lại"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Quan điểm toàn diện đòi hỏi xem xét hệ thống trong các mối liên hệ nội tại. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quan điểm kế thừa và phát triển yêu cầu người nghiên cứu:",
+    "options": [
+      "Giữ nguyên mọi nội dung bất kể hoàn cảnh",
+      "Chỉ tìm điểm khác biệt",
+      "Nhận diện giá trị được kế thừa và sự phát triển sáng tạo trong điều kiện mới",
+      "Phủ nhận toàn bộ cái cũ"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình nhấn mạnh tư tưởng Hồ Chí Minh có sự kế thừa, phát triển và đổi mới. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quan điểm kết hợp dân tộc với quốc tế giúp nhận thức tư tưởng Hồ Chí Minh trong:",
+    "options": [
+      "Bối cảnh không liên quan quốc tế",
+      "Mối quan hệ giữa yêu cầu của dân tộc Việt Nam và xu thế, phong trào của thời đại",
+      "Phạm vi biệt lập, không giao lưu",
+      "Quan hệ chỉ có một chiều"
+    ],
+    "answer": 2,
+    "difficulty": 3,
+    "explanation": "[GT] Nội dung tư tưởng cần được đặt trong quan hệ giữa sức mạnh dân tộc và sức mạnh thời đại. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi nghiên cứu một luận điểm của Hồ Chí Minh, việc đặt luận điểm vào bối cảnh ra đời thể hiện nguyên tắc nào?",
+    "options": [
+      "Quan điểm lịch sử - cụ thể",
+      "Quan điểm duy tâm",
+      "Phương pháp thống kê đơn thuần",
+      "Cách tiếp cận phi lịch sử"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Quan điểm lịch sử - cụ thể yêu cầu xem xét sự vật trong hoàn cảnh và quá trình lịch sử của nó. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc đánh giá một tư tưởng chỉ bằng tiêu chuẩn hiện tại mà bỏ qua hoàn cảnh ra đời dễ vi phạm nguyên tắc nào?",
+    "options": [
+      "Thống nhất lý luận và thực tiễn",
+      "Phân tích văn bản",
+      "Phương pháp liên ngành",
+      "Quan điểm lịch sử - cụ thể"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Bỏ qua bối cảnh lịch sử sẽ không đáp ứng yêu cầu lịch sử - cụ thể. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nghiên cứu toàn bộ hệ thống tư tưởng thay vì một câu nói riêng lẻ thể hiện nguyên tắc:",
+    "options": [
+      "Phương pháp điều tra xã hội học",
+      "Phương pháp thống kê",
+      "Quan điểm toàn diện và hệ thống",
+      "Quan điểm cục bộ"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình yêu cầu nhận thức các quan điểm trong chỉnh thể thống nhất. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi kết luận nghiên cứu không phù hợp với dữ liệu thực tế, người nghiên cứu cần:",
+    "options": [
+      "Không cần kiểm tra lại",
+      "Xem xét, điều chỉnh nhận thức trên cơ sở kiểm nghiệm thực tiễn",
+      "Giữ nguyên kết luận bằng mọi giá",
+      "Loại bỏ dữ liệu trái với ý kiến"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Nguyên tắc thống nhất lý luận và thực tiễn yêu cầu lý luận được chứng minh với thực tế. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Một biểu hiện của việc tuyệt đối hóa lý luận là:",
+    "options": [
+      "Coi lý luận có thể thay thế việc thực hành",
+      "Dùng lý luận định hướng thực tiễn",
+      "Kiểm nghiệm lý luận bằng thực tế",
+      "Tổng kết kinh nghiệm thực tiễn"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Hồ Chí Minh phê phán việc học lý luận mà không áp dụng vào công việc. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Một biểu hiện của việc xem nhẹ lý luận là:",
+    "options": [
+      "Dùng lý luận để định hướng",
+      "Tổng kết kinh nghiệm thành kết luận",
+      "Kết hợp lý luận với thực tiễn",
+      "Chỉ dựa vào kinh nghiệm rời rạc, thiếu khả năng xem xét và xử lý đúng vấn đề"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình dẫn lời Hồ Chí Minh phê bình tình trạng có kinh nghiệm nhưng kém lý luận. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh hướng hoạt động nhận thức và thực tiễn tới mục tiêu cuối cùng nào?",
+    "options": [
+      "Tách con người khỏi xã hội",
+      "Duy trì áp bức",
+      "Giải phóng con người",
+      "Mở rộng đặc quyền"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình nêu mục tiêu cuối cùng của hoạt động cách mạng là giải phóng con người. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Theo giáo trình, nguyên tắc phương pháp luận cần được vận dụng như thế nào?",
+    "options": [
+      "Không cần liên hệ mục tiêu",
+      "Phù hợp với điều kiện và hoàn cảnh cụ thể",
+      "Máy móc, không xét hoàn cảnh",
+      "Chỉ áp dụng trong nghiên cứu văn bản"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Phương pháp luận chỉ đạo suy nghĩ và hành động trong điều kiện, hoàn cảnh cụ thể. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Trong nghiên cứu tư tưởng Hồ Chí Minh, tính đảng và tính khoa học có quan hệ:",
+    "options": [
+      "Thống nhất chặt chẽ với nhau",
+      "Đối lập tuyệt đối",
+      "Không liên quan",
+      "Có thể thay thế tùy ý"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình gọi sự thống nhất này là nguyên tắc rất cơ bản. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Quan điểm toàn diện và hệ thống giúp tránh sai lầm nào?",
+    "options": [
+      "Liên hệ các nội dung",
+      "Xem xét quan hệ biện chứng",
+      "Đặt tư tưởng trong hệ thống",
+      "Cắt xén, hiểu phiến diện các quan điểm của Hồ Chí Minh"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Xem xét toàn diện giúp không tách rời các bộ phận trong hệ thống tư tưởng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi nghiên cứu tư tưởng Hồ Chí Minh, cần phân biệt việc tách một nội dung để phân tích với việc:",
+    "options": [
+      "Sử dụng phương pháp chuyên biệt",
+      "So sánh các luận điểm",
+      "Coi nội dung đó hoàn toàn độc lập, không có quan hệ với toàn hệ thống",
+      "Tạm thời tập trung vào một vấn đề"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình lưu ý có thể tách nội dung trong thao tác nghiên cứu nhưng bản chất vẫn là thống nhất biện chứng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc vận dụng chủ nghĩa duy vật lịch sử trong nghiên cứu giúp làm rõ:",
+    "options": [
+      "Các đặc điểm không đổi",
+      "Quá trình phát triển lịch sử của sự vật, hiện tượng",
+      "Chỉ các cảm xúc cá nhân",
+      "Những dự báo không có căn cứ"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình yêu cầu xem xét sự vật qua các giai đoạn phát triển lịch sử. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nghiên cứu tư tưởng Hồ Chí Minh phải hướng tới quyền lợi chính đáng của:",
+    "options": [
+      "Nhân dân",
+      "Một nhóm lợi ích riêng",
+      "Chỉ người nghiên cứu",
+      "Một cá nhân lãnh đạo"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình dùng quyền lợi chính đáng của nhân dân làm thước đo hiệu quả tư duy và hành động. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Trong học tập môn học, việc liên hệ kiến thức với vấn đề thực tế của sinh viên thể hiện:",
+    "options": [
+      "Cách học thuộc máy móc",
+      "Quan điểm phi lịch sử",
+      "Việc tách rời lý luận",
+      "Sự thống nhất lý luận và thực tiễn"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Vận dụng kiến thức vào tình huống thực tế là biểu hiện của nguyên tắc thống nhất lý luận và thực tiễn. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp lôgíc chủ yếu nhằm:",
+    "options": [
+      "Chỉ mô tả địa điểm",
+      "Thu thập ý kiến không phân tích",
+      "Nghiên cứu khái quát để tìm bản chất và khái quát thành lý luận",
+      "Liệt kê sự kiện theo ngày tháng"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình mô tả phương pháp lôgíc là tìm bản chất và khái quát thành lý luận. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp lịch sử nghiên cứu sự vật, hiện tượng theo:",
+    "options": [
+      "Thứ tự ngẫu nhiên",
+      "Trình tự thời gian và quá trình diễn biến từ phát sinh đến hệ quả",
+      "Các giả thuyết không có thời gian",
+      "Một kết quả tách rời quá trình"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định phương pháp lịch sử xem xét quá trình theo trình tự thời gian. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Trong nghiên cứu tư tưởng Hồ Chí Minh, phương pháp lôgíc và phương pháp lịch sử cần được:",
+    "options": [
+      "Kết hợp chặt chẽ với nhau",
+      "Sử dụng loại trừ lẫn nhau",
+      "Chỉ dùng phương pháp lôgíc",
+      "Chỉ dùng phương pháp lịch sử"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nhấn mạnh sự cần thiết kết hợp chặt chẽ hai phương pháp. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp phân tích văn bản cần kết hợp với việc nghiên cứu:",
+    "options": [
+      "Các suy đoán về đời tư",
+      "Chỉ số liệu kinh tế hiện nay",
+      "Tác phẩm không liên quan",
+      "Hoạt động thực tiễn của Hồ Chí Minh"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định cần phân tích tác phẩm đồng thời nghiên cứu hoạt động thực tiễn của Người. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nguồn văn bản quan trọng để nghiên cứu tư tưởng Hồ Chí Minh là:",
+    "options": [
+      "Chỉ sách giáo khoa của môn khác",
+      "Chỉ báo chí hiện đại",
+      "Các bài viết, bài nói và tác phẩm của Người",
+      "Chỉ tài liệu truyền miệng không rõ nguồn"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình yêu cầu trước hết dựa vào những tác phẩm Hồ Chí Minh để lại. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Vì sao cần nghiên cứu cả hoạt động chỉ đạo thực tiễn của Hồ Chí Minh?",
+    "options": [
+      "Vì chỉ có hoạt động mới là tư tưởng",
+      "Vì nhiều nội dung tư tưởng được phản ánh qua thực tiễn chỉ đạo cách mạng",
+      "Vì tác phẩm của Người không có giá trị",
+      "Vì hoạt động thực tiễn không liên quan lý luận"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình khẳng định thực tiễn chỉ đạo là bộ phận cực kỳ quan trọng của hệ thống tư tưởng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp chuyên ngành và liên ngành cần thiết vì tư tưởng Hồ Chí Minh thể hiện qua:",
+    "options": [
+      "Nhiều lĩnh vực như chính trị, triết học, kinh tế, quân sự và văn hóa",
+      "Chỉ một lĩnh vực văn học",
+      "Chỉ lĩnh vực quân sự",
+      "Chỉ lĩnh vực kinh tế"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu tính đa lĩnh vực của tư tưởng Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi nghiên cứu một tác phẩm lý luận riêng biệt của Hồ Chí Minh, có thể cần sử dụng:",
+    "options": [
+      "Chỉ phương pháp ghi nhớ",
+      "Chỉ phương pháp thống kê dân số",
+      "Không cần phương pháp nghiên cứu",
+      "Phương pháp chuyên ngành và liên ngành"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình yêu cầu dùng phương pháp chuyên ngành, liên ngành để nghiên cứu hệ thống và từng tác phẩm. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Ngoài các phương pháp chủ yếu, giáo trình còn đề cập phương pháp nào?",
+    "options": [
+      "Chỉ phỏng vấn một người",
+      "Phương pháp loại bỏ dữ liệu",
+      "Phân tích, tổng hợp, so sánh và điều tra xã hội học",
+      "Bói toán và suy đoán"
+    ],
+    "answer": 3,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình liệt kê các phương pháp cụ thể bổ trợ như phân tích, tổng hợp, so sánh, điều tra xã hội học. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc lựa chọn phương pháp nghiên cứu cụ thể cần xuất phát từ:",
+    "options": [
+      "Một công thức áp dụng cho mọi trường hợp",
+      "Yêu cầu nghiên cứu của nội dung tư tưởng cụ thể",
+      "Sở thích của người nghiên cứu",
+      "Số lượng trang tài liệu"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình yêu cầu phương pháp được chọn phù hợp với nội dung cụ thể cần nghiên cứu. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp lịch sử giúp người học nhận biết điều gì?",
+    "options": [
+      "Quá trình phát sinh, phát triển và hệ quả của sự vật, hiện tượng",
+      "Chỉ bản chất trừu tượng",
+      "Chỉ quan điểm hiện nay",
+      "Chỉ mối quan hệ kinh tế"
+    ],
+    "answer": 1,
+    "difficulty": 2,
+    "explanation": "[GT] Đây là chức năng được giáo trình mô tả của phương pháp lịch sử. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương pháp lôgíc giúp người học tránh việc:",
+    "options": [
+      "Khái quát bản chất",
+      "Tìm quy luật liên hệ",
+      "Xây dựng kết luận lý luận",
+      "Chỉ dừng ở liệt kê sự kiện mà không tìm ra mối liên hệ bản chất"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Phương pháp lôgíc tìm ra bản chất và mối liên hệ tất yếu giữa các sự kiện. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Khi phân tích một bài viết của Hồ Chí Minh, việc đối chiếu với hoạt động của Người trong cùng thời kỳ thuộc cách tiếp cận nào?",
+    "options": [
+      "Chỉ thống kê văn bản",
+      "Phương pháp điều tra xã hội học đơn lẻ",
+      "Phân tích văn bản kết hợp nghiên cứu hoạt động thực tiễn",
+      "Chỉ nghiên cứu tiểu sử"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình yêu cầu kết hợp nghiên cứu văn bản với hoạt động thực tiễn. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nghiên cứu tư tưởng Hồ Chí Minh từ nhiều lĩnh vực giúp:",
+    "options": [
+      "Chỉ tập trung một chiều",
+      "Nhận thức đầy đủ hơn toàn bộ hệ thống tư tưởng và từng tác phẩm",
+      "Thu hẹp nội dung nghiên cứu",
+      "Bỏ qua mối liên hệ giữa các lĩnh vực"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Phương pháp chuyên ngành và liên ngành phục vụ nghiên cứu toàn bộ hệ thống cũng như tác phẩm riêng biệt. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc đổi mới và hiện đại hóa phương pháp nghiên cứu cần dựa trên:",
+    "options": [
+      "Sự phát triển và hoàn thiện lý luận, phương pháp luận khoa học",
+      "Việc loại bỏ các nguyên tắc khoa học",
+      "Sự thay đổi tùy hứng",
+      "Việc không sử dụng tài liệu"
+    ],
+    "answer": 1,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình yêu cầu đổi mới phương pháp trên cơ sở phát triển lý luận và phương pháp luận khoa học. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Học tập môn Tư tưởng Hồ Chí Minh góp phần nâng cao năng lực nào của sinh viên?",
+    "options": [
+      "Năng lực ghi nhớ máy móc duy nhất",
+      "Khả năng né tránh vấn đề",
+      "Kỹ năng suy đoán không căn cứ",
+      "Năng lực tư duy lý luận"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định nâng cao năng lực tư duy lý luận là ý nghĩa đầu tiên. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Môn học góp phần trang bị cho sinh viên tri thức khoa học về:",
+    "options": [
+      "Chỉ kỹ năng nghề nghiệp chuyên ngành",
+      "Chỉ các văn bản hành chính",
+      "Hệ thống quan điểm toàn diện và sâu sắc về cách mạng Việt Nam",
+      "Chỉ các sự kiện lịch sử thế giới"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu môn học trang bị tri thức khoa học về hệ thống quan điểm của Hồ Chí Minh. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Một kết quả học tập được giáo trình nhấn mạnh là củng cố lập trường, quan điểm cách mạng trên nền tảng:",
+    "options": [
+      "Quan điểm thực dân",
+      "Chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh",
+      "Chủ nghĩa cá nhân",
+      "Tư tưởng biệt lập"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu việc củng cố lập trường, quan điểm cách mạng trên nền tảng này. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Học tập môn học giúp sinh viên kiên định mục tiêu nào?",
+    "options": [
+      "Độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "Phát triển tách rời độc lập dân tộc",
+      "Khôi phục chế độ thuộc địa",
+      "Tách rời quyền lợi nhân dân"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Đây là mục tiêu được giáo trình nhấn mạnh trong phần ý nghĩa học tập. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Một yêu cầu đối với sinh viên sau khi học tập môn học là:",
+    "options": [
+      "Chỉ ghi nhớ trích dẫn",
+      "Tránh liên hệ thực tế",
+      "Chỉ học để hoàn thành bài kiểm tra",
+      "Biết vận dụng tư tưởng Hồ Chí Minh để giải quyết vấn đề đặt ra trong cuộc sống"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nêu khả năng vận dụng tư tưởng vào giải quyết các vấn đề thực tiễn. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Học tập môn Tư tưởng Hồ Chí Minh góp phần giáo dục và thực hành:",
+    "options": [
+      "Lối sống thờ ơ",
+      "Thái độ né tránh trách nhiệm",
+      "Đạo đức cách mạng",
+      "Tâm lý vụ lợi"
+    ],
+    "answer": 3,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình xác định giáo dục và thực hành đạo đức cách mạng là ý nghĩa quan trọng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Việc học tập môn học góp phần bồi dưỡng tình cảm cách mạng và:",
+    "options": [
+      "Sự thờ ơ với cộng đồng",
+      "Lòng yêu nước",
+      "Tâm lý cục bộ",
+      "Thái độ biệt lập"
+    ],
+    "answer": 2,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nhấn mạnh bồi dưỡng lòng yêu nước cùng tình cảm cách mạng. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Một nội dung rèn luyện được nêu trong phần ý nghĩa học tập là chống:",
+    "options": [
+      "Chủ nghĩa cá nhân",
+      "Tinh thần trách nhiệm",
+      "Ý thức phục vụ nhân dân",
+      "Thói quen tự học"
+    ],
+    "answer": 1,
+    "difficulty": 1,
+    "explanation": "[GT] Giáo trình nêu người học có điều kiện thực hành đạo đức, chống chủ nghĩa cá nhân. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Nghiên cứu môn học giúp sinh viên xây dựng và rèn luyện phương pháp, phong cách nào?",
+    "options": [
+      "Chỉ phong cách ăn mặc",
+      "Chỉ phong cách giao tiếp trực tuyến",
+      "Chỉ phong cách học thuộc",
+      "Phong cách tư duy, diễn đạt, làm việc, ứng xử và sinh hoạt"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình liệt kê các phương diện phong cách có thể được vận dụng rèn luyện. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Phương châm 'dĩ bất biến ứng vạn biến' trong phần ý nghĩa học tập gợi nhắc người học:",
+    "options": [
+      "Cứng nhắc trong mọi tình huống",
+      "Không cần xác định mục tiêu",
+      "Giữ vững nguyên tắc nhưng linh hoạt trong cách ứng xử, hành động theo hoàn cảnh",
+      "Thay đổi nguyên tắc liên tục"
+    ],
+    "answer": 3,
+    "difficulty": 3,
+    "explanation": "[GT] Giáo trình dẫn phương châm này khi nói về xây dựng phong cách công tác phù hợp từng lúc, từng nơi. (Chương I).",
+    "chapter": 1
+  },
+  {
+    "question": "Kết quả lâu dài mà môn học hướng tới đối với thế hệ trẻ là góp phần hình thành:",
+    "options": [
+      "Những người không cần rèn luyện nhân cách",
+      "Những công dân có ích, có trách nhiệm trong sự nghiệp xây dựng và bảo vệ Tổ quốc",
+      "Những người chỉ quan tâm lợi ích cá nhân",
+      "Những người tách mình khỏi cộng đồng"
+    ],
+    "answer": 2,
+    "difficulty": 2,
+    "explanation": "[GT] Giáo trình nhấn mạnh vai trò của môn học trong việc hình thành, hoàn thiện nhân cách và trách nhiệm của thế hệ trẻ. (Chương I).",
+    "chapter": 1
+  }
 ]
