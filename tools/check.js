@@ -57,7 +57,7 @@ if(bosses&&maps){Object.entries(bosses).forEach(([id,b])=>{const w=`bosses.json 
   if(!isStr(b.n)||!isStr(b.e)||!isStr(b.c))err(`${w}: cần n (tên), e (emoji), c (màu)`);
   if(!Array.isArray(b.pool))err(`${w}: pool phải là danh sách đạn`);else b.pool.forEach(x=>{if(!tun[x])err(`${w}: pool chứa đạn "${x}" không có trong bullets.json`)});
   if(b.img)img(b.img,w);
-  if(b.ai&&!new RegExp(b.ai+'AI').test(game))err(`${w}: ai "${b.ai}" chưa có code`);
+  if(b.ai&&!new RegExp(b.ai+'AI|'+b.ai.replace(/s$/,'')+'AI').test(game))err(`${w}: ai "${b.ai}" chưa có code`);
 })}
 // ---- cores
 const TIERS=['bac','vang','kim'];

@@ -16,14 +16,13 @@
     "fw": 192
   },
   "dungeon": {
-    "n": "Quỷ Ngục Tối",
-    "c": "#a1a1aa",
-    "e": "💀",
-    "pool": [
-      "roller",
-      "bomb",
-      "venom"
-    ]
+    "n": "Thất Diện Quỷ Vương",
+    "c": "#b91c1c",
+    "e": "👹",
+    "pool": [],
+    "ai": "sins",
+    "img": "img/bosses/dungeon.png",
+    "fw": 192
   },
   "minimal": {
     "n": "Khối Lập Phương Vô Định",
@@ -34,34 +33,30 @@
     "img": "img/bosses/minimal.png"
   },
   "space": {
-    "n": "Kẻ Du Hành Hư Không",
-    "c": "#c084fc",
-    "e": "👾",
-    "pool": [
-      "gravity",
-      "blackhole",
-      "frost"
-    ]
+    "n": "Sinh Vật 000",
+    "c": "#4ade80",
+    "e": "👽",
+    "pool": [],
+    "ai": "sv0",
+    "img": "img/bosses/space.png",
+    "fw": 192
   },
   "casino": {
-    "n": "Chủ Sòng Bạc",
+    "n": "Nhà Cái Bóng Đêm",
     "c": "#fbbf24",
     "e": "🎩",
-    "pool": [
-      "card",
-      "dice",
-      "coin"
-    ]
+    "pool": [],
+    "ai": "casino",
+    "img": "img/bosses/casino.png"
   },
   "ice": {
-    "n": "Băng Vương",
+    "n": "Tuyết Nữ",
     "c": "#a5f3fc",
-    "e": "🧊",
-    "pool": [
-      "icicle",
-      "frost",
-      "freeze"
-    ]
+    "e": "❄️",
+    "pool": [],
+    "ai": "yuki",
+    "img": "img/bosses/ice.png",
+    "fw": 192
   },
   "void": {
     "n": "Thực Thể Dị Dạng",
