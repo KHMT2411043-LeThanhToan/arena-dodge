@@ -2342,7 +2342,7 @@ function zombieSurge(b,r){
 /* Sprite zombie: img/zombies.png, ô 64px, 6 cột × 4 hàng (0 trứng, 2–5 Thường, 6–11 Nhảy/Nổ, 12–17 Giáp, 18–23 Goliath) */
 const ZS=new Image();ZS.src='img/zombies.png';
 function drawZSprite(b){
- if(!ZS.complete||!ZS.naturalWidth){ctx.fillStyle='#4d7c0f';ctx.beginPath();ctx.arc(b.x,b.y,b.r||12,0,7);ctx.fill();return}
+ if(!ZS.complete||!ZS.naturalWidth){ctx.fillStyle='#4d7c0f';ctx.beginPath();ctx.arc(0,0,b.r||12,0,7);ctx.fill();return}
  const a=b.age||0;let f=0,s=64;
  if(b.type==='zegg'){f=a<.9?0:1;s=56}
  else if(b.type==='brood'){f=0;s=84}
@@ -2351,7 +2351,7 @@ function drawZSprite(b){
  else if(b.type==='zbounce'){f=(b.y<FLOOR-b.r-3)?8:6}
  else if(b.type==='zgol'){f=19+(Math.floor(a*2)%2);s=104}
  else if(b.type==='gsweep'){f=21;s=96}
- ctx.save();ctx.translate(b.x,b.y);
+ ctx.save();
  if(P.x<b.x&&b.type!=='brood'&&b.type!=='zegg')ctx.scale(-1,1);
  ctx.drawImage(ZS,(f%6)*64,Math.floor(f/6)*64,64,64,-s/2,-s+10,s,s);
  ctx.restore();
