@@ -23,5 +23,217 @@
   "price": 800,
   "img": "img/skins/superman.png",
   "fx": "hero"
+ },
+ {
+  "id": "sailormoon",
+  "name": "Heo Thủy Thủ Mặt Trăng",
+  "price": 1200,
+  "img": "img/skins/sailormoon.png",
+  "fx": "moon",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "peppa",
+  "name": "Heo Peppa",
+  "price": 1500,
+  "img": "img/skins/peppa.png",
+  "fx": "puddle",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "cardcaptor",
+  "name": "Heo Thủ Lĩnh Thẻ Bài",
+  "price": 1200,
+  "img": "img/skins/cardcaptor.png",
+  "fx": "cards",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "beach",
+  "name": "Heo Tiệc Bãi Biển",
+  "price": 800,
+  "img": "img/skins/beach.png",
+  "fx": "beach",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
  }
 ]

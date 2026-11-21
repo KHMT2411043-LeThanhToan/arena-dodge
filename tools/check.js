@@ -37,6 +37,7 @@ if(Array.isArray(skins)){
     if(!isNum(s.price)||s.price<0)err(`${w}: price phải là số ≥ 0`);
     img(s.img,w);
     if(s.fx!==undefined&&!isStr(s.fx))err(`${w}: fx phải là chuỗi`);
+    if(s.anim!==undefined){if(typeof s.anim!=='object'||s.anim===null)err(`${w}: anim phải là object`);else for(const[k,v]of Object.entries(s.anim))if(!Array.isArray(v)||!v.length||v.some(n=>!Number.isInteger(n)||n<1||n>24))err(`${w}: anim.${k} phải là mảng số khung từ 1 đến 24`)}
   });
 }
 // ---- maps

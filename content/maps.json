@@ -300,5 +300,120 @@
    "frost"
   ],
   "bg": "img/maps/void.jpg"
+ },
+ {
+  "id": "woods",
+  "name": "Rừng Tinh Linh",
+  "c": [
+   "#06101f",
+   "#142a3a"
+  ],
+  "acc": "#2dd4bf",
+  "fl": "#0b1f24",
+  "plat": [
+   [
+    385,
+    330,
+    130
+   ]
+  ],
+  "pads": [
+   [
+    40,
+    395,
+    90
+   ],
+   [
+    770,
+    395,
+    90
+   ]
+  ],
+  "bg": "img/maps/woods.jpg",
+  "fav": [
+   "homing",
+   "phantom",
+   "orb",
+   "sine",
+   "splitter",
+   "venom",
+   "boomerang"
+  ],
+  "no": [
+   "boulder",
+   "freeze",
+   "blackhole"
+  ]
+ },
+ {
+  "id": "cityz",
+  "name": "Thành Phố Z",
+  "c": [
+   "#2a0d08",
+   "#5a1f0c"
+  ],
+  "acc": "#f97316",
+  "fl": "#1c1917",
+  "plat": [],
+  "bg": "img/maps/cityz.jpg",
+  "fav": [
+   "meteor",
+   "bomb",
+   "boulder",
+   "roller",
+   "high",
+   "mine",
+   "sniper",
+   "nova",
+   "accel"
+  ],
+  "no": [
+   "frost",
+   "icicle",
+   "freeze"
+  ]
+ },
+ {
+  "id": "bamboo",
+  "name": "Mặc Trúc Lâm",
+  "c": [
+   "#d9d2bf",
+   "#a8a08c"
+  ],
+  "acc": "#7f1d1d",
+  "fl": "#292524",
+  "plat": [
+   [
+    110,
+    385,
+    120
+   ],
+   [
+    390,
+    315,
+    120
+   ],
+   [
+    670,
+    385,
+    120
+   ]
+  ],
+  "bg": "img/maps/bamboo.jpg",
+  "fav": [
+   "boomerang",
+   "sine",
+   "rain",
+   "sniper",
+   "high",
+   "splitter",
+   "stalac",
+   "accel"
+  ],
+  "no": [
+   "blackhole",
+   "portal",
+   "chain"
+  ]
  }
 ]

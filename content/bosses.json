@@ -24,14 +24,6 @@
     "img": "img/bosses/dungeon.png",
     "fw": 192
   },
-  "minimal": {
-    "n": "Khối Lập Phương Vô Định",
-    "c": "#e5e7eb",
-    "e": "🧊",
-    "ai": "cube",
-    "pool": [],
-    "img": "img/bosses/minimal.png"
-  },
   "space": {
     "n": "Sinh Vật 000",
     "c": "#4ade80",
@@ -66,5 +58,39 @@
     "pool": [],
     "img": "img/bosses/void.png",
     "fw": 192
+  },
+  "bamboo": {
+    "n": "Truy Phong Đao Khách",
+    "c": "#b91c1c",
+    "e": "🗡️",
+    "pool": [],
+    "ai": "blade",
+    "img": "img/bosses/bamboo.png",
+    "fw": 192
+  },
+  "woods": {
+    "n": "Tinh Linh Vương",
+    "c": "#2dd4bf",
+    "e": "🦌",
+    "pool": [],
+    "ai": "spirit",
+    "img": "img/bosses/woods.png",
+    "fw": 192
+  },
+  "cityz": {
+    "n": "Nữ Hoàng Sào Zombie",
+    "c": "#84cc16",
+    "e": "🧟",
+    "pool": [],
+    "ai": "zombie",
+    "img": "img/bosses/cityz.png"
+  },
+  "minimal": {
+    "n": "Khối Lập Phương Vô Định",
+    "c": "#e5e7eb",
+    "e": "🧊",
+    "ai": "cube",
+    "pool": [],
+    "img": "img/bosses/minimal.png"
   }
 }

@@ -30,7 +30,9 @@ tools/
 {"id":"tho_vang","name":"Thỏ Vàng","price":600,"img":"img/skins/tho_vang.png"}
 ```
 
-`fx` (ví dụ `"fx":"hero"`) chỉ dùng cho hiệu ứng đã có sẵn trong `game.js`. Hiệu ứng mới hoàn toàn cần viết thêm code.
+`fx` chỉ dùng cho hiệu ứng đã có sẵn trong `game.js`: `hero` (Superman), `moon` (Thủy Thủ Mặt Trăng), `puddle` (Heo Peppa), `cards` (Thủ Lĩnh Thẻ Bài), `beach` (Tiệc Bãi Biển). Hiệu ứng mới hoàn toàn cần viết thêm code trong `skinFx`.
+
+Sprite nào xếp khung khác `pig.png` thì thêm `"anim"` để khai báo số khung (đánh số 1–24 theo hàng, đọc từ trái qua phải), ví dụ `"anim":{"idle":[1,2],"run":[4,5,6],"jump":[14],"apex":[15],"fall":[16],"crouch":[19,20,21],"dash":[22],"hurt":[23],"stun":[24]}`. Khóa nào bỏ trống sẽ dùng bảng mặc định. `apex` là khung lúc nhảy ở đỉnh. Cả 4 skin Thủy Thủ Mặt Trăng, Peppa, Thủ Lĩnh Thẻ Bài và Tiệc Bãi Biển (heo mặc bikini) đều dùng bảng `anim` này vì sprite có 22 khung, để trống ô 17 và 18.
 
 **Câu hỏi.** Sửa `content/questions.json` (mỗi câu: `question`, `options`, `answer` 0–3, `difficulty` 1–3, `explanation`). Trong game cũng có nút nạp/xuất câu hỏi.
 
@@ -45,7 +47,16 @@ tools/
 
 **Đạn.** `bullets.json` cho phép chỉnh vòng bắt đầu xuất hiện (`at`), độ hiếm (`wt`), màu (`c`). Loại đạn mới hoàn toàn (kiểu bay mới) cần viết code trong bảng `BT` của `game.js`.
 
+**Map có cơ chế riêng** (`mapTick` + `mapFx` trong `game.js`; ảnh nền ở `img/maps/`):
+- `woods` Rừng Tinh Linh: nấm đàn hồi hai bên (`pads` trong `maps.json`) bật cao ~1.7 lần cú nhảy; gió phấn hoa mỗi 12–15 giây (vàng +20% tốc độ, tím −20% độ cao nhảy).
+- `cityz` Thành Phố Z: còi báo động, mảnh bê tông/khung xe rơi (vòng cảnh báo 0.8 giây), nằm lại 5–6 giây làm bệ đứng và vật cản.
+- `bamboo` Mặc Trúc Lâm: 3 bệ đốt trúc; gió thu mỗi 12 giây đẩy ngang trong 3 giây.
+
 **Boss.** Đổi tên, màu, emoji, nhóm đạn trong `bosses.json`. Boss có cách đánh riêng (như khối lập phương) nằm trong `game.js`.
+
+**Tinh Linh Vương** (boss map Rừng Tinh Linh, `ai: "spirit"`, code `spiritAI` + `drawSpirit`, sprite sheet `img/bosses/woods.png`): hai kỹ năng. Đạn Nguyên Tố đổi theo màu ngọc vương miện (báo trước 0.65s): Băng (quạt/bắn nhanh, tích Sương Giá), Độc (mưa đạn + bào tử làm nhảy thấp), Lửa (đạn cầu vồng nảy sàn), Hư Không (đạn xoắn ốc), Lôi (3 phát nhắm thẳng). Gối đầu từ vòng 2–3, pha 2 (dưới 40% máu) bắn cặp 2 nguyên tố. Rừng Tinh Linh Chúc Phúc: mất ~25% máu thì niệm hồi ~14% máu, bắn dồn đủ ngưỡng để phá vòng (boss choáng 1.5 giây). Chỉ niệm từ vòng 4 (khi người chơi bắn được).
+
+**Truy Phong Đao Khách** (boss map Mặc Trúc Lâm, `ai: "blade"`, code `bladeAI` + `drawBlade`, sprite sheet 12 khung `img/bosses/bamboo.png`): đánh cả tầm xa lẫn cận chiến. Phong Kính Trảm (đao khí cao ép cúi, thấp ép nhảy), Truy Phong Đoạt Mệnh (tụ lực, lướt vồ, chém chéo rồi quét 360°), Mặc Trúc Loạn Đao (mưa đao khí + bão lá trúc), Ngự Đao Trảm Trúc (nhảy lên bệ trúc rồi bổ xuống nếu người chơi bám bệ quá lâu). Có combo ghép chiêu từ vòng 2 và Cuồng Phong Mặc Đao khi dưới 40% máu. Sau đòn nặng boss có 1 giây sơ hở.
 
 **Lõi Trí Tuệ Quá Tải** (boss map Phòng Thí Nghiệm, `ai: "overload"`, code `overloadAI` + `drawOverload`) treo trên ray trần, đánh theo 3 chu kỳ: nhịp nhẹ (đạn gia tốc nối tiếp + laser tầm cao), nhịp dồn (laser tầm thấp, cầu điện từ, đạn bám trục X), quá tải (lõi đỏ, laser chéo/kép, mưa plasma). Trúng đòn gây nhiễu sóng (glitch). Vòng càng cao thì thời gian báo càng ngắn, sát thương càng lớn.
 

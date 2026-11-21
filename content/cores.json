@@ -1,377 +1,461 @@
 [
- {
-  "t": "Nhảy Kép",
-  "ic": "🦘",
-  "d": "Thêm 1 lần nhảy trên không.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Lướt Dash",
-  "ic": "💨",
-  "d": "Kỹ năng chủ động: lướt 0.3s xuyên đạn, hồi 3s (Shift).",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Bộc Phá",
-  "ic": "💥",
-  "d": "Kỹ năng chủ động: làm nổ mọi đạn trong bán kính 260px, hồi 12s (Q).",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Thu Nhỏ",
-  "ic": "🔽",
-  "d": "-15% kích thước và hitbox (tối đa 3 lần).",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Tăng Tốc & Bật Cao",
-  "ic": "⚡",
-  "d": "+15% tốc độ chạy và lực nhảy.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Giáp Năng Lượng",
-  "ic": "🛡️",
-  "d": "Chặn miễn phí 1 đòn trúng.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Hồi Phục & Thanh Tẩy",
-  "ic": "💚",
-  "d": "+3 HP và xóa Độc, Băng, Tuyết.",
-  "tier": "bac",
-  "dur": "tuc"
- },
- {
-  "t": "Tâm Điểm",
-  "ic": "🎯",
-  "d": "Hiện chấm sáng ở tâm hitbox.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Kháng Băng",
-  "ic": "🧊",
-  "d": "Miễn nhiễm Băng và Tuyết trong vòng kế tiếp.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Kháng Điện",
-  "ic": "🔌",
-  "d": "Miễn nhiễm Đạn điện lan trong vòng kế tiếp.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Kháng Độc",
-  "ic": "☠️",
-  "d": "Miễn nhiễm Đạn độc trong vòng kế tiếp.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Kháng Hố Đen",
-  "ic": "🕳️",
-  "d": "Miễn nhiễm Hố đen và Bom đẩy lùi trong vòng kế tiếp.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Khổng Lồ Hóa",
-  "ic": "🧬",
-  "d": "Nhân đôi HP hiện tại, kích thước +45% vĩnh viễn.",
-  "tier": "kim",
-  "dur": "vinh",
-  "risk": true
- },
- {
-  "t": "Thỏa Ước Học Giả",
-  "ic": "📚",
-  "d": "Đạn nhanh hơn 20%; mỗi câu đúng khi hồi sinh +2 HP.",
-  "tier": "vang",
-  "dur": "vinh",
-  "risk": true
- },
- {
-  "t": "Thế Thân",
-  "ic": "👼",
-  "d": "Một lần duy nhất: khi về 0 HP tự hồi 1 HP, không cần trả lời câu hỏi.",
-  "tier": "kim",
-  "dur": "vinh"
- },
- {
-  "t": "Hấp Thụ Đạn",
-  "ic": "🕸️",
-  "d": "Cứ né được 10 viên đạn thì hồi 1 HP.",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Bậc Thầy Né Tránh",
-  "ic": "🧭",
-  "d": "Vòng kế tiếp: bạn nhanh hơn 20%, đạn chậm hơn 20%.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Sinh Sôi Nảy Nở",
-  "ic": "💗",
-  "d": "Vòng kế tiếp xuất hiện đạn trái tim: chạm vào để hồi 1 HP.",
-  "tier": "vang",
-  "dur": 1
- },
- {
-  "t": "Da Dày Thịt Béo",
-  "ic": "🥩",
-  "d": "Mỗi lần trúng đạn có 50% cơ hội giảm một nửa sát thương.",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Xung Phong",
-  "ic": "🏃",
-  "d": "Cứ 10 giây có 1 lá chắn. Nếu có Lướt Dash, mỗi lần lướt tạo lá chắn.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Khế Ước Quỷ Dữ",
-  "ic": "😈",
-  "d": "Đạn gây thêm 2 sát thương. Mỗi câu trả lời đúng cộng thêm 1 HP.",
-  "tier": "kim",
-  "dur": "vinh",
-  "risk": true
- },
- {
-  "t": "Tái Sinh",
-  "ic": "🌱",
-  "d": "Cứ 3 giây hồi 1 HP.",
-  "tier": "bac",
-  "dur": 3
- },
- {
-  "t": "Khiên Thánh Quang",
-  "ic": "✨",
-  "d": "Kỹ năng chủ động (E): tạo 1 lớp khiên, hồi 15 giây.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Ngưng Đọng Thời Gian",
-  "ic": "⏸️",
-  "d": "Kỹ năng chủ động (R): đạn đứng yên 3 giây, hồi 25 giây.",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Siêu Tốc",
-  "ic": "⚡",
-  "d": "Kỹ năng chủ động (F): tăng 20% tốc độ trong 5 giây, hồi 14 giây.",
-  "tier": "bac",
-  "dur": "vinh"
- },
- {
-  "t": "Thử Thách Mưa Bom",
-  "ic": "🎲",
-  "d": "Vòng sau gấp đôi thời gian và có mưa bom. Thắng thêm 10 HP.",
-  "tier": "kim",
-  "dur": 1,
-  "risk": true
- },
- {
-  "t": "Trưởng Thành",
-  "ic": "🌳",
-  "d": "Giới hạn HP tối đa 30 và ngay lập tức đầy 30 HP.",
-  "tier": "kim",
-  "dur": "vinh",
-  "risk": true
- },
- {
-  "t": "Tàng Hình",
-  "ic": "👻",
-  "d": "Kỹ năng chủ động (G): đi xuyên qua đạn trong 3 giây, hồi 18 giây.",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Khổng Lồ Tí Hon",
-  "ic": "🐣",
-  "d": "Mỗi vòng bắt đầu cộng thêm 2 HP.",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Thử Thách Thông Minh",
-  "ic": "🧠",
-  "d": "Từ giờ toàn câu hỏi khó. Trả lời đúng +3 HP.",
-  "tier": "kim",
-  "dur": 3,
-  "risk": true
- },
- {
-  "t": "Đánh Cược",
-  "ic": "🎲",
-  "d": "Máu hiện tại về 1. Nếu thắng vòng tiếp theo, hoàn trả lại toàn bộ máu đã mất.",
-  "tier": "kim",
-  "dur": 1,
-  "risk": true
- },
- {
-  "t": "Giác Quan Thứ 6",
-  "ic": "👁️",
-  "d": "Hiện đường đi dự kiến của viên đạn sắp xuất hiện.",
-  "tier": "vang",
-  "dur": 3
- },
- {
-  "t": "Bình Yên",
-  "ic": "🕊️",
-  "d": "Vòng sau không có thiên tai.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Đầu Tư",
-  "ic": "💰",
-  "d": "Mỗi câu trả lời đúng nhận x2 xu.",
-  "tier": "vang",
-  "dur": 3
- },
- {
-  "t": "Lấy Tiền Đổi Mạng",
-  "ic": "💱",
-  "d": "Trừ 50% xu (tối đa 100 xu) và nhận lại HP bằng 1/2 số xu đã trừ.",
-  "tier": "vang",
-  "dur": "tuc",
-  "risk": true
- },
- {
-  "t": "Không Thể Cản Phá",
-  "ic": "🛡️",
-  "d": "Bất tử 5 giây đầu vòng sau.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Tương Phản",
-  "ic": "🌙",
-  "d": "Map tiếp theo: nhân vật hóa trăng sáng, đạn đen.",
-  "tier": "vang",
-  "dur": 1
- },
- {
-  "t": "Nổ Hũ",
-  "ic": "🎰",
-  "d": "3 vòng tới: câu đúng không nhận xu ngay mà dồn lại. Sống hết 3 vòng nhận x2 số xu dồn; chết thì mất hết.",
-  "tier": "kim",
-  "dur": 3,
-  "risk": true
- },
- {
-  "t": "Đầu Tư II",
-  "ic": "💎",
-  "d": "Trả 100 xu: lượt rút thẻ sau có tỷ lệ Vàng và Kim cương cao hơn.",
-  "tier": "vang",
-  "dur": "tuc"
- },
- {
-  "t": "Kiểm Tra Nhanh",
-  "ic": "⏱️",
-  "d": "Mỗi câu hỏi có 5 giây. Trả lời càng nhanh càng nhiều HP (5 giảm dần).",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Băng Sương",
-  "ic": "❄️",
-  "d": "Kỹ năng chủ động (H): đứng yên và miễn sát thương trong 2 giây, hồi 20 giây.",
-  "tier": "vang",
-  "dur": "vinh"
- },
- {
-  "t": "Chế Độ Dễ",
-  "ic": "🕹️",
-  "d": "Vòng sau: đạn gây ít hơn 1 sát thương.",
-  "tier": "bac",
-  "dur": 1
- },
- {
-  "t": "Đánh Cược II",
-  "ic": "🎯",
-  "d": "Trả lời đúng 10 câu liên tiếp: đạn -1 sát thương và chậm hơn 20%. Nếu sai trước đó: đạn +1 sát thương, nhanh hơn 20%, to hơn 20%.",
-  "tier": "kim",
-  "dur": "vinh",
-  "risk": true
- },
- {
-  "t": "Đôi Cánh Tự Do",
-  "ic": "🪽",
-  "d": "3 vòng tới: không còn bị trói vào mặt đất, bay tự do mọi hướng (Nhảy/↑ bay lên, Cúi/↓ hạ xuống). Không thể cúi.",
-  "tier": "kim",
-  "dur": 3
- },
- {
-  "t": "Hộp Mù",
-  "ic": "🎁",
-  "d": "Mở ngay 1 lõi ngẫu nhiên (không trúng lõi tiêu xu).",
-  "tier": "vang",
-  "dur": "tuc"
- },
- {
-  "t": "Bão Vàng I",
-  "ic": "🪙",
-  "d": "Nhận ngay 10 xu.",
-  "tier": "bac",
-  "dur": "tuc"
- },
- {
-  "t": "Bão Vàng II",
-  "ic": "🟡",
-  "d": "Nhận ngay 20 xu.",
-  "tier": "vang",
-  "dur": "tuc"
- },
- {
-  "t": "Bão Vàng III",
-  "ic": "🌕",
-  "d": "Nhận ngay 30 xu.",
-  "tier": "kim",
-  "dur": "tuc"
- },
- {
-  "t": "Vô Hạn",
-  "ic": "♾️",
-  "d": "3 vòng tới: bỏ tường hai bên, đi hết mép này sẽ xuất hiện ở mép bên kia.",
-  "tier": "vang",
-  "dur": 3
- },
- {
-  "t": "Nhanh Gọn",
-  "ic": "⚡",
-  "d": "Vòng sau ngắn hơn 35% nhưng đạn nhanh hơn 25%.",
-  "tier": "bac",
-  "dur": 1,
-  "risk": true
- },
- {
-  "t": "Trì Hoãn",
-  "ic": "⏳",
-  "d": "3 vòng tới: thời gian bất tử sau khi dính đòn tăng từ 1 giây lên 2 giây.",
-  "tier": "vang",
-  "dur": 3
- },
- {
-  "t": "Đèn Pin Thu Nhỏ",
-  "ic": "🔦",
-  "d": "2 vòng tới: đạn nhỏ đi 20% (hitbox nhỏ theo).",
-  "tier": "bac",
-  "dur": 2
- }
+  {
+    "t": "Nhảy Kép",
+    "ic": "🦘",
+    "d": "Thêm 1 lần nhảy trên không.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Lướt Dash",
+    "ic": "💨",
+    "d": "Kỹ năng chủ động: lướt 0.3s xuyên đạn, hồi 3s (Shift).",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Bộc Phá",
+    "ic": "💥",
+    "d": "Kỹ năng chủ động: làm nổ mọi đạn trong bán kính 260px, hồi 12s (Q).",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thu Nhỏ",
+    "ic": "🔽",
+    "d": "-15% kích thước và hitbox (tối đa 3 lần).",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Tăng Tốc & Bật Cao",
+    "ic": "⚡",
+    "d": "+15% tốc độ chạy và lực nhảy.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Giáp Năng Lượng",
+    "ic": "🛡️",
+    "d": "Chặn miễn phí 1 đòn trúng.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Hồi Phục & Thanh Tẩy",
+    "ic": "💚",
+    "d": "+3 HP và xóa Độc, Băng, Tuyết.",
+    "tier": "bac",
+    "dur": "tuc"
+  },
+  {
+    "t": "Tâm Điểm",
+    "ic": "🎯",
+    "d": "Hiện chấm sáng ở tâm hitbox.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Kháng Băng",
+    "ic": "🧊",
+    "d": "Miễn nhiễm Băng và Tuyết trong vòng kế tiếp.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Kháng Điện",
+    "ic": "🔌",
+    "d": "Miễn nhiễm Đạn điện lan trong vòng kế tiếp.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Kháng Độc",
+    "ic": "☠️",
+    "d": "Miễn nhiễm Đạn độc trong vòng kế tiếp.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Kháng Hố Đen",
+    "ic": "🕳️",
+    "d": "Miễn nhiễm Hố đen và Bom đẩy lùi trong vòng kế tiếp.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Khổng Lồ Hóa",
+    "ic": "🧬",
+    "d": "Nhân đôi HP hiện tại, kích thước +45% vĩnh viễn.",
+    "tier": "kim",
+    "dur": "vinh",
+    "risk": true
+  },
+  {
+    "t": "Thỏa Ước Học Giả",
+    "ic": "📚",
+    "d": "Đạn nhanh hơn 20%; mỗi câu đúng khi hồi sinh +2 HP.",
+    "tier": "vang",
+    "dur": "vinh",
+    "risk": true
+  },
+  {
+    "t": "Thế Thân",
+    "ic": "👼",
+    "d": "Một lần duy nhất: khi về 0 HP tự hồi 1 HP, không cần trả lời câu hỏi.",
+    "tier": "kim",
+    "dur": "vinh"
+  },
+  {
+    "t": "Hấp Thụ Đạn",
+    "ic": "🕸️",
+    "d": "Cứ né được 10 viên đạn thì hồi 1 HP.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Bậc Thầy Né Tránh",
+    "ic": "🧭",
+    "d": "Vòng kế tiếp: bạn nhanh hơn 20%, đạn chậm hơn 20%.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Sinh Sôi Nảy Nở",
+    "ic": "💗",
+    "d": "Vòng kế tiếp xuất hiện đạn trái tim: chạm vào để hồi 1 HP.",
+    "tier": "vang",
+    "dur": 1
+  },
+  {
+    "t": "Da Dày Thịt Béo",
+    "ic": "🥩",
+    "d": "Mỗi lần trúng đạn có 50% cơ hội giảm một nửa sát thương.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Xung Phong",
+    "ic": "🏃",
+    "d": "Cứ 10 giây có 1 lá chắn. Nếu có Lướt Dash, mỗi lần lướt tạo lá chắn.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Khế Ước Quỷ Dữ",
+    "ic": "😈",
+    "d": "Đạn gây thêm 2 sát thương. Mỗi câu trả lời đúng cộng thêm 1 HP.",
+    "tier": "kim",
+    "dur": "vinh",
+    "risk": true
+  },
+  {
+    "t": "Tái Sinh",
+    "ic": "🌱",
+    "d": "Cứ 3 giây hồi 1 HP.",
+    "tier": "bac",
+    "dur": 3
+  },
+  {
+    "t": "Khiên Thánh Quang",
+    "ic": "✨",
+    "d": "Kỹ năng chủ động (E): tạo 1 lớp khiên, hồi 15 giây.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Ngưng Đọng Thời Gian",
+    "ic": "⏸️",
+    "d": "Kỹ năng chủ động (R): đạn đứng yên 3 giây, hồi 25 giây.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Siêu Tốc",
+    "ic": "⚡",
+    "d": "Kỹ năng chủ động (F): tăng 20% tốc độ trong 5 giây, hồi 14 giây.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thử Thách Mưa Bom",
+    "ic": "🎲",
+    "d": "Vòng sau gấp đôi thời gian và có mưa bom. Thắng thêm 10 HP.",
+    "tier": "kim",
+    "dur": 1,
+    "risk": true
+  },
+  {
+    "t": "Trưởng Thành",
+    "ic": "🌳",
+    "d": "Giới hạn HP tối đa 30 và ngay lập tức đầy 30 HP.",
+    "tier": "kim",
+    "dur": "vinh",
+    "risk": true
+  },
+  {
+    "t": "Tàng Hình",
+    "ic": "👻",
+    "d": "Kỹ năng chủ động (G): đi xuyên qua đạn trong 3 giây, hồi 18 giây.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Khổng Lồ Tí Hon",
+    "ic": "🐣",
+    "d": "Mỗi vòng bắt đầu cộng thêm 2 HP.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thử Thách Thông Minh",
+    "ic": "🧠",
+    "d": "Từ giờ toàn câu hỏi khó. Trả lời đúng +3 HP.",
+    "tier": "kim",
+    "dur": 3,
+    "risk": true
+  },
+  {
+    "t": "Đánh Cược",
+    "ic": "🎲",
+    "d": "Máu hiện tại về 1. Nếu thắng vòng tiếp theo, hoàn trả lại toàn bộ máu đã mất.",
+    "tier": "kim",
+    "dur": 1,
+    "risk": true
+  },
+  {
+    "t": "Giác Quan Thứ 6",
+    "ic": "👁️",
+    "d": "Hiện đường đi dự kiến của viên đạn sắp xuất hiện.",
+    "tier": "vang",
+    "dur": 3
+  },
+  {
+    "t": "Bình Yên",
+    "ic": "🕊️",
+    "d": "Vòng sau không có thiên tai.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Đầu Tư",
+    "ic": "💰",
+    "d": "Mỗi câu trả lời đúng nhận x2 xu.",
+    "tier": "vang",
+    "dur": 3
+  },
+  {
+    "t": "Lấy Tiền Đổi Mạng",
+    "ic": "💱",
+    "d": "Trừ 50% xu (tối đa 100 xu) và nhận lại HP bằng 1/2 số xu đã trừ.",
+    "tier": "vang",
+    "dur": "tuc",
+    "risk": true
+  },
+  {
+    "t": "Không Thể Cản Phá",
+    "ic": "🛡️",
+    "d": "Bất tử 5 giây đầu vòng sau.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Tương Phản",
+    "ic": "🌙",
+    "d": "Map tiếp theo: nhân vật hóa trăng sáng, đạn đen.",
+    "tier": "vang",
+    "dur": 1
+  },
+  {
+    "t": "Nổ Hũ",
+    "ic": "🎰",
+    "d": "3 vòng tới: câu đúng không nhận xu ngay mà dồn lại. Sống hết 3 vòng nhận x2 số xu dồn; chết thì mất hết.",
+    "tier": "kim",
+    "dur": 3,
+    "risk": true
+  },
+  {
+    "t": "Đầu Tư II",
+    "ic": "💎",
+    "d": "Trả 100 xu: lượt rút thẻ sau có tỷ lệ Vàng và Kim cương cao hơn.",
+    "tier": "vang",
+    "dur": "tuc"
+  },
+  {
+    "t": "Kiểm Tra Nhanh",
+    "ic": "⏱️",
+    "d": "Mỗi câu hỏi có 5 giây. Trả lời càng nhanh càng nhiều HP (5 giảm dần).",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Băng Sương",
+    "ic": "❄️",
+    "d": "Kỹ năng chủ động (H): đứng yên và miễn sát thương trong 2 giây, hồi 20 giây.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Chế Độ Dễ",
+    "ic": "🕹️",
+    "d": "Vòng sau: đạn gây ít hơn 1 sát thương.",
+    "tier": "bac",
+    "dur": 1
+  },
+  {
+    "t": "Đánh Cược II",
+    "ic": "🎯",
+    "d": "Trả lời đúng 10 câu liên tiếp: đạn -1 sát thương và chậm hơn 20%. Nếu sai trước đó: đạn +1 sát thương, nhanh hơn 20%, to hơn 20%.",
+    "tier": "kim",
+    "dur": "vinh",
+    "risk": true
+  },
+  {
+    "t": "Đôi Cánh Tự Do",
+    "ic": "🪽",
+    "d": "3 vòng tới: không còn bị trói vào mặt đất, bay tự do mọi hướng (Nhảy/↑ bay lên, Cúi/↓ hạ xuống). Không thể cúi.",
+    "tier": "kim",
+    "dur": 3
+  },
+  {
+    "t": "Hộp Mù",
+    "ic": "🎁",
+    "d": "Mở ngay 1 lõi ngẫu nhiên (không trúng lõi tiêu xu).",
+    "tier": "vang",
+    "dur": "tuc"
+  },
+  {
+    "t": "Bão Vàng I",
+    "ic": "🪙",
+    "d": "Nhận ngay 10 xu.",
+    "tier": "bac",
+    "dur": "tuc"
+  },
+  {
+    "t": "Bão Vàng II",
+    "ic": "🟡",
+    "d": "Nhận ngay 20 xu.",
+    "tier": "vang",
+    "dur": "tuc"
+  },
+  {
+    "t": "Bão Vàng III",
+    "ic": "🌕",
+    "d": "Nhận ngay 30 xu.",
+    "tier": "kim",
+    "dur": "tuc"
+  },
+  {
+    "t": "Vô Hạn",
+    "ic": "♾️",
+    "d": "3 vòng tới: bỏ tường hai bên, đi hết mép này sẽ xuất hiện ở mép bên kia.",
+    "tier": "vang",
+    "dur": 3
+  },
+  {
+    "t": "Nhanh Gọn",
+    "ic": "⚡",
+    "d": "Vòng sau ngắn hơn 35% nhưng đạn nhanh hơn 25%.",
+    "tier": "bac",
+    "dur": 1,
+    "risk": true
+  },
+  {
+    "t": "Trì Hoãn",
+    "ic": "⏳",
+    "d": "3 vòng tới: thời gian bất tử sau khi dính đòn tăng từ 1 giây lên 2 giây.",
+    "tier": "vang",
+    "dur": 3
+  },
+  {
+    "t": "Đèn Pin Thu Nhỏ",
+    "ic": "🔦",
+    "d": "2 vòng tới: đạn nhỏ đi 20% (hitbox nhỏ theo).",
+    "tier": "bac",
+    "dur": 2
+  },
+  {
+    "t": "Bước Chân Vũng Bùn",
+    "ic": "🥾",
+    "d": "Giảm 25% hồi chiêu Dash; sau khi lướt xong, +20% tốc độ chạy trong 1.5 giây.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thế Thủ Thấp Trọng Tâm",
+    "ic": "🧎",
+    "d": "Khi cúi người: thu hẹp hitbox 20%, giảm 35% sát thương nhận vào.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Phản Chấn Xung Kích",
+    "ic": "🌀",
+    "d": "Tiếp đất sau cú nhảy cao: sóng chấn động phá hủy đạn quanh người.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thân Nhiệt Sục Sôi",
+    "ic": "🔥",
+    "d": "Giảm 50% thời gian khống chế; miễn nhiễm làm chậm.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Trọng Tâm Vững Chắc",
+    "ic": "⚓",
+    "d": "Giảm 70% lực đẩy lùi; miễn nhiễm gió và lực hút môi trường.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Nanh Vuốt Sắc Bén",
+    "ic": "🐺",
+    "d": "+15% sát thương cơ bản cho mọi đòn đánh.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thể Lực Dẻo Dai",
+    "ic": "💪",
+    "d": "+20% máu tối đa và hồi ngay lượng máu tương ứng.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Cuồng Nộ Cận Chiến",
+    "ic": "⚔️",
+    "d": "+45% sát thương khi đứng gần Boss; -35% sát thương khi đánh từ xa.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Linh Hồn Cường Hóa",
+    "ic": "🌟",
+    "d": "+12% sát thương, +12% máu tối đa, +10% tốc độ chạy.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Đột Kích Sau Lướt",
+    "ic": "🗡️",
+    "d": "Phát bắn đầu tiên sau Dash: +40% sát thương, đạn bay xa hơn.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Dư Chấn Nặng Nề",
+    "ic": "🌊",
+    "d": "Phản Chấn Xung Kích rộng thêm 35%, phá choáng Boss và làm chậm đạn bay qua.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Bản Năng Sinh Tồn",
+    "ic": "🩸",
+    "d": "Khi máu dưới 30%: +25% tốc độ chạy cho đến khi máu vượt 30%.",
+    "tier": "vang",
+    "dur": "vinh"
+  }
 ]
