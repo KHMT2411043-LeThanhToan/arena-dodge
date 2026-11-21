@@ -91,3 +91,9 @@ Lệnh báo rõ file nào, mục nào lỗi (thiếu trường, ảnh không t�
 ## Xuất / nhập dữ liệu người chơi
 
 Trong **Cửa hàng skin** có hai nút: **Xuất dữ liệu** (xu, skin đã mua, kỷ lục, cài đặt, ngân hàng câu hỏi, kèm số phiên bản) và **Nhập dữ liệu**. Dùng khi đổi máy, đổi địa chỉ repo, hoặc chuyển từ file Zalo sang link GitHub Pages. File từ phiên bản game mới hơn sẽ bị từ chối để tránh hỏng dữ liệu. Khi đổi cấu trúc dữ liệu, tăng `SAVE_VERSION` trong `game.js` và thêm bước nâng cấp vào `migrateSave`.
+
+
+## Cập nhật cân bằng boss (đợt này)
+- **Nữ Hoàng Sào Zombie:** còn zombie/trứng/túi sào thì Nữ Hoàng miễn sát thương (giáp sinh thể); đạn người chơi tự nhắm zombie gần nhất. Diệt sạch thì lộ điểm yếu và tạm hoãn đợt trứng kế ít nhất 3.2 giây.
+- **Thực Thể Dị Dạng:** nhát chém đa dạng 7 kiểu (chéo, ngang sàn, dọc, chữ X, quạt, chuỗi quét liên tiếp, song song), nhiều combo có chém hơn.
+- **Sinh Vật 000:** cầu axit nhắm vào chỗ người chơi đứng, laser khóa nhanh hơn kèm chém đuôi lần hai, kén ra 3 từ vòng 4, sóng xung điện nhanh/khe hẹp hơn, combo sớm hơn (vòng 3), nghỉ giữa chiêu ngắn hơn.
