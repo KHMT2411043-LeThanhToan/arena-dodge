@@ -92,5 +92,29 @@
     "ai": "cube",
     "pool": [],
     "img": "img/bosses/minimal.png"
+  },
+  "deep": {
+    "n": "Cthulhu",
+    "c": "#14b8a6",
+    "e": "🐙",
+    "pool": [],
+    "ai": "cthulhu",
+    "img": "img/bosses/cthulhu.png"
+  },
+  "castle": {
+    "n": "Bá Tước Huyết Nguyệt",
+    "c": "#dc2626",
+    "e": "🧛",
+    "pool": [],
+    "ai": "vampire",
+    "img": "img/bosses/vampire.png"
+  },
+  "dragon": {
+    "n": "Cự Long Cổ Đại",
+    "c": "#f59e0b",
+    "e": "🐉",
+    "pool": [],
+    "ai": "dragon",
+    "img": "img/bosses/dragon.png"
   }
 }

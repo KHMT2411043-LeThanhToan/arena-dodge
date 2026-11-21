@@ -457,5 +457,89 @@
     "d": "Khi máu dưới 30%: +25% tốc độ chạy cho đến khi máu vượt 30%.",
     "tier": "vang",
     "dur": "vinh"
+  },
+  {
+    "t": "Liên Kích",
+    "ic": "⚡",
+    "d": "Mỗi đòn đánh boss có 20% tung thêm 1 đòn mạnh hơn (1.5 lần sát thương).",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Kiên Cường",
+    "ic": "🛡️",
+    "d": "Lần đầu máu xuống dưới 30%: hồi 20 máu và nhận 1 lá chắn.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Huyết Giáp",
+    "ic": "🩸",
+    "d": "Cứ 10 máu hiện có, giảm 1% sát thương nhận vào (tối đa 25%).",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Xuyên Giáp",
+    "ic": "🗡️",
+    "d": "Đòn đánh có 30% sát thương xuyên qua lớp giáp của boss.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Ẩn Nấp",
+    "ic": "🌫️",
+    "d": "Mỗi lần cúi người có 20% kích hoạt tàng hình 2 giây.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Lò Xo",
+    "ic": "🦘",
+    "d": "Tăng 15% độ cao bật nhảy.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thanh Tẩy",
+    "ic": "🧹",
+    "d": "Kỹ năng chủ động [U]: hóa giải mọi khống chế (đóng băng, tê liệt, chậm, độc).",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Hình Nhân Thế Mạng",
+    "ic": "🎭",
+    "d": "Kỹ năng chủ động [I], dùng 1 lần: bất tử 5 giây.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Hồi Huyết",
+    "ic": "💗",
+    "d": "Kỹ năng chủ động [O]: hồi 30 máu, không vượt giới hạn máu.",
+    "tier": "bac",
+    "dur": "vinh"
+  },
+  {
+    "t": "Tiểu Cường",
+    "ic": "🔥",
+    "d": "Kỹ năng chủ động [P], dùng 1 lần: mỗi giây hồi 10 máu đến hết vòng.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Khiên Bảo Hộ",
+    "ic": "🧱",
+    "d": "Kỹ năng chủ động [Y], dùng 1 lần: đổi máu thành lá chắn.",
+    "tier": "vang",
+    "dur": "vinh"
+  },
+  {
+    "t": "Thời Gian Gia Tốc",
+    "ic": "⏩",
+    "d": "Kỹ năng chủ động [L]: mất 50% máu, hồi tất cả kỹ năng.",
+    "tier": "vang",
+    "dur": "vinh"
   }
 ]
