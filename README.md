@@ -32,6 +32,8 @@ tools/
 
 `fx` chỉ dùng cho hiệu ứng đã có sẵn trong `game.js`: `hero` (Superman), `moon` (Thủy Thủ Mặt Trăng), `puddle` (Heo Peppa), `cards` (Thủ Lĩnh Thẻ Bài), `beach` (Tiệc Bãi Biển). Hiệu ứng mới hoàn toàn cần viết thêm code trong `skinFx`.
 
+Skin thêm gần đây: **Heo Thượng Tiên** (2000 xu, `fx: xianxia`: vòng cổ tự phù văn xoay quanh, trận pháp dưới chân, linh khí bay lên, cánh hoa), **Heo Tuxedo Mặt Nạ** (1200 xu, không hiệu ứng), **Heo Uchiha Itachi** (1800 xu, `fx: sharingan`: quầng đỏ, quạ bay quanh, lông quạ rơi, con mắt Sharingan nhấp nháy). Ba sprite có 22–23 khung nên khai báo `anim` riêng (khung thứ 17 dùng làm khung chạy bổ sung).
+
 Sprite nào xếp khung khác `pig.png` thì thêm `"anim"` để khai báo số khung (đánh số 1–24 theo hàng, đọc từ trái qua phải), ví dụ `"anim":{"idle":[1,2],"run":[4,5,6],"jump":[14],"apex":[15],"fall":[16],"crouch":[19,20,21],"dash":[22],"hurt":[23],"stun":[24]}`. Khóa nào bỏ trống sẽ dùng bảng mặc định. `apex` là khung lúc nhảy ở đỉnh. Cả 4 skin Thủy Thủ Mặt Trăng, Peppa, Thủ Lĩnh Thẻ Bài và Tiệc Bãi Biển (heo mặc bikini) đều dùng bảng `anim` này vì sprite có 22 khung, để trống ô 17 và 18.
 
 **Câu hỏi.** Sửa `content/questions.json` (mỗi câu: `question`, `options`, `answer` 0–3, `difficulty` 1–3, `explanation`). Trong game cũng có nút nạp/xuất câu hỏi.
