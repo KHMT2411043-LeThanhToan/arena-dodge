@@ -2318,7 +2318,7 @@ function zombieAI(b,dt){
  else if(z.m==='tel'){z.t-=dt;z.fr=2;if(z.t<=0){z.m='run';z.cyc++;z.cool=(b.enr?.65:1)*rnd(4.6,5.6);
    const n=(r>=6?4:3)+(b.enr?1:0),xs=[WL+50,WR-50,rnd(WL+150,WR-150),rnd(WL+150,WR-150)];
    if(mine<10)for(let i=0;i<n;i++)G.bullets.push({type:'zegg',x:xs[i%4],y:FLOOR-14,vx:0,vy:0,r:14,age:0,hatch:Math.random()<.6?'zdreg':'zbounce'});
-   z.weak=1.6;z.fr=3;beep(180,.12,.06,'sawtooth');
+   z.weak=1.6;z.fr=3;beep(180,.12,.06,'sawtooth');banner('🥚 Nữ Hoàng thả bọc trứng!');G.bannerT=1.5;
    if(z.cyc%3===0)for(let i=0;i<4;i++)G.bullets.push({type:'spore',x:b.x+(i-1.5)*60,y:b.y+30,vx:0,vy:0,r:8,age:0});
    if(z.cyc%4===0)zombieSurge(b,r);
    if(z.cyc%6===0&&G.bullets.filter(x=>x.type==='brood').length<2)G.bullets.push({type:'brood',x:rnd(WL+120,WR-120),y:FLOOR-22,vx:0,vy:0,r:22,age:0,hp:6});
@@ -2361,6 +2361,7 @@ function drawZombie(b){
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*3)*4);
  if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-80,-80,160,160)}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,44,0,7);ctx.fill()}
+ if(z.m==='tel'){const k=1-z.t/.8;ctx.globalAlpha=.6*k;ctx.strokeStyle='#fde047';ctx.lineWidth=4;ctx.beginPath();ctx.arc(0,0,40+k*90,0,7);ctx.stroke()}
  if(b.shield&&z.m!=='in'){ctx.globalAlpha=.35+.15*Math.sin(G.t*6);ctx.strokeStyle='#bef264';ctx.lineWidth=5;ctx.beginPath();ctx.arc(0,0,64,0,7);ctx.stroke()}
  ctx.restore();
 }

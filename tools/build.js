@@ -20,7 +20,8 @@ function buildContent(){
 function build(){
   const C=buildContent();
   let html=rd('index.html');
-  const game=rd('game.js');
+  /* sprite zombie không nằm trong content/bosses.json nên nhúng riêng */
+  const game=rd('game.js').replace("ZS.src='img/zombies.png'","ZS.src='"+dataUri('img/zombies.png')+"'");
   if(/<\/script/i.test(game))throw new Error('game.js chứa chuỗi </script>, hãy viết thành <\\/script>');
   const safe=s=>s.replace(/</g,'\\u003c');
   const qjson=safe(JSON.stringify(C.questions));
