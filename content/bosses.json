@@ -99,7 +99,8 @@
     "e": "🐙",
     "pool": [],
     "ai": "cthulhu",
-    "img": "img/bosses/cthulhu.png"
+    "img": "img/bosses/cthulhu.png",
+    "fw": 192
   },
   "castle": {
     "n": "Bá Tước Huyết Nguyệt",
@@ -107,7 +108,8 @@
     "e": "🧛",
     "pool": [],
     "ai": "vampire",
-    "img": "img/bosses/vampire.png"
+    "img": "img/bosses/vampire.png",
+    "fw": 192
   },
   "dragon": {
     "n": "Cự Long Cổ Đại",
@@ -115,6 +117,7 @@
     "e": "🐉",
     "pool": [],
     "ai": "dragon",
-    "img": "img/bosses/dragon.png"
+    "img": "img/bosses/dragon.png",
+    "fw": 192
   }
 }

@@ -213,6 +213,9 @@ const BT={
   dfire:{at:99,wt:0,c:'#f97316',trail:1,sh:'circle'},
   ink:{at:99,wt:0,c:'#4c1d95',trail:1,sh:'circle'},
   blood:{at:99,wt:0,c:'#b91c1c',trail:1,sh:'circle'},
+  /* Huyết Cầu (chiêu Cầu Máu Chuỗi của Bá Tước): bay uốn lượn về phía người chơi, hết hạn thì nổ thành vòng đạn máu nhỏ */
+  vorb:{at:99,wt:0,c:'#dc2626',trail:1,sh:'circle',up:(b,dt,out)=>{b.age+=dt;const w=Math.sin(b.age*7+b.ph)*b.wv;b.x+=(b.vx-b.uy*w)*dt;b.y+=(b.vy+b.ux*w)*dt;
+    if(b.age>=b.life){b.dead=true;burstParts(b.x,b.y,'#dc2626',12);beep(220,.08,.05,'triangle');for(let i=0;i<b.n;i++){const q=b.rot+i*Math.PI*2/b.n;out.push({type:'blood',x:b.x,y:b.y,vx:Math.cos(q)*210,vy:Math.sin(q)*210,r:6})}}}},
   sinfire:{at:99,wt:0,c:'#f0abfc',trail:1,sh:'circle'},
   yukibloom:{at:99,wt:0,c:'#e0f2fe',sh:'circle',up:(b,dt)=>{b.age+=dt;b.life-=dt;if(b.life<=0){b.dead=true;return}
     const g=G.gust,w=(g&&g.k==='blow'&&!P.lo_stable)?g.dir*190:0;
@@ -908,6 +911,7 @@ function drawBullet(b){
    case 'svring':{ctx.translate(0,0);const gw=b.gw,a0=b.gap+gw,a1=b.gap-gw+Math.PI*2,fa=clamp(1.2-b.rad/640,.35,1);
     ctx.globalAlpha=fa;glow('#4ade80',18);ctx.strokeStyle='#86efac';ctx.lineWidth=9;ctx.beginPath();ctx.arc(0,0,b.rad,a0,a1);ctx.stroke();
     glow('transparent',0);ctx.strokeStyle='#fb923c';ctx.lineWidth=3;ctx.beginPath();ctx.arc(0,0,b.rad,a0,a1);ctx.stroke();break}
+   case 'vorb':{glow('#ef4444',16);dot(r,'#991b1b');glow('transparent',0);ctx.fillStyle='#fecaca';ctx.globalAlpha=.8;ctx.beginPath();ctx.arc(-r*.3,-r*.3,r*.3,0,7);ctx.fill();ctx.globalAlpha=1;ctx.strokeStyle='#ef4444';ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,0,r+3+Math.sin(t*14)*1.5,0,7);ctx.stroke();break}
    default: dot(r,c);
  }
  ctx.restore();
@@ -2524,7 +2528,7 @@ function cthulhuAI(b,dt){
 function drawCth(b){
  const at=b.d.atlas;
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*2)*4);
- if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-96,-96,192,192)}
+ if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;{const _C=b.d.fw||128,_D=b.d.fw?208:192;ctx.drawImage(at,(f%6)*_C,Math.floor(f/6)*_C,_C,_C,-_D/2,-_D/2,_D,_D)}}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,60,0,7);ctx.fill()}
  ctx.restore();
 }
@@ -2533,7 +2537,7 @@ function drawCth(b){
    Dịch chuyển bằng sương máu tới gần người chơi → Vuốt Máu (lao tới, quét 3 đạn, hút máu nếu trúng)
    → Đàn Dơi (dơi đuổi theo người chơi) → Lưỡi Máu (phóng dao máu nhắm vào người chơi).
    Dưới 50% máu: Huyết Bộc (vòng sóng máu toàn sân) và Kết Ấn Huyết Nguyệt (hồi máu khi không bị trúng đòn). */
-const VAM_FR={idle:[0,2],cup:1,claw:3,sword:[7,8,9],mist:13,mistB:14,bats:16,proj:18,trap:17,moon:19,hurt:4,defeat:20,cape:12};
+const VAM_FR={idle:[0,2],cup:1,claw:3,sword:[7,8,9],mist:13,mistB:14,bats:15,proj:16,trap:17,orb:18,moon:19,hurt:4,defeat:20,cape:12};
 /* Dây Hút Máu: nối boss với người chơi 3 giây; người chơi phải lướt ra xa (>260 px) để đứt dây.
    Mỗi giây rút 10 máu người chơi và hồi 1% máu cho boss. Bẫy hoa hồng: dẫm vào thì chậm và boss hồi 4% máu. */
 function vamTether(b,cs,dt){
@@ -2581,6 +2585,13 @@ function vampireAI(b,dt){
   }else if(a==='proj'){
    if(t>=.5&&!cs.fire){cs.fire=true;const base=Math.atan2(P.y-ph()/2-b.y,P.x-b.x);for(let i=-1;i<=1;i++){const q=base+i*.22;G.bullets.push({type:'blood',x:b.x,y:b.y-20,vx:Math.cos(q)*(340+r*6),vy:Math.sin(q)*(340+r*6),r:8})}beep(480,.1,.05,'triangle')}
    if(t>=.9){cs.act=null}
+  }else if(a==='orbs'){
+   /* Cầu Máu Chuỗi: 3 (pha 2: 5) huyết cầu uốn lượn tỏa ra như quạt; sau ~1.0 giây mỗi quả nổ thành 6 (pha 2: 8) đạn máu nhỏ */
+   if(t>=.55&&!cs.fire){cs.fire=true;const n=cs.ph===2?5:3,base=Math.atan2(P.y-ph()/2-b.y,P.x-b.x),spd=250+r*5;
+    for(let i=0;i<n;i++){const q=base+(i-(n-1)/2)*.34,ux=Math.cos(q),uy=Math.sin(q);
+     G.bullets.push({type:'vorb',x:b.x,y:b.y-16,vx:ux*spd,vy:uy*spd,ux,uy,r:11,age:0,ph:i*1.3,wv:55,life:.95+i*.05,n:cs.ph===2?8:6,rot:Math.random()*6.28})}
+    burstParts(b.x,b.y,'#dc2626',10);beep(300,.14,.06,'sawtooth')}
+   if(t>=1.1){cs.act=null}
   }else if(a==='siphon'){
    if(t>=.5&&!cs.fire){cs.fire=true;cs.tether={t:3,tick:1};banner('🩸 Dây Hút Máu!');G.bannerT=1.5;beep(200,.3,.08,'sawtooth')}
    if(t>=.9){cs.act=null;cs.next='tele'}
@@ -2595,20 +2606,20 @@ function vampireAI(b,dt){
  if(!cs.act){
   if(cs.next){const nx=cs.next;cs.next=null;vamAct(b,cs,nx)}
   else{cs.cd-=dt;if(cs.cd<=0){
-   const ks=cs.ph===1?['tele','bats','proj','claw','siphon','roses']:['tele','claw','bats','blast','siphon','roses'];
+   const ks=cs.ph===1?['tele','bats','proj','claw','siphon','roses','orbs']:['tele','claw','bats','blast','siphon','roses','orbs'];
    let k;do{k=pick(ks)}while(k===cs.last&&Math.random()<.6);cs.last=k;
    cs.cd=Math.max(1.0,2.1-.05*r)*(b.enr?.8:1)*sp;vamAct(b,cs,k);
   }}
  }
  b.mistA=cs.mistA||0;
- b.fr=b.hit>0?VAM_FR.hurt:(cs.act==='tele'?(cs.at<.35?VAM_FR.mist:VAM_FR.mistB):cs.act==='claw'?(cs.at<.45?VAM_FR.sword[0]:VAM_FR.claw):cs.act==='bats'?VAM_FR.bats:cs.act==='proj'?VAM_FR.proj:cs.act==='blast'?VAM_FR.cape:cs.act==='siphon'?VAM_FR.cape:cs.act==='roses'?VAM_FR.trap:(cs.ph===2&&b.hitRegen?VAM_FR.moon:VAM_FR.idle[Math.floor(G.t*2)%2]));
+ b.fr=b.hit>0?VAM_FR.hurt:(cs.act==='tele'?(cs.at<.35?VAM_FR.mist:VAM_FR.mistB):cs.act==='claw'?(cs.at<.45?VAM_FR.sword[0]:VAM_FR.claw):cs.act==='bats'?VAM_FR.bats:cs.act==='proj'?VAM_FR.proj:cs.act==='blast'?VAM_FR.cape:cs.act==='siphon'?VAM_FR.cape:cs.act==='roses'?VAM_FR.trap:cs.act==='orbs'?VAM_FR.orb:(cs.ph===2&&b.hitRegen?VAM_FR.moon:VAM_FR.idle[Math.floor(G.t*2)%2]));
 }
 function drawVamp(b){
  const at=b.d.atlas;
  if(b.cs&&b.cs.tether){ctx.save();ctx.strokeStyle='#dc2626';ctx.lineWidth=3;ctx.shadowColor='#dc2626';ctx.shadowBlur=10;ctx.setLineDash([8,6]);ctx.beginPath();ctx.moveTo(b.x,b.y-20);ctx.lineTo(P.x,P.y-ph()/2);ctx.stroke();ctx.restore()}
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*2)*3);
  if(b.hitRegen||(b.cs&&b.cs.ph===2)){const g=ctx.createRadialGradient(0,-20,10,0,-20,110);g.addColorStop(0,'rgba(220,38,38,'+(.25+.1*Math.sin(G.t*4))+')');g.addColorStop(1,'rgba(220,38,38,0)');ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,-20,110,0,7);ctx.fill()}
- if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1-(b.mistA||0)*.8;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-96,-96,192,192)}
+ if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1-(b.mistA||0)*.8;{const _C=b.d.fw||128,_D=b.d.fw?208:192;ctx.drawImage(at,(f%6)*_C,Math.floor(f/6)*_C,_C,_C,-_D/2,-_D/2,_D,_D)}}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,50,0,7);ctx.fill()}
  ctx.restore();
 }
@@ -2617,7 +2628,7 @@ function drawVamp(b){
    Chủ yếu đánh xa: Cầu Lửa Liên Thanh → Luồng Lửa Quét Sàn (liên kết). Mưa Lửa → Hỏa Cầu Dung Nham (liên kết).
    Giáp Vảy Rồng: bật định kỳ, chịu 8 phát trúng là vỡ → Choáng 3 giây (không phun lửa).
    Cận chiến chỉ khi người chơi áp sát: Dậm Chân (sóng xung kích) hoặc Cắn Xé Nhanh. Dưới 50% máu: nhịp nhanh hơn. */
-const DRG_FR={idle:[0,6,7],armor:[1,2,3],stun:[5,11],hurt:8,volley:16,sweep:17,rain:20,magma:19,stomp:14,snap:13,defeat:21};
+const DRG_FR={idle:[0,6,7],armor:[1,2,3],stun:[5,11],hurt:8,volley:16,sweep:17,rain:18,magma:19,stomp:14,snap:13,defeat:21};
 function dragonAI(b,dt){
  if(G.timeStop>0)return;
  sinZones(dt);
@@ -2672,7 +2683,7 @@ function drawDragon(b){
  const at=b.d.atlas;
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*1.5)*3);
  if(b.shield){ctx.globalAlpha=.4+.15*Math.sin(G.t*6);ctx.strokeStyle='#fbbf24';ctx.lineWidth=5;ctx.beginPath();ctx.ellipse(0,-10,88,70,0,0,7);ctx.stroke()}
- if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-96,-96,192,192)}
+ if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1;{const _C=b.d.fw||128,_D=b.d.fw?208:192;ctx.drawImage(at,(f%6)*_C,Math.floor(f/6)*_C,_C,_C,-_D/2,-_D/2,_D,_D)}}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,60,0,7);ctx.fill()}
  ctx.restore();
 }
