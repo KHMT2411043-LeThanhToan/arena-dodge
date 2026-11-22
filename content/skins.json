@@ -541,5 +541,201 @@
         23
       ]
     }
+  },
+  {
+    "id": "miente",
+    "name": "Heo Miền Tây",
+    "price": 500,
+    "img": "img/skins/miente.png",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "run": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        14
+      ],
+      "apex": [
+        15
+      ],
+      "fall": [
+        16
+      ],
+      "land": [
+        17
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "jetjet",
+    "name": "Heo JetJet",
+    "price": 500,
+    "img": "img/skins/jetjet.png",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "run": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        14
+      ],
+      "apex": [
+        15
+      ],
+      "fall": [
+        16
+      ],
+      "land": [
+        17
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "doraemon",
+    "name": "Heo Doraemon",
+    "price": 500,
+    "img": "img/skins/doraemon.png",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "run": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        14
+      ],
+      "apex": [
+        15
+      ],
+      "fall": [
+        16
+      ],
+      "land": [
+        17
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "cainguc",
+    "name": "Heo Cai Ngục",
+    "price": 500,
+    "img": "img/skins/cainguc.png",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "run": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        14
+      ],
+      "apex": [
+        15
+      ],
+      "fall": [
+        16
+      ],
+      "land": [
+        17
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
   }
 ]

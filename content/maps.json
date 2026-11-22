@@ -531,5 +531,109 @@
       "icicle",
       "sine"
     ]
+  },
+  {
+    "id": "bonglai",
+    "name": "Bồng Lai Tiên Đảo",
+    "c": [
+      "#a7f3d0",
+      "#e0f2fe"
+    ],
+    "acc": "#fde68a",
+    "fl": "#64748b",
+    "plat": [
+      [
+        200,
+        380,
+        160
+      ],
+      [
+        700,
+        380,
+        160
+      ]
+    ],
+    "bg": "img/maps/bonglai.png",
+    "fav": [
+      "orb",
+      "sine",
+      "homing",
+      "laser"
+    ],
+    "no": [
+      "blackhole",
+      "frost",
+      "freeze"
+    ]
+  },
+  {
+    "id": "circus",
+    "name": "Rạp Xiếc Ma Quái",
+    "c": [
+      "#1e1b2e",
+      "#3b0a14"
+    ],
+    "acc": "#84cc16",
+    "fl": "#3f2a1a",
+    "plat": [
+      [
+        260,
+        360,
+        120
+      ],
+      [
+        640,
+        360,
+        120
+      ]
+    ],
+    "bg": "img/maps/circus.png",
+    "fav": [
+      "bomb",
+      "bouncer",
+      "roller",
+      "boomerang",
+      "orb"
+    ],
+    "no": [
+      "frost",
+      "freeze",
+      "blackhole"
+    ]
+  },
+  {
+    "id": "desert",
+    "name": "Sa Mạc Bí Ẩn",
+    "c": [
+      "#7c2d12",
+      "#f59e0b"
+    ],
+    "acc": "#22d3ee",
+    "fl": "#a16207",
+    "plat": [
+      [
+        180,
+        370,
+        150
+      ],
+      [
+        690,
+        370,
+        150
+      ]
+    ],
+    "bg": "img/maps/desert.png",
+    "fav": [
+      "sine",
+      "accel",
+      "burst",
+      "homing",
+      "expanding"
+    ],
+    "no": [
+      "frost",
+      "freeze",
+      "icicle"
+    ]
   }
 ]
