@@ -635,5 +635,42 @@
       "freeze",
       "icicle"
     ]
+  },
+  {
+    "id": "poison",
+    "name": "Vạn Độc Cốc",
+    "c": [
+      "#0b1a12",
+      "#1f2d24"
+    ],
+    "acc": "#84cc16",
+    "fl": "#2a2418",
+    "plat": [
+      [
+        250,
+        370,
+        140
+      ],
+      [
+        640,
+        370,
+        140
+      ]
+    ],
+    "bg": "img/maps/poison.png",
+    "fav": [
+      "orb",
+      "sine",
+      "homing",
+      "venom",
+      "splitter",
+      "burst"
+    ],
+    "no": [
+      "blackhole",
+      "frost",
+      "freeze",
+      "icicle"
+    ]
   }
 ]
