@@ -2511,7 +2511,7 @@ function cthulhuAI(b,dt){
 function drawCth(b){
  const at=b.d.atlas;
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*2)*4);
- if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-96,-96,192,192)}
+ if(at&&at.complete&&at.naturalWidth){const f=b.fr||0,C=b.d.fw||128;ctx.drawImage(at,(f%6)*C,Math.floor(f/6)*C,C,C,-C*.75,-C*.75,C*1.5,C*1.5)}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,60,0,7);ctx.fill()}
  ctx.restore();
 }
@@ -2595,7 +2595,7 @@ function drawVamp(b){
  if(b.cs&&b.cs.tether){ctx.save();ctx.strokeStyle='#dc2626';ctx.lineWidth=3;ctx.shadowColor='#dc2626';ctx.shadowBlur=10;ctx.setLineDash([8,6]);ctx.beginPath();ctx.moveTo(b.x,b.y-20);ctx.lineTo(P.x,P.y-ph()/2);ctx.stroke();ctx.restore()}
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*2)*3);
  if(b.hitRegen||(b.cs&&b.cs.ph===2)){const g=ctx.createRadialGradient(0,-20,10,0,-20,110);g.addColorStop(0,'rgba(220,38,38,'+(.25+.1*Math.sin(G.t*4))+')');g.addColorStop(1,'rgba(220,38,38,0)');ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,-20,110,0,7);ctx.fill()}
- if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1-(b.mistA||0)*.8;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-96,-96,192,192)}
+ if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1-(b.mistA||0)*.8;const C=b.d.fw||128;ctx.drawImage(at,(f%6)*C,Math.floor(f/6)*C,C,C,-C*.75,-C*.75,C*1.5,C*1.5)}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,50,0,7);ctx.fill()}
  ctx.restore();
 }
@@ -2659,7 +2659,7 @@ function drawDragon(b){
  const at=b.d.atlas;
  ctx.save();ctx.translate(b.x,b.y+Math.sin(b.t*1.5)*3);
  if(b.shield){ctx.globalAlpha=.4+.15*Math.sin(G.t*6);ctx.strokeStyle='#fbbf24';ctx.lineWidth=5;ctx.beginPath();ctx.ellipse(0,-10,88,70,0,0,7);ctx.stroke()}
- if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1;ctx.drawImage(at,(f%6)*128,Math.floor(f/6)*128,128,128,-96,-96,192,192)}
+ if(at&&at.complete&&at.naturalWidth){const f=b.fr||0;ctx.globalAlpha=1;const C=b.d.fw||128;ctx.drawImage(at,(f%6)*C,Math.floor(f/6)*C,C,C,-C*.75,-C*.75,C*1.5,C*1.5)}
  else{ctx.fillStyle=b.d.c;ctx.beginPath();ctx.arc(0,0,60,0,7);ctx.fill()}
  ctx.restore();
 }
