@@ -153,5 +153,14 @@
     "pool": [],
     "ai": "ngu",
     "img": "img/bosses/ngu.png"
+  },
+  "abyss": {
+    "n": "Huyền Vũ",
+    "c": "#22d3ee",
+    "e": "🐢",
+    "pool": [],
+    "ai": "tortoise",
+    "img": "img/bosses/abyss.png",
+    "fw": 192
   }
 }
