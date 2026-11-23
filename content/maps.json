@@ -672,5 +672,80 @@
       "freeze",
       "icicle"
     ]
+  },
+  {
+    "id": "abyss",
+    "name": "Quy Khư Chi Hải",
+    "c": [
+      "#020a14",
+      "#0c2233"
+    ],
+    "acc": "#22d3ee",
+    "fl": "#0f2a3a",
+    "plat": [
+      [
+        260,
+        370,
+        150
+      ],
+      [
+        640,
+        370,
+        150
+      ]
+    ],
+    "bg": "img/maps/abyss.png",
+    "fav": [
+      "orb",
+      "sine",
+      "homing",
+      "splitter",
+      "gravity",
+      "phantom"
+    ],
+    "no": [
+      "meteor",
+      "bomb",
+      "frost",
+      "icicle",
+      "boulder"
+    ]
+  },
+  {
+    "id": "nest",
+    "name": "Trùng Sào",
+    "c": [
+      "#1a0d0a",
+      "#3b1a12"
+    ],
+    "acc": "#fbbf24",
+    "fl": "#2a140c",
+    "plat": [
+      [
+        260,
+        370,
+        150
+      ],
+      [
+        640,
+        370,
+        150
+      ]
+    ],
+    "bg": "img/maps/nest.png",
+    "fav": [
+      "homing",
+      "expanding",
+      "phantom",
+      "splitter",
+      "venom",
+      "sine"
+    ],
+    "no": [
+      "frost",
+      "freeze",
+      "icicle",
+      "blackhole"
+    ]
   }
 ]

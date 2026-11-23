@@ -120,38 +120,13 @@
     "img": "img/bosses/dragon.png",
     "fw": 192
   },
-  "bonglai": {
-    "n": "Bồng Lai Kiếm Tiên",
-    "c": "#8b5cf6",
-    "e": "⚔️",
+  "abyss": {
+    "n": "Huyền Vũ",
+    "c": "#22d3ee",
+    "e": "🐢",
     "pool": [],
-    "ai": "sword",
-    "img": "img/bosses/bonglai.png",
+    "ai": "tortoise",
+    "img": "img/bosses/abyss.png",
     "fw": 192
-  },
-  "desert": {
-    "n": "Pharaoh Cổ Đại",
-    "c": "#f59e0b",
-    "e": "🏺",
-    "pool": [],
-    "ai": "pharaoh",
-    "img": "img/bosses/desert.png",
-    "fw": 192
-  },
-  "circus": {
-    "n": "Hề Ma Quái",
-    "c": "#dc2626",
-    "e": "🃏",
-    "pool": [],
-    "ai": "jester",
-    "img": "img/bosses/jester.png"
-  },
-  "poison": {
-    "n": "Ngũ Độc Lão Nhân",
-    "c": "#65a30d",
-    "e": "☠️",
-    "pool": [],
-    "ai": "ngu",
-    "img": "img/bosses/ngu.png"
   }
 }
