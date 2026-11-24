@@ -949,5 +949,638 @@
         23
       ]
     }
+  },
+  {
+    "id": "acquy",
+    "name": "Heo Ác Quỷ",
+    "price": 1000,
+    "img": "img/skins/acquy.png",
+    "fx": "devil",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "trubatgioi",
+    "name": "Heo Trư Bát Giới",
+    "price": 1000,
+    "img": "img/skins/trubatgioi.png",
+    "fx": "bajie",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "tsunade",
+    "name": "Heo Tsunade",
+    "price": 1500,
+    "img": "img/skins/tsunade.png",
+    "fx": "tsunade",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        18
+      ],
+      "crouch": [
+        19,
+        20,
+        21
+      ],
+      "dash": [
+        22
+      ],
+      "hurt": [
+        23
+      ],
+      "stun": [
+        24
+      ]
+    }
+  },
+  {
+    "id": "sanji",
+    "name": "Heo Sanji",
+    "price": 1200,
+    "img": "img/skins/sanji.png",
+    "fx": "sanji",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "giyu",
+    "name": "Heo Giyu",
+    "price": 1300,
+    "img": "img/skins/giyu.png",
+    "fx": "giyu",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "kaneki",
+    "name": "Heo Ken Kaneki",
+    "price": 1300,
+    "img": "img/skins/kaneki.png",
+    "fx": "kaneki",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "karma",
+    "name": "Heo Karma Akabane",
+    "price": 1300,
+    "img": "img/skins/karma.png",
+    "fx": "karma",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "saitama",
+    "name": "Heo Saitama",
+    "price": 1000,
+    "img": "img/skins/saitama.png",
+    "fx": "saitama",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "nagi",
+    "name": "Heo Nagi",
+    "price": 1100,
+    "img": "img/skins/nagi.png",
+    "fx": "nagi",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "quynhan",
+    "name": "Heo Quỷ Nhãn",
+    "price": 1200,
+    "img": "img/skins/quynhan.png",
+    "fx": "quynhan",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
+  },
+  {
+    "id": "chitonkiemtien",
+    "name": "Heo Chí Tôn Kiếm Tiên",
+    "price": 1800,
+    "img": "img/skins/chitonkiemtien.png",
+    "fx": "kiemtien",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        3
+      ],
+      "run": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        14
+      ],
+      "apex": [
+        15
+      ],
+      "fall": [
+        16
+      ],
+      "land": [
+        17
+      ],
+      "crouch": [
+        19,
+        20,
+        21
+      ],
+      "dash": [
+        22
+      ],
+      "hurt": [
+        23
+      ],
+      "stun": [
+        24
+      ]
+    }
+  },
+  {
+    "id": "amon",
+    "name": "Heo Amon",
+    "price": 1800,
+    "img": "img/skins/amon.png",
+    "fx": "amon",
+    "anim": {
+      "idle": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "run": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "jump": [
+        15
+      ],
+      "apex": [
+        16
+      ],
+      "fall": [
+        17
+      ],
+      "land": [
+        14
+      ],
+      "crouch": [
+        18,
+        19,
+        20
+      ],
+      "dash": [
+        21
+      ],
+      "hurt": [
+        22
+      ],
+      "stun": [
+        23
+      ]
+    }
   }
 ]
