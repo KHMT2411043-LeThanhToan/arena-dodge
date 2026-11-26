@@ -162,5 +162,23 @@
     "ai": "tortoise",
     "img": "img/bosses/abyss.png",
     "fw": 192
+  },
+  "nest": {
+    "n": "Trùng Vương",
+    "c": "#f59e0b",
+    "e": "🐛",
+    "pool": [],
+    "ai": "bugking",
+    "img": "img/bosses/nest.png",
+    "fw": 256
+  },
+  "hacchuong": {
+    "n": "Vạn Ngã Thi Vương",
+    "c": "#dc2626",
+    "e": "🧟‍♂️",
+    "pool": [],
+    "ai": "vanngathi",
+    "img": "img/bosses/vanngathi.png",
+    "fw": 128
   }
 }

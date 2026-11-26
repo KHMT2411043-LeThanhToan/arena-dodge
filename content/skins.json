@@ -1,1586 +1,1893 @@
 [
-  {
-    "id": "pig",
-    "name": "Heo Mặc Định",
-    "price": 0,
-    "img": "img/skins/pig.png"
-  },
-  {
-    "id": "ninja",
-    "name": "Thỏ May Mắn",
-    "price": 5,
-    "img": "img/skins/ninja.png"
-  },
-  {
-    "id": "beggar",
-    "name": "Heo Ăn Xin",
-    "price": 500,
-    "img": "img/skins/beggar.png"
-  },
-  {
-    "id": "superman",
-    "name": "Heo Superman",
-    "price": 800,
-    "img": "img/skins/superman.png",
-    "fx": "hero"
-  },
-  {
-    "id": "sailormoon",
-    "name": "Heo Thủy Thủ Mặt Trăng",
-    "price": 1200,
-    "img": "img/skins/sailormoon.png",
-    "fx": "moon",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "peppa",
-    "name": "Heo Peppa",
-    "price": 1500,
-    "img": "img/skins/peppa.png",
-    "fx": "puddle",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "cardcaptor",
-    "name": "Heo Thủ Lĩnh Thẻ Bài",
-    "price": 1200,
-    "img": "img/skins/cardcaptor.png",
-    "fx": "cards",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "beach",
-    "name": "Heo Tiệc Bãi Biển",
-    "price": 800,
-    "img": "img/skins/beach.png",
-    "fx": "beach",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "thuong_tien",
-    "name": "Heo Thượng Tiên",
-    "price": 2000,
-    "img": "img/skins/thuong_tien.png",
-    "fx": "xianxia",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "tuxedo",
-    "name": "Heo Tuxedo Mặt Nạ",
-    "price": 1200,
-    "img": "img/skins/tuxedo.png",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        17
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "itachi",
-    "name": "Heo Uchiha Itachi",
-    "price": 1800,
-    "img": "img/skins/itachi.png",
-    "fx": "sharingan",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        17
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        13
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "gojo",
-    "name": "Heo Gojo Satoru",
-    "price": 1000,
-    "img": "img/skins/gojo.png",
-    "fx": "gojo",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "rimuru",
-    "name": "Heo Rimuru",
-    "price": 1200,
-    "img": "img/skins/rimuru.png",
-    "fx": "rimuru",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "natsu",
-    "name": "Heo Natsu",
-    "price": 1800,
-    "img": "img/skins/natsu.png",
-    "fx": "natsu",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "miente",
-    "name": "Heo Miền Tây",
-    "price": 500,
-    "img": "img/skins/miente.png",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "jetjet",
-    "name": "Heo JetJet",
-    "price": 500,
-    "img": "img/skins/jetjet.png",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "doraemon",
-    "name": "Heo Doraemon",
-    "price": 500,
-    "img": "img/skins/doraemon.png",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "cainguc",
-    "name": "Heo Cai Ngục",
-    "price": 500,
-    "img": "img/skins/cainguc.png",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "kaitokid",
-    "name": "Heo Kaito Kid",
-    "price": 1000,
-    "img": "img/skins/kaitokid.png",
-    "fx": "kaito",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "hiepkhach",
-    "name": "Heo Hiệp Khách",
-    "price": 1200,
-    "img": "img/skins/hiepkhach.png",
-    "fx": "hiep",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "longvuong",
-    "name": "Heo Long Vương",
-    "price": 800,
-    "img": "img/skins/longvuong.png",
-    "fx": "longvuong",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "thienthan",
-    "name": "Heo Thiên Thần",
-    "price": 1200,
-    "img": "img/skins/thienthan.png",
-    "fx": "thienthan",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "acquy",
-    "name": "Heo Ác Quỷ",
-    "price": 1000,
-    "img": "img/skins/acquy.png",
-    "fx": "devil",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "trubatgioi",
-    "name": "Heo Trư Bát Giới",
-    "price": 1000,
-    "img": "img/skins/trubatgioi.png",
-    "fx": "bajie",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "tsunade",
-    "name": "Heo Tsunade",
-    "price": 1500,
-    "img": "img/skins/tsunade.png",
-    "fx": "tsunade",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        18
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "sanji",
-    "name": "Heo Sanji",
-    "price": 1200,
-    "img": "img/skins/sanji.png",
-    "fx": "sanji",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "giyu",
-    "name": "Heo Giyu",
-    "price": 1300,
-    "img": "img/skins/giyu.png",
-    "fx": "giyu",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "kaneki",
-    "name": "Heo Ken Kaneki",
-    "price": 1300,
-    "img": "img/skins/kaneki.png",
-    "fx": "kaneki",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "karma",
-    "name": "Heo Karma Akabane",
-    "price": 1300,
-    "img": "img/skins/karma.png",
-    "fx": "karma",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "saitama",
-    "name": "Heo Saitama",
-    "price": 1000,
-    "img": "img/skins/saitama.png",
-    "fx": "saitama",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "nagi",
-    "name": "Heo Nagi",
-    "price": 1100,
-    "img": "img/skins/nagi.png",
-    "fx": "nagi",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "quynhan",
-    "name": "Heo Quỷ Nhãn",
-    "price": 1200,
-    "img": "img/skins/quynhan.png",
-    "fx": "quynhan",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
-  },
-  {
-    "id": "chitonkiemtien",
-    "name": "Heo Chí Tôn Kiếm Tiên",
-    "price": 1800,
-    "img": "img/skins/chitonkiemtien.png",
-    "fx": "kiemtien",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        3
-      ],
-      "run": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        14
-      ],
-      "apex": [
-        15
-      ],
-      "fall": [
-        16
-      ],
-      "land": [
-        17
-      ],
-      "crouch": [
-        19,
-        20,
-        21
-      ],
-      "dash": [
-        22
-      ],
-      "hurt": [
-        23
-      ],
-      "stun": [
-        24
-      ]
-    }
-  },
-  {
-    "id": "amon",
-    "name": "Heo Amon",
-    "price": 1800,
-    "img": "img/skins/amon.png",
-    "fx": "amon",
-    "anim": {
-      "idle": [
-        1,
-        2,
-        1,
-        2,
-        3
-      ],
-      "run": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "jump": [
-        15
-      ],
-      "apex": [
-        16
-      ],
-      "fall": [
-        17
-      ],
-      "land": [
-        14
-      ],
-      "crouch": [
-        18,
-        19,
-        20
-      ],
-      "dash": [
-        21
-      ],
-      "hurt": [
-        22
-      ],
-      "stun": [
-        23
-      ]
-    }
+ {
+  "id": "pig",
+  "name": "Heo Mặc Định",
+  "price": 0,
+  "img": "img/skins/pig.png"
+ },
+ {
+  "id": "ninja",
+  "name": "Thỏ May Mắn",
+  "price": 5,
+  "img": "img/skins/ninja.png"
+ },
+ {
+  "id": "beggar",
+  "name": "Heo Ăn Xin",
+  "price": 500,
+  "img": "img/skins/beggar.png"
+ },
+ {
+  "id": "superman",
+  "name": "Heo Superman",
+  "price": 800,
+  "img": "img/skins/superman.png",
+  "fx": "hero"
+ },
+ {
+  "id": "sailormoon",
+  "name": "Heo Thủy Thủ Mặt Trăng",
+  "price": 1200,
+  "img": "img/skins/sailormoon.png",
+  "fx": "moon",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
   }
+ },
+ {
+  "id": "peppa",
+  "name": "Heo Peppa",
+  "price": 1500,
+  "img": "img/skins/peppa.png",
+  "fx": "puddle",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "cardcaptor",
+  "name": "Heo Thủ Lĩnh Thẻ Bài",
+  "price": 1200,
+  "img": "img/skins/cardcaptor.png",
+  "fx": "cards",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "beach",
+  "name": "Heo Tiệc Bãi Biển",
+  "price": 800,
+  "img": "img/skins/beach.png",
+  "fx": "beach",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "thuong_tien",
+  "name": "Heo Thượng Tiên",
+  "price": 2000,
+  "img": "img/skins/thuong_tien.png",
+  "fx": "xianxia",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "tuxedo",
+  "name": "Heo Tuxedo Mặt Nạ",
+  "price": 1200,
+  "img": "img/skins/tuxedo.png",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    17
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "itachi",
+  "name": "Heo Uchiha Itachi",
+  "price": 1800,
+  "img": "img/skins/itachi.png",
+  "fx": "sharingan",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    17
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    13
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "gojo",
+  "name": "Heo Gojo Satoru",
+  "price": 1000,
+  "img": "img/skins/gojo.png",
+  "fx": "gojo",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "rimuru",
+  "name": "Heo Rimuru",
+  "price": 1200,
+  "img": "img/skins/rimuru.png",
+  "fx": "rimuru",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "natsu",
+  "name": "Heo Natsu",
+  "price": 1800,
+  "img": "img/skins/natsu.png",
+  "fx": "natsu",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "miente",
+  "name": "Heo Miền Tây",
+  "price": 500,
+  "img": "img/skins/miente.png",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "jetjet",
+  "name": "Heo JetJet",
+  "price": 500,
+  "img": "img/skins/jetjet.png",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "doraemon",
+  "name": "Heo Doraemon",
+  "price": 500,
+  "img": "img/skins/doraemon.png",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "cainguc",
+  "name": "Heo Cai Ngục",
+  "price": 500,
+  "img": "img/skins/cainguc.png",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "kaitokid",
+  "name": "Heo Kaito Kid",
+  "price": 1000,
+  "img": "img/skins/kaitokid.png",
+  "fx": "kaito",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "hiepkhach",
+  "name": "Heo Hiệp Khách",
+  "price": 1200,
+  "img": "img/skins/hiepkhach.png",
+  "fx": "hiep",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "longvuong",
+  "name": "Heo Long Vương",
+  "price": 800,
+  "img": "img/skins/longvuong.png",
+  "fx": "longvuong",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "thienthan",
+  "name": "Heo Thiên Thần",
+  "price": 1200,
+  "img": "img/skins/thienthan.png",
+  "fx": "thienthan",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "acquy",
+  "name": "Heo Ác Quỷ",
+  "price": 1000,
+  "img": "img/skins/acquy.png",
+  "fx": "devil",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "trubatgioi",
+  "name": "Heo Trư Bát Giới",
+  "price": 1000,
+  "img": "img/skins/trubatgioi.png",
+  "fx": "bajie",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "tsunade",
+  "name": "Heo Tsunade",
+  "price": 1500,
+  "img": "img/skins/tsunade.png",
+  "fx": "tsunade",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    18
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "sanji",
+  "name": "Heo Sanji",
+  "price": 1200,
+  "img": "img/skins/sanji.png",
+  "fx": "sanji",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "giyu",
+  "name": "Heo Giyu",
+  "price": 1300,
+  "img": "img/skins/giyu.png",
+  "fx": "giyu",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "kaneki",
+  "name": "Heo Ken Kaneki",
+  "price": 1300,
+  "img": "img/skins/kaneki.png",
+  "fx": "kaneki",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "karma",
+  "name": "Heo Karma Akabane",
+  "price": 1300,
+  "img": "img/skins/karma.png",
+  "fx": "karma",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "saitama",
+  "name": "Heo Saitama",
+  "price": 1000,
+  "img": "img/skins/saitama.png",
+  "fx": "saitama",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "nagi",
+  "name": "Heo Nagi",
+  "price": 1100,
+  "img": "img/skins/nagi.png",
+  "fx": "nagi",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "quynhan",
+  "name": "Heo Quỷ Nhãn",
+  "price": 1200,
+  "img": "img/skins/quynhan.png",
+  "fx": "quynhan",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "chitonkiemtien",
+  "name": "Heo Chí Tôn Kiếm Tiên",
+  "price": 1800,
+  "img": "img/skins/chitonkiemtien.png",
+  "fx": "kiemtien",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    3
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    14
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    16
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "amon",
+  "name": "Heo Amon",
+  "price": 1800,
+  "img": "img/skins/amon.png",
+  "fx": "amon",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "langhon",
+  "name": "Heo Lang Hồn",
+  "price": 2200,
+  "img": "img/skins/langhon.png",
+  "fx": "langhon",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    18
+   ],
+   "crouch": [
+    20,
+    21,
+    22
+   ],
+   "dash": [
+    23
+   ],
+   "hurt": [
+    24
+   ],
+   "stun": [
+    25
+   ]
+  }
+ },
+ {
+  "id": "cothan",
+  "name": "Heo Cổ Thần",
+  "price": 2200,
+  "img": "img/skins/cothan.png",
+  "fx": "cothan",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    16
+   ],
+   "apex": [
+    15
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    18
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "bachtrach",
+  "name": "Heo Bạch Trạch",
+  "price": 1800,
+  "img": "img/skins/bachtrach.png",
+  "fx": "bachtrach",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    1,
+    2,
+    3
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    17
+   ],
+   "land": [
+    14
+   ],
+   "crouch": [
+    18,
+    19,
+    20
+   ],
+   "dash": [
+    21
+   ],
+   "hurt": [
+    22
+   ],
+   "stun": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "shoto",
+  "name": "Heo Shoto",
+  "price": 1800,
+  "img": "img/skins/shoto.png",
+  "fx": "shoto",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "jump": [
+    15
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    14
+   ],
+   "land": [
+    17
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "phuongnguyen",
+  "name": "Heo Phương Nguyên",
+  "price": 1800,
+  "img": "img/skins/phuongnguyen.png",
+  "fx": "phuongnguyen",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    13
+   ],
+   "apex": [
+    13
+   ],
+   "fall": [
+    14
+   ],
+   "land": [
+    15,
+    16
+   ],
+   "crouch": [
+    17,
+    18,
+    19
+   ],
+   "dash": [
+    20
+   ],
+   "hurt": [
+    21
+   ],
+   "stun": [
+    22
+   ]
+  }
+ },
+ {
+  "id": "thefool",
+  "name": "The Fool – Quỷ Bí Chi Chủ",
+  "price": 2500,
+  "img": "img/skins/thefool.png",
+  "fx": "thefool",
+  "anim": {
+   "idle": [
+    1,
+    2,
+    3,
+    2
+   ],
+   "run": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jump": [
+    16
+   ],
+   "apex": [
+    16
+   ],
+   "fall": [
+    15
+   ],
+   "land": [
+    17,
+    18
+   ],
+   "crouch": [
+    19,
+    20,
+    21
+   ],
+   "dash": [
+    22
+   ],
+   "hurt": [
+    23
+   ],
+   "stun": [
+    24
+   ]
+  }
+ }
 ]

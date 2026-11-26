@@ -747,5 +747,42 @@
       "icicle",
       "blackhole"
     ]
+  },
+  {
+    "id": "hacchuong",
+    "name": "Hắc Chướng Cổ Cốc",
+    "c": [
+      "#0f0a1a",
+      "#241a33"
+    ],
+    "acc": "#a78bfa",
+    "fl": "#1f1a2a",
+    "plat": [
+      [
+        260,
+        370,
+        150
+      ],
+      [
+        640,
+        370,
+        150
+      ]
+    ],
+    "bg": "img/maps/hacchuong.jpg",
+    "fav": [
+      "venom",
+      "orb",
+      "sine",
+      "homing",
+      "phantom",
+      "splitter"
+    ],
+    "no": [
+      "frost",
+      "freeze",
+      "icicle",
+      "blackhole"
+    ]
   }
 ]
